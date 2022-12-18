@@ -1,0 +1,2372 @@
+[
+  {
+    "sha": "dafe8cb3bb4ca9c923508157618fc9983131b26e",
+    "node_id": "C_kwDOBhZ_PdoAKGRhZmU4Y2IzYmI0Y2E5YzkyMzUwODE1NzYxOGZjOTk4MzEzMWIyNmU",
+    "commit": {
+      "author": {
+        "name": "Manu Sridharan",
+        "email": "msridhar@gmail.com",
+        "date": "2022-11-29T20:20:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-29T20:20:20Z"
+      },
+      "message": "Update to JSpecify 0.3-alpha2 (#691)",
+      "tree": {
+        "sha": "df63bc1bc0e08fc4846c98ffa864bd2945c2b4c7",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/df63bc1bc0e08fc4846c98ffa864bd2945c2b4c7"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/dafe8cb3bb4ca9c923508157618fc9983131b26e",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjhmmECRBK7hj4Ov3rIwAAwLgIAGKG4ru82lkJ0CgKt8LaSgyU\nxcbRgrEFcAGRumO49q7YdcCEBhQ2/Kh1iYUoc2X9kg7vEOqjSsP7btJZs6XznBxZ\nDW+ZezD0dtxcH0FANKDWN6pQHDBkKtJkagszTnhKGvc7+P7Y+HDvfR/iNnMEustQ\nCDvE3L55LGr9GPeQgpvrri0OALxpW6Nnz9C28t8qWMO3Up5OA9F0aI325llzzN7I\nytXGDS1fCu0Nr5PCJ5nUiZEG2IyyVq5/txSPvAgeVfSb+Q4zHxXFbSBiTiXzFXRa\nNpyBDcKuDKt27vQmI1c43OqrUNwgU/MUrBwG88A1R0rES3H2X5Ri2ZkWjS+6cPQ=\n=ngoV\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree df63bc1bc0e08fc4846c98ffa864bd2945c2b4c7\nparent 36fd783ed0ee0a69ddfac6943abd1a61c1a3b4ed\nauthor Manu Sridharan <msridhar@gmail.com> 1669753220 -0800\ncommitter GitHub <noreply@github.com> 1669753220 -0800\n\nUpdate to JSpecify 0.3-alpha2 (#691)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/dafe8cb3bb4ca9c923508157618fc9983131b26e",
+    "html_url": "https://github.com/uber/NullAway/commit/dafe8cb3bb4ca9c923508157618fc9983131b26e",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/dafe8cb3bb4ca9c923508157618fc9983131b26e/comments",
+    "author": {
+      "login": "msridhar",
+      "id": 193105,
+      "node_id": "MDQ6VXNlcjE5MzEwNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193105?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msridhar",
+      "html_url": "https://github.com/msridhar",
+      "followers_url": "https://api.github.com/users/msridhar/followers",
+      "following_url": "https://api.github.com/users/msridhar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msridhar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msridhar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msridhar/subscriptions",
+      "organizations_url": "https://api.github.com/users/msridhar/orgs",
+      "repos_url": "https://api.github.com/users/msridhar/repos",
+      "events_url": "https://api.github.com/users/msridhar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msridhar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "36fd783ed0ee0a69ddfac6943abd1a61c1a3b4ed",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/36fd783ed0ee0a69ddfac6943abd1a61c1a3b4ed",
+        "html_url": "https://github.com/uber/NullAway/commit/36fd783ed0ee0a69ddfac6943abd1a61c1a3b4ed"
+      }
+    ]
+  },
+  {
+    "sha": "36fd783ed0ee0a69ddfac6943abd1a61c1a3b4ed",
+    "node_id": "C_kwDOBhZ_PdoAKDM2ZmQ3ODNlZDBlZTBhNjlkZGZhYzY5NDNhYmQxYTYxYzFhM2I0ZWQ",
+    "commit": {
+      "author": {
+        "name": "Manu Sridharan",
+        "email": "msridhar@gmail.com",
+        "date": "2022-11-29T17:35:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-29T17:35:27Z"
+      },
+      "message": "Update to Gradle 7.6 (#690)",
+      "tree": {
+        "sha": "d182f31c9abc6a572c99d3cec25398dadde78e20",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/d182f31c9abc6a572c99d3cec25398dadde78e20"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/36fd783ed0ee0a69ddfac6943abd1a61c1a3b4ed",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjhkLfCRBK7hj4Ov3rIwAAb6wIAKAoGrFU8B0CXKsR6g0vxvCT\nvBHsY/ckvN4vYsEhxsFAFevzjI96YSPxGryf98JteV9iC8aZH8vdk2YKn8ftFBMP\nzs+Xote0wsQTTtN+TIKaIFw5QRgHpMQw70A4QtoeP0v35WPMNjXfmbOoIg7OnRsV\n6DCQcpnWNdwXPrFn8moFDx8IYwuiT4jQ/1GW63vcM76X10PY0d4ylV9WWf2ldeSU\nHAsLqLjVQFf6BqVYlfbJqZLdwtzX29NpClSSx1Fll3DEfTjCFVnLzg9thHFl5P+0\nq9mNQz0/E0OkFynIfzsbWNjxx7/bS93uMVqHbnhO3Ol1CzU1h8QPWPRR9R9oyN4=\n=RGhY\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d182f31c9abc6a572c99d3cec25398dadde78e20\nparent 049be6e806d145db0caa1351146bcc1513b99f2d\nauthor Manu Sridharan <msridhar@gmail.com> 1669743327 -0800\ncommitter GitHub <noreply@github.com> 1669743327 +0000\n\nUpdate to Gradle 7.6 (#690)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/36fd783ed0ee0a69ddfac6943abd1a61c1a3b4ed",
+    "html_url": "https://github.com/uber/NullAway/commit/36fd783ed0ee0a69ddfac6943abd1a61c1a3b4ed",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/36fd783ed0ee0a69ddfac6943abd1a61c1a3b4ed/comments",
+    "author": {
+      "login": "msridhar",
+      "id": 193105,
+      "node_id": "MDQ6VXNlcjE5MzEwNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193105?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msridhar",
+      "html_url": "https://github.com/msridhar",
+      "followers_url": "https://api.github.com/users/msridhar/followers",
+      "following_url": "https://api.github.com/users/msridhar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msridhar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msridhar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msridhar/subscriptions",
+      "organizations_url": "https://api.github.com/users/msridhar/orgs",
+      "repos_url": "https://api.github.com/users/msridhar/repos",
+      "events_url": "https://api.github.com/users/msridhar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msridhar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "049be6e806d145db0caa1351146bcc1513b99f2d",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/049be6e806d145db0caa1351146bcc1513b99f2d",
+        "html_url": "https://github.com/uber/NullAway/commit/049be6e806d145db0caa1351146bcc1513b99f2d"
+      }
+    ]
+  },
+  {
+    "sha": "049be6e806d145db0caa1351146bcc1513b99f2d",
+    "node_id": "C_kwDOBhZ_PdoAKDA0OWJlNmU4MDZkMTQ1ZGIwY2FhMTM1MTE0NmJjYzE1MTNiOTlmMmQ",
+    "commit": {
+      "author": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-11-18T20:19:33Z"
+      },
+      "committer": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-11-18T20:19:33Z"
+      },
+      "message": "Prepare next development version.",
+      "tree": {
+        "sha": "143fd930a18df84e9d9855800435fd6e9984d8a8",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/143fd930a18df84e9d9855800435fd6e9984d8a8"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/049be6e806d145db0caa1351146bcc1513b99f2d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/049be6e806d145db0caa1351146bcc1513b99f2d",
+    "html_url": "https://github.com/uber/NullAway/commit/049be6e806d145db0caa1351146bcc1513b99f2d",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/049be6e806d145db0caa1351146bcc1513b99f2d/comments",
+    "author": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e499d237be9e43d20c0aed12d097c1da186cd4f4",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/e499d237be9e43d20c0aed12d097c1da186cd4f4",
+        "html_url": "https://github.com/uber/NullAway/commit/e499d237be9e43d20c0aed12d097c1da186cd4f4"
+      }
+    ]
+  },
+  {
+    "sha": "e499d237be9e43d20c0aed12d097c1da186cd4f4",
+    "node_id": "C_kwDOBhZ_PdoAKGU0OTlkMjM3YmU5ZTQzZDIwYzBhZWQxMmQwOTdjMWRhMTg2Y2Q0ZjQ",
+    "commit": {
+      "author": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-11-18T20:15:28Z"
+      },
+      "committer": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-11-18T20:15:28Z"
+      },
+      "message": "Prepare for release 0.10.5.",
+      "tree": {
+        "sha": "bac8f1517c8fce2cec5228cb1f6e80d34490449b",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/bac8f1517c8fce2cec5228cb1f6e80d34490449b"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/e499d237be9e43d20c0aed12d097c1da186cd4f4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/e499d237be9e43d20c0aed12d097c1da186cd4f4",
+    "html_url": "https://github.com/uber/NullAway/commit/e499d237be9e43d20c0aed12d097c1da186cd4f4",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/e499d237be9e43d20c0aed12d097c1da186cd4f4/comments",
+    "author": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dbf1506b856ce1b2fd7520406eeea0c97215a3db",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/dbf1506b856ce1b2fd7520406eeea0c97215a3db",
+        "html_url": "https://github.com/uber/NullAway/commit/dbf1506b856ce1b2fd7520406eeea0c97215a3db"
+      }
+    ]
+  },
+  {
+    "sha": "dbf1506b856ce1b2fd7520406eeea0c97215a3db",
+    "node_id": "C_kwDOBhZ_PdoAKGRiZjE1MDZiODU2Y2UxYjJmZDc1MjA0MDZlZWVhMGM5NzIxNWEzZGI",
+    "commit": {
+      "author": {
+        "name": "NikitaAware",
+        "email": "nawar001@ucr.edu",
+        "date": "2022-11-16T22:01:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-16T22:01:54Z"
+      },
+      "message": "Add checks for proper JSpecify generic type instantiations (#680)\n\nThis PR adds initial checks for JSpecify generic type validity.  In particular it adds checks that for a type instantiation `Foo<@Nullable Bar>`, `Foo` is actually declared to allow a `@Nullable` type variable in that position (e.g., it is declared as `class Foo<T extends @Nullable Object>`.\r\n\r\nThese checks are only performed if a new `-XepOpt:NullAway:JSpecifyMode` configuration is enabled, and it is off by default.  We want to merge these checks to the main branch to enable easier testing by users, but we do not want them to be on by default yet, as they require further vetting on real, large repos.",
+      "tree": {
+        "sha": "847181594149834acfde1970ffe2c8d01b899add",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/847181594149834acfde1970ffe2c8d01b899add"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/dbf1506b856ce1b2fd7520406eeea0c97215a3db",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjdV3SCRBK7hj4Ov3rIwAAVtYIAC4C7QxVjL2P2V//itN9IkT3\n2b1cAcx1puFfqa/k24th1uFuMYiC/ahqKD1+fvxocxXVam0G/J14Gx4WW3z7ksSM\n/HoOJNmCYATjyp3UhAczRS2zvL2U3Du8XaTntEStkoAOOQNfGM7Aj4jSx+fBsvdW\npJEBI2C+w8Kq4cNJ8lbBiow6kzrlo3ZvwkaSkRmcczH+PGIK3tFByGVxPS0cW1aB\nGGGegsfkMnbFtLOgb/g8HdbGUTUkFptl5ep6JvT/1Q/4RrIfLccCOk0OaRiwLQhY\nD02Tng6iMGpvyApssveAussJ1cjfHRUd3uIHDj1EyG/RdTdxomxOH+sEq+lgtqw=\n=5fCT\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 847181594149834acfde1970ffe2c8d01b899add\nparent 3da177ac5e8777d2b05fe2786e77f6b1d9373da8\nauthor NikitaAware <nawar001@ucr.edu> 1668636114 -0800\ncommitter GitHub <noreply@github.com> 1668636114 -0800\n\nAdd checks for proper JSpecify generic type instantiations (#680)\n\nThis PR adds initial checks for JSpecify generic type validity.  In particular it adds checks that for a type instantiation `Foo<@Nullable Bar>`, `Foo` is actually declared to allow a `@Nullable` type variable in that position (e.g., it is declared as `class Foo<T extends @Nullable Object>`.\r\n\r\nThese checks are only performed if a new `-XepOpt:NullAway:JSpecifyMode` configuration is enabled, and it is off by default.  We want to merge these checks to the main branch to enable easier testing by users, but we do not want them to be on by default yet, as they require further vetting on real, large repos."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/dbf1506b856ce1b2fd7520406eeea0c97215a3db",
+    "html_url": "https://github.com/uber/NullAway/commit/dbf1506b856ce1b2fd7520406eeea0c97215a3db",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/dbf1506b856ce1b2fd7520406eeea0c97215a3db/comments",
+    "author": {
+      "login": "NikitaAware",
+      "id": 94414923,
+      "node_id": "U_kgDOBaCoSw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/94414923?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NikitaAware",
+      "html_url": "https://github.com/NikitaAware",
+      "followers_url": "https://api.github.com/users/NikitaAware/followers",
+      "following_url": "https://api.github.com/users/NikitaAware/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NikitaAware/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NikitaAware/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NikitaAware/subscriptions",
+      "organizations_url": "https://api.github.com/users/NikitaAware/orgs",
+      "repos_url": "https://api.github.com/users/NikitaAware/repos",
+      "events_url": "https://api.github.com/users/NikitaAware/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NikitaAware/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3da177ac5e8777d2b05fe2786e77f6b1d9373da8",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/3da177ac5e8777d2b05fe2786e77f6b1d9373da8",
+        "html_url": "https://github.com/uber/NullAway/commit/3da177ac5e8777d2b05fe2786e77f6b1d9373da8"
+      }
+    ]
+  },
+  {
+    "sha": "3da177ac5e8777d2b05fe2786e77f6b1d9373da8",
+    "node_id": "C_kwDOBhZ_PdoAKDNkYTE3N2FjNWU4Nzc3ZDJiMDVmZTI3ODZlNzdmNmIxZDkzNzNkYTg",
+    "commit": {
+      "author": {
+        "name": "Manu Sridharan",
+        "email": "msridhar@gmail.com",
+        "date": "2022-11-14T19:31:23Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-14T19:31:23Z"
+      },
+      "message": "Update to JSpecify 0.3.0-alpha-1 (#673)\n\nThe artifact now contains `@NullMarked` and `@NullUnmarked` annotations, so we do not need to create our own copies for testing.  We leverage the Error Prone javac to keep builds working on JDK 8; this is a workaround for https://github.com/jspecify/jspecify/issues/302",
+      "tree": {
+        "sha": "3f6ab78ae83ed8a2f05dc71294cc5c22c6c22f23",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/3f6ab78ae83ed8a2f05dc71294cc5c22c6c22f23"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/3da177ac5e8777d2b05fe2786e77f6b1d9373da8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjcpeLCRBK7hj4Ov3rIwAAS/sIABNZeHipH1j8J6gL2P651YMU\nQVdvI4ZHdcXe6PXjtv5cv3Ls2CdquV42gJ7kiKBDEJDpqDKzrmuKQgKAGOvLJG/N\nmfRpDiDpEXpkqPWernRM94qBbyEMIkwKVvK/Tf+h/1Oq3WADJcE/F6w4SKMjneZ5\njg1/GcmllBZXhSg2XLCSoEbrT9ZUEljea13t13F8bWJiysjioRvhFMbZC4XSFL2x\n2zjE1eVMaZHXLknP9hvLrl4KsvDZZGT14HRrlsVzYN5313GNolhRktmttrR1cHQC\nC2eun/P+cRRIyaCsxPJL5zUuCzLQzsdDNVleBDUoy5V83+Gh4t4Jstrf+v8AJbY=\n=1LN9\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3f6ab78ae83ed8a2f05dc71294cc5c22c6c22f23\nparent b8dde69731976d9a51c4a15abc6fdf32706f1edf\nauthor Manu Sridharan <msridhar@gmail.com> 1668454283 -0800\ncommitter GitHub <noreply@github.com> 1668454283 -0800\n\nUpdate to JSpecify 0.3.0-alpha-1 (#673)\n\nThe artifact now contains `@NullMarked` and `@NullUnmarked` annotations, so we do not need to create our own copies for testing.  We leverage the Error Prone javac to keep builds working on JDK 8; this is a workaround for https://github.com/jspecify/jspecify/issues/302"
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/3da177ac5e8777d2b05fe2786e77f6b1d9373da8",
+    "html_url": "https://github.com/uber/NullAway/commit/3da177ac5e8777d2b05fe2786e77f6b1d9373da8",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/3da177ac5e8777d2b05fe2786e77f6b1d9373da8/comments",
+    "author": {
+      "login": "msridhar",
+      "id": 193105,
+      "node_id": "MDQ6VXNlcjE5MzEwNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193105?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msridhar",
+      "html_url": "https://github.com/msridhar",
+      "followers_url": "https://api.github.com/users/msridhar/followers",
+      "following_url": "https://api.github.com/users/msridhar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msridhar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msridhar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msridhar/subscriptions",
+      "organizations_url": "https://api.github.com/users/msridhar/orgs",
+      "repos_url": "https://api.github.com/users/msridhar/repos",
+      "events_url": "https://api.github.com/users/msridhar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msridhar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b8dde69731976d9a51c4a15abc6fdf32706f1edf",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/b8dde69731976d9a51c4a15abc6fdf32706f1edf",
+        "html_url": "https://github.com/uber/NullAway/commit/b8dde69731976d9a51c4a15abc6fdf32706f1edf"
+      }
+    ]
+  },
+  {
+    "sha": "b8dde69731976d9a51c4a15abc6fdf32706f1edf",
+    "node_id": "C_kwDOBhZ_PdoAKGI4ZGRlNjk3MzE5NzZkOWE1MWM0YTE1YWJjNmZkZjMyNzA2ZjFlZGY",
+    "commit": {
+      "author": {
+        "name": "Nima Karimipour",
+        "email": "karimipour.nima@gmail.com",
+        "date": "2022-11-14T19:13:55Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-14T19:13:55Z"
+      },
+      "message": "Fix serialization field region computation bug fix (#689)\n\nThis PR fixes a bug in field region computation. The bug is in the computation of region for fields initialized through chain of  member selects. Please see the example below:\r\n\r\n```java\r\nclass C{\r\n  @Nullable Object val;\r\n}\r\nclass B{\r\n   C c = new C();\r\n}\r\nclass A {\r\n    B b = new B();\r\n    Object f = b.c.val;\r\n}\r\n```\r\n\r\nFor expression `Object f = b.c.val;` which causes an `ASSIGN_NULLABLE` error (`val` is `@Nullable`) the computed region is `null`. This PR resolves this bug by correctly computing the region and setting `f` as the region where the error is reported.",
+      "tree": {
+        "sha": "a7526bf344cf31211bda733b73ea79477d70d179",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/a7526bf344cf31211bda733b73ea79477d70d179"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/b8dde69731976d9a51c4a15abc6fdf32706f1edf",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjcpNzCRBK7hj4Ov3rIwAAElIIABI4LO8y6yw2o1Ax+0mkjJVK\nfJuqHN+Az/8h+41bB3D653pMruyRoDOE++y5LzGdhVsCogXRy/gEZEQePj22TNFK\nSk1kbLdRvy2ybsg0EGVrCBhUzHWvR2gnQGznRtqaz7u6PUzgjKywviKgy+1yCZbe\n6bNkX5CvGkV7KmIJ+U2Y2z6Lbk5tmO3w1uZWJsRgmw7owRdCf+JqIMI8zK2Qbj4h\n+XBHZFDRaDgI91/agusaOKL+hymAttK7rphZxUXilxmh7pNTANEEHdiISaFNCmUi\nI+8awoXaxQfdSKhTbDeTxAEWdpCi/zF93JsZOylcR2zeSoPtbibAEOe3Eg8zlyQ=\n=Z67m\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a7526bf344cf31211bda733b73ea79477d70d179\nparent dd75827aa7a1085d35c210de3ba9692cc00d1530\nauthor Nima Karimipour <karimipour.nima@gmail.com> 1668453235 -0600\ncommitter GitHub <noreply@github.com> 1668453235 -0500\n\nFix serialization field region computation bug fix (#689)\n\nThis PR fixes a bug in field region computation. The bug is in the computation of region for fields initialized through chain of  member selects. Please see the example below:\r\n\r\n```java\r\nclass C{\r\n  @Nullable Object val;\r\n}\r\nclass B{\r\n   C c = new C();\r\n}\r\nclass A {\r\n    B b = new B();\r\n    Object f = b.c.val;\r\n}\r\n```\r\n\r\nFor expression `Object f = b.c.val;` which causes an `ASSIGN_NULLABLE` error (`val` is `@Nullable`) the computed region is `null`. This PR resolves this bug by correctly computing the region and setting `f` as the region where the error is reported."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/b8dde69731976d9a51c4a15abc6fdf32706f1edf",
+    "html_url": "https://github.com/uber/NullAway/commit/b8dde69731976d9a51c4a15abc6fdf32706f1edf",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/b8dde69731976d9a51c4a15abc6fdf32706f1edf/comments",
+    "author": {
+      "login": "nimakarimipour",
+      "id": 11995844,
+      "node_id": "MDQ6VXNlcjExOTk1ODQ0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11995844?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nimakarimipour",
+      "html_url": "https://github.com/nimakarimipour",
+      "followers_url": "https://api.github.com/users/nimakarimipour/followers",
+      "following_url": "https://api.github.com/users/nimakarimipour/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nimakarimipour/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nimakarimipour/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nimakarimipour/subscriptions",
+      "organizations_url": "https://api.github.com/users/nimakarimipour/orgs",
+      "repos_url": "https://api.github.com/users/nimakarimipour/repos",
+      "events_url": "https://api.github.com/users/nimakarimipour/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nimakarimipour/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dd75827aa7a1085d35c210de3ba9692cc00d1530",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/dd75827aa7a1085d35c210de3ba9692cc00d1530",
+        "html_url": "https://github.com/uber/NullAway/commit/dd75827aa7a1085d35c210de3ba9692cc00d1530"
+      }
+    ]
+  },
+  {
+    "sha": "dd75827aa7a1085d35c210de3ba9692cc00d1530",
+    "node_id": "C_kwDOBhZ_PdoAKGRkNzU4MjdhYTdhMTA4NWQzNWMyMTBkZTNiYTk2OTJjYzAwZDE1MzA",
+    "commit": {
+      "author": {
+        "name": "Nima Karimipour",
+        "email": "karimipour.nima@gmail.com",
+        "date": "2022-11-10T19:40:07Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-10T19:40:07Z"
+      },
+      "message": "Add serialization format version to fix serialization output (#688)\n\nAdds a version for all outputs of serialization features. Format of serialized outputs may change over time. This version serialization helps users to keep track of changes or maintain compatibility with previous versions of outputs.\r\n\r\nIf `SerializeFixMetadata` is activated, a file with name `serialization_version.txt` will be created under the root directory for all serialization outputs containing the version as string.",
+      "tree": {
+        "sha": "5efb866e77f0a09b8953f7e64e07384066ddd6d9",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/5efb866e77f0a09b8953f7e64e07384066ddd6d9"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/dd75827aa7a1085d35c210de3ba9692cc00d1530",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjbVOXCRBK7hj4Ov3rIwAAkWQIAD3kSSbUpqhEL+QFiy3MYKPr\nuAQNrGnTTqiJL2KOt6ETXsgJ8VYvg5lQ2rSQCDA3IEgw3jkP5xm63kNNeXAtRHSM\n5PjWB+bKPafIhzu4OB8iVIrwBunpxTaz1Mu+dZg3mpB2/EE6KefzSIVpNcCNfzPQ\ncM4FTkP7auHYIJcbwhAV7vO7kkcDv7AX2irEXdPtGwYhWKa6VJ8o+lBgo+Xn+qv2\nEde32huQlQibQaY52byDfxAovBs2cXa39T3wudQcVPMkfmQl+vCW6Y2fZ2AmJpvZ\nzYuSWxShSR9voMoCbOkXeiwBQl1plgI8lFRLqRMHE/D8KlbJBzazz6N+Ppg56dg=\n=kXZ5\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5efb866e77f0a09b8953f7e64e07384066ddd6d9\nparent eb62d5711b620f2885bbf5d98c98ab8608330958\nauthor Nima Karimipour <karimipour.nima@gmail.com> 1668109207 -0800\ncommitter GitHub <noreply@github.com> 1668109207 -0500\n\nAdd serialization format version to fix serialization output (#688)\n\nAdds a version for all outputs of serialization features. Format of serialized outputs may change over time. This version serialization helps users to keep track of changes or maintain compatibility with previous versions of outputs.\r\n\r\nIf `SerializeFixMetadata` is activated, a file with name `serialization_version.txt` will be created under the root directory for all serialization outputs containing the version as string."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/dd75827aa7a1085d35c210de3ba9692cc00d1530",
+    "html_url": "https://github.com/uber/NullAway/commit/dd75827aa7a1085d35c210de3ba9692cc00d1530",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/dd75827aa7a1085d35c210de3ba9692cc00d1530/comments",
+    "author": {
+      "login": "nimakarimipour",
+      "id": 11995844,
+      "node_id": "MDQ6VXNlcjExOTk1ODQ0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11995844?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nimakarimipour",
+      "html_url": "https://github.com/nimakarimipour",
+      "followers_url": "https://api.github.com/users/nimakarimipour/followers",
+      "following_url": "https://api.github.com/users/nimakarimipour/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nimakarimipour/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nimakarimipour/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nimakarimipour/subscriptions",
+      "organizations_url": "https://api.github.com/users/nimakarimipour/orgs",
+      "repos_url": "https://api.github.com/users/nimakarimipour/repos",
+      "events_url": "https://api.github.com/users/nimakarimipour/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nimakarimipour/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eb62d5711b620f2885bbf5d98c98ab8608330958",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/eb62d5711b620f2885bbf5d98c98ab8608330958",
+        "html_url": "https://github.com/uber/NullAway/commit/eb62d5711b620f2885bbf5d98c98ab8608330958"
+      }
+    ]
+  },
+  {
+    "sha": "eb62d5711b620f2885bbf5d98c98ab8608330958",
+    "node_id": "C_kwDOBhZ_PdoAKGViNjJkNTcxMWI2MjBmMjg4NWJiZjVkOThjOThhYjg2MDgzMzA5NTg",
+    "commit": {
+      "author": {
+        "name": "Nima Karimipour",
+        "email": "karimipour.nima@gmail.com",
+        "date": "2022-11-08T20:12:13Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-08T20:12:13Z"
+      },
+      "message": "Fix Serialization: Split field initialization region into smaller regions (#658)\n\nThis PR resolves #657 by splitting the field initialization region into smaller regions. We currently only consider the value \"null\", for all `errors/fixes` reported in this regions. In large classes which they have many number of field, this can easily create a lot builds as they all have the value \"null\" for enclosing method causing conflicts in regions.\r\n\r\nThis PR generalizes the concept of enclosing method to enclosing member, and breaks a single regions of field initialization regions into a separate region for each field declaration and reduce the conflicts in regions dramatically.\r\n\r\nThe equivalent for enclosing member is described:\r\nThe enclosing member for `fix` or `error` is:\r\n- If it is triggered inside a __method__, the enclosing member will be the __enclosing method__.\r\n- If it is enclosed by a __field declaration statement__, the enclosing member will be the __declared field__.\r\n- If __none__ of the above, the enclosing member will be `\"null\"` (used for __static initialization region__).\r\n\r\nWith the current approach the following errors will have the values below:\r\n\r\n```java\r\nclass C {\r\n    Field foo1 = Field(null); // Passing nullable, enclMethod = \"null\"\r\n    Field foo2 = null; // assigning nullable, enclMethod = \"null\"\r\n    static Field foo3 3 = null; // assigning nullable, enclMethod = \"null\"\r\n    {\r\n          foo3 = null; // assigning nullable, enclMethod = \"null\"\r\n    }\r\n\r\n   void bar(){\r\n         this.foo1 = null; // assigning nullable, enclMethod = \"bar()\"\r\n   }\r\n}\r\n```\r\n\r\nFrom the point of view of Annotator, that is __4__ conflicts in regions as they all have  `enclMethod = \"null\"`.\r\n\r\nThis can be greatly improved with the new approach suggested and changed to below:\r\n```java\r\nclass C {\r\n    Field foo1 = Field(null); // Passing nullable, enclMember = \"foo1\"\r\n    Field foo2 = null; // assigning nullable, enclMember = \"foo2\"\r\n    static Field foo3 = null; // assigning nullable, enclMember = \"foo3\"\r\n    {\r\n          Field3 = null; // assigning nullable, enclMember = \"null\"\r\n    }\r\n\r\n   void bar(){\r\n         this.foo1 = null; // assigning nullable, enclMember = \"bar()\"\r\n   }\r\n}\r\n```\r\nNone of the error reported above have any conflicts and can be allocated to separate regions.",
+      "tree": {
+        "sha": "74b4e98333f944a7b4b0c11cf1ef01b73ed9c383",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/74b4e98333f944a7b4b0c11cf1ef01b73ed9c383"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/eb62d5711b620f2885bbf5d98c98ab8608330958",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjargdCRBK7hj4Ov3rIwAAI70IADlkUGddMZSiyBQEj7QnQpAR\nEUn9X18Bq6ibv4LXaRsPQSzJlm6+YzaQyMGoU5EFy45Cr8giPmUoTHVKw45GvWTT\nxnamwpiXh5WuFP5B4lfhU0vknomaJSONxNb9X86uz8GE3JEP/vDAaTmPkmxqlueJ\n4uABMAmEUQdkaFPpTOnVlKIQw9il4+i4ZsZN5t3WY+TLLpYZMF/zCNLAFAJiMYbI\nwFgMcwwtqQQJrgDFB+qV8HMuHmDv0q5HE3yuz7YTIZ2YsVJXIZyapPgm63KBLFY7\nuxPq+RHBACCD6aMlb7VrHykZPz3Goh598uEAhlSbrJe+IZeSw0czwbfD5yRntS4=\n=Iez+\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 74b4e98333f944a7b4b0c11cf1ef01b73ed9c383\nparent 19bbb915357a323dbb0b449449520f360b237221\nauthor Nima Karimipour <karimipour.nima@gmail.com> 1667938333 -0800\ncommitter GitHub <noreply@github.com> 1667938333 -0500\n\nFix Serialization: Split field initialization region into smaller regions (#658)\n\nThis PR resolves #657 by splitting the field initialization region into smaller regions. We currently only consider the value \"null\", for all `errors/fixes` reported in this regions. In large classes which they have many number of field, this can easily create a lot builds as they all have the value \"null\" for enclosing method causing conflicts in regions.\r\n\r\nThis PR generalizes the concept of enclosing method to enclosing member, and breaks a single regions of field initialization regions into a separate region for each field declaration and reduce the conflicts in regions dramatically.\r\n\r\nThe equivalent for enclosing member is described:\r\nThe enclosing member for `fix` or `error` is:\r\n- If it is triggered inside a __method__, the enclosing member will be the __enclosing method__.\r\n- If it is enclosed by a __field declaration statement__, the enclosing member will be the __declared field__.\r\n- If __none__ of the above, the enclosing member will be `\"null\"` (used for __static initialization region__).\r\n\r\nWith the current approach the following errors will have the values below:\r\n\r\n```java\r\nclass C {\r\n    Field foo1 = Field(null); // Passing nullable, enclMethod = \"null\"\r\n    Field foo2 = null; // assigning nullable, enclMethod = \"null\"\r\n    static Field foo3 3 = null; // assigning nullable, enclMethod = \"null\"\r\n    {\r\n          foo3 = null; // assigning nullable, enclMethod = \"null\"\r\n    }\r\n\r\n   void bar(){\r\n         this.foo1 = null; // assigning nullable, enclMethod = \"bar()\"\r\n   }\r\n}\r\n```\r\n\r\nFrom the point of view of Annotator, that is __4__ conflicts in regions as they all have  `enclMethod = \"null\"`.\r\n\r\nThis can be greatly improved with the new approach suggested and changed to below:\r\n```java\r\nclass C {\r\n    Field foo1 = Field(null); // Passing nullable, enclMember = \"foo1\"\r\n    Field foo2 = null; // assigning nullable, enclMember = \"foo2\"\r\n    static Field foo3 = null; // assigning nullable, enclMember = \"foo3\"\r\n    {\r\n          Field3 = null; // assigning nullable, enclMember = \"null\"\r\n    }\r\n\r\n   void bar(){\r\n         this.foo1 = null; // assigning nullable, enclMember = \"bar()\"\r\n   }\r\n}\r\n```\r\nNone of the error reported above have any conflicts and can be allocated to separate regions.\r\n"
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/eb62d5711b620f2885bbf5d98c98ab8608330958",
+    "html_url": "https://github.com/uber/NullAway/commit/eb62d5711b620f2885bbf5d98c98ab8608330958",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/eb62d5711b620f2885bbf5d98c98ab8608330958/comments",
+    "author": {
+      "login": "nimakarimipour",
+      "id": 11995844,
+      "node_id": "MDQ6VXNlcjExOTk1ODQ0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11995844?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nimakarimipour",
+      "html_url": "https://github.com/nimakarimipour",
+      "followers_url": "https://api.github.com/users/nimakarimipour/followers",
+      "following_url": "https://api.github.com/users/nimakarimipour/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nimakarimipour/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nimakarimipour/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nimakarimipour/subscriptions",
+      "organizations_url": "https://api.github.com/users/nimakarimipour/orgs",
+      "repos_url": "https://api.github.com/users/nimakarimipour/repos",
+      "events_url": "https://api.github.com/users/nimakarimipour/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nimakarimipour/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "19bbb915357a323dbb0b449449520f360b237221",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/19bbb915357a323dbb0b449449520f360b237221",
+        "html_url": "https://github.com/uber/NullAway/commit/19bbb915357a323dbb0b449449520f360b237221"
+      }
+    ]
+  },
+  {
+    "sha": "19bbb915357a323dbb0b449449520f360b237221",
+    "node_id": "C_kwDOBhZ_PdoAKDE5YmJiOTE1MzU3YTMyM2RiYjBiNDQ5NDQ5NTIwZjM2MGIyMzcyMjE",
+    "commit": {
+      "author": {
+        "name": "Manu Sridharan",
+        "email": "msridhar@gmail.com",
+        "date": "2022-11-04T18:06:08Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-04T18:06:08Z"
+      },
+      "message": "Remove `AccessPath.getAccessPathForNodeNoMapGet` (#687)\n\nThis should prevent the need for fixes like #685 in the future, and make our results more uniform and easier to understand.  We now have a `VisitorState` object already threaded through everywhere we need it, so the previous API is no longer required.",
+      "tree": {
+        "sha": "c787204ee23dcb766b96549b06a6485b112bfa1f",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/c787204ee23dcb766b96549b06a6485b112bfa1f"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/19bbb915357a323dbb0b449449520f360b237221",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjZVSQCRBK7hj4Ov3rIwAAOJoIABhz2nQ52YlTgRIDVWbJC+wZ\nDgL9lZ9RrplOf9ZnJ6DT5SNCVxo4mYet281klvQRf+vQlAor5YQKFGiYJMVqzBt4\ndYTn10WJrJ4y519bQ9gutKzlCB4ZGfgLIqt55tEws8JBJ5dFD7Z1RXSELo1PwzGD\n/r0Lmc11USAsssWWYVu4OafFQEXnMvGjRjvuu5wknRS/HY/68nDBMK6m9O4PpTy/\nDwp+o4KpG1JtG7NiXvCnCsNkj7v5XxDz8tx67LPZsDklokpjqTtZSWMtBChcjz4+\nYw/ItFiaM0j3ltCkbP3WQF6FuUOjW83GtowT3gGdjAK9hP2CNypJeqrSdi2apE8=\n=IHS6\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c787204ee23dcb766b96549b06a6485b112bfa1f\nparent 93d4e7916411d4d47e2993eea90acd5f9d8d4ed6\nauthor Manu Sridharan <msridhar@gmail.com> 1667585168 -0700\ncommitter GitHub <noreply@github.com> 1667585168 +0000\n\nRemove `AccessPath.getAccessPathForNodeNoMapGet` (#687)\n\nThis should prevent the need for fixes like #685 in the future, and make our results more uniform and easier to understand.  We now have a `VisitorState` object already threaded through everywhere we need it, so the previous API is no longer required."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/19bbb915357a323dbb0b449449520f360b237221",
+    "html_url": "https://github.com/uber/NullAway/commit/19bbb915357a323dbb0b449449520f360b237221",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/19bbb915357a323dbb0b449449520f360b237221/comments",
+    "author": {
+      "login": "msridhar",
+      "id": 193105,
+      "node_id": "MDQ6VXNlcjE5MzEwNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193105?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msridhar",
+      "html_url": "https://github.com/msridhar",
+      "followers_url": "https://api.github.com/users/msridhar/followers",
+      "following_url": "https://api.github.com/users/msridhar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msridhar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msridhar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msridhar/subscriptions",
+      "organizations_url": "https://api.github.com/users/msridhar/orgs",
+      "repos_url": "https://api.github.com/users/msridhar/repos",
+      "events_url": "https://api.github.com/users/msridhar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msridhar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "93d4e7916411d4d47e2993eea90acd5f9d8d4ed6",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/93d4e7916411d4d47e2993eea90acd5f9d8d4ed6",
+        "html_url": "https://github.com/uber/NullAway/commit/93d4e7916411d4d47e2993eea90acd5f9d8d4ed6"
+      }
+    ]
+  },
+  {
+    "sha": "93d4e7916411d4d47e2993eea90acd5f9d8d4ed6",
+    "node_id": "C_kwDOBhZ_PdoAKDkzZDRlNzkxNjQxMWQ0ZDQ3ZTI5OTNlZWE5MGFjZDVmOWQ4ZDRlZDY",
+    "commit": {
+      "author": {
+        "name": "Manu Sridharan",
+        "email": "msridhar@gmail.com",
+        "date": "2022-11-04T17:55:22Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-04T17:55:22Z"
+      },
+      "message": "Report more unboxing errors in a single compilation (#686)\n\nPreviously, if an expression contained multiple `@Nullable` sub-expressions that were being unboxed, we would only report an error for one of them in a single compilation.  Now we report errors for all of them in a single compile.  In a few other places we may report more errors in a single run as well, e.g., for `arr[i]`, if `arr` and `i` are both `@Nullable`, we will report two errors in one run.\r\n\r\nNote: this does _not_ change the overall set of unboxing errors that are reported on a piece code, assuming a user fixes errors as they are reported.  It just makes it so that the compiler needs to be run fewer times (ideally once in most cases) to see all the errors.",
+      "tree": {
+        "sha": "caebdc977beb908dae562f8c8be09ca42ec7c312",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/caebdc977beb908dae562f8c8be09ca42ec7c312"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/93d4e7916411d4d47e2993eea90acd5f9d8d4ed6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjZVIKCRBK7hj4Ov3rIwAA9hUIAK2YFYKWvLNytPRkb+HW3k7T\nKrxDBw0aoE8koYl+ihqLWgvadjfUI1R+y63lk4yzfsNaTWdWkn3eCBlbSR+VyWaj\nTsmGXeYLdpd00abiKJlTtFwmw1DymqgIsrS9jwmYys7tYouLk5qNGoPZd2qO3vul\nDlCbWH3NDv+Y3CTgzmPHMJS46mF1YPA738PsHhIV6Wx7w9mYgn/OhY8IZDh2Z/jO\nYuW++QTm+ETMCVTLof2U/XpcTl9g0Y3AQBA1OFXqgSkSMQDo0QUE324yYTSqho6G\nbya522eKC1kAHm0MNycG4p0NV2GWpBQcgo4+ftMunOs15xVnYMBB/kTx9/RKxVI=\n=YSL2\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree caebdc977beb908dae562f8c8be09ca42ec7c312\nparent 01e2c29f06dbfd1a5b4a808df299f912aee499bf\nauthor Manu Sridharan <msridhar@gmail.com> 1667584522 -0700\ncommitter GitHub <noreply@github.com> 1667584522 -0700\n\nReport more unboxing errors in a single compilation (#686)\n\nPreviously, if an expression contained multiple `@Nullable` sub-expressions that were being unboxed, we would only report an error for one of them in a single compilation.  Now we report errors for all of them in a single compile.  In a few other places we may report more errors in a single run as well, e.g., for `arr[i]`, if `arr` and `i` are both `@Nullable`, we will report two errors in one run.\r\n\r\nNote: this does _not_ change the overall set of unboxing errors that are reported on a piece code, assuming a user fixes errors as they are reported.  It just makes it so that the compiler needs to be run fewer times (ideally once in most cases) to see all the errors."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/93d4e7916411d4d47e2993eea90acd5f9d8d4ed6",
+    "html_url": "https://github.com/uber/NullAway/commit/93d4e7916411d4d47e2993eea90acd5f9d8d4ed6",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/93d4e7916411d4d47e2993eea90acd5f9d8d4ed6/comments",
+    "author": {
+      "login": "msridhar",
+      "id": 193105,
+      "node_id": "MDQ6VXNlcjE5MzEwNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193105?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msridhar",
+      "html_url": "https://github.com/msridhar",
+      "followers_url": "https://api.github.com/users/msridhar/followers",
+      "following_url": "https://api.github.com/users/msridhar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msridhar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msridhar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msridhar/subscriptions",
+      "organizations_url": "https://api.github.com/users/msridhar/orgs",
+      "repos_url": "https://api.github.com/users/msridhar/repos",
+      "events_url": "https://api.github.com/users/msridhar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msridhar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "01e2c29f06dbfd1a5b4a808df299f912aee499bf",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/01e2c29f06dbfd1a5b4a808df299f912aee499bf",
+        "html_url": "https://github.com/uber/NullAway/commit/01e2c29f06dbfd1a5b4a808df299f912aee499bf"
+      }
+    ]
+  },
+  {
+    "sha": "01e2c29f06dbfd1a5b4a808df299f912aee499bf",
+    "node_id": "C_kwDOBhZ_PdoAKDAxZTJjMjlmMDZkYmZkMWE1YjRhODA4ZGYyOTlmOTEyYWVlNDk5YmY",
+    "commit": {
+      "author": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-11-02T16:48:21Z"
+      },
+      "committer": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-11-02T16:48:21Z"
+      },
+      "message": "Prepare next development version.",
+      "tree": {
+        "sha": "7e10e8b08612d85c9e49e712088bc41cbed4525c",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/7e10e8b08612d85c9e49e712088bc41cbed4525c"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/01e2c29f06dbfd1a5b4a808df299f912aee499bf",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/01e2c29f06dbfd1a5b4a808df299f912aee499bf",
+    "html_url": "https://github.com/uber/NullAway/commit/01e2c29f06dbfd1a5b4a808df299f912aee499bf",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/01e2c29f06dbfd1a5b4a808df299f912aee499bf/comments",
+    "author": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a4e51004f27301a50e278b04d10ec9530be82aca",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/a4e51004f27301a50e278b04d10ec9530be82aca",
+        "html_url": "https://github.com/uber/NullAway/commit/a4e51004f27301a50e278b04d10ec9530be82aca"
+      }
+    ]
+  },
+  {
+    "sha": "a4e51004f27301a50e278b04d10ec9530be82aca",
+    "node_id": "C_kwDOBhZ_PdoAKGE0ZTUxMDA0ZjI3MzAxYTUwZTI3OGIwNGQxMGVjOTUzMGJlODJhY2E",
+    "commit": {
+      "author": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-11-02T16:40:25Z"
+      },
+      "committer": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-11-02T16:40:25Z"
+      },
+      "message": "Prepare for release 0.10.4.",
+      "tree": {
+        "sha": "85dd063fa79c13528094dc7ffa0e55a517cc3731",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/85dd063fa79c13528094dc7ffa0e55a517cc3731"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/a4e51004f27301a50e278b04d10ec9530be82aca",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/a4e51004f27301a50e278b04d10ec9530be82aca",
+    "html_url": "https://github.com/uber/NullAway/commit/a4e51004f27301a50e278b04d10ec9530be82aca",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/a4e51004f27301a50e278b04d10ec9530be82aca/comments",
+    "author": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a2147f778259f151e9217f1b9424572df772da03",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/a2147f778259f151e9217f1b9424572df772da03",
+        "html_url": "https://github.com/uber/NullAway/commit/a2147f778259f151e9217f1b9424572df772da03"
+      }
+    ]
+  },
+  {
+    "sha": "a2147f778259f151e9217f1b9424572df772da03",
+    "node_id": "C_kwDOBhZ_PdoAKGEyMTQ3Zjc3ODI1OWYxNTFlOTIxN2YxYjk0MjQ1NzJkZjc3MmRhMDM",
+    "commit": {
+      "author": {
+        "name": "Manu Sridharan",
+        "email": "msridhar@gmail.com",
+        "date": "2022-11-02T16:06:39Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-02T16:06:39Z"
+      },
+      "message": "Proper checking of unboxing in binary trees (#684)\n\nOur previous checking of when unboxing may occur for an operand of a binary expression was incorrect. It both missed unboxing cases and also sometimes checked for unboxing where none would occur.",
+      "tree": {
+        "sha": "e9c741dc7290a4d4f7b1c50b36ccb0c335d97f32",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/e9c741dc7290a4d4f7b1c50b36ccb0c335d97f32"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/a2147f778259f151e9217f1b9424572df772da03",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjYpWPCRBK7hj4Ov3rIwAA+5oIACsAAyoQ/5lbM1MIKIwmPYAk\nwVwiGZs/EIhXZNzRBhhaXaVpp+hmv7hQzPUV/9T/Q2Ju+9jqNOYPtnFAnfLQohYC\nzPraUYZg9npR0EwBAYfcSzr0nQVVREmoIZKWZB5cIYDPosjnFnII3EIex/vMjSKm\nYXaafEPhJ33Yk13re9+V/3PQxJpcbP5YsYRRuTednnHEU7F3TpoMA4X2RMlCGmVR\nRpk/xQ0Wog8fUgB+3gEY3VUApi3Nr/2p67GmhpvwYDO9rY8vRHlM0KCPC/WofIuT\nKlYFCCEUqgJNxsVadpyc+PHBHwC/MvnT4UwlvabuEIaEahtzhihYD76MKnsgx20=\n=Yi8V\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e9c741dc7290a4d4f7b1c50b36ccb0c335d97f32\nparent d1415f4c342ba66299a33d9206ec76987f32272c\nauthor Manu Sridharan <msridhar@gmail.com> 1667405199 -0700\ncommitter GitHub <noreply@github.com> 1667405199 +0000\n\nProper checking of unboxing in binary trees (#684)\n\nOur previous checking of when unboxing may occur for an operand of a binary expression was incorrect. It both missed unboxing cases and also sometimes checked for unboxing where none would occur."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/a2147f778259f151e9217f1b9424572df772da03",
+    "html_url": "https://github.com/uber/NullAway/commit/a2147f778259f151e9217f1b9424572df772da03",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/a2147f778259f151e9217f1b9424572df772da03/comments",
+    "author": {
+      "login": "msridhar",
+      "id": 193105,
+      "node_id": "MDQ6VXNlcjE5MzEwNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193105?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msridhar",
+      "html_url": "https://github.com/msridhar",
+      "followers_url": "https://api.github.com/users/msridhar/followers",
+      "following_url": "https://api.github.com/users/msridhar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msridhar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msridhar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msridhar/subscriptions",
+      "organizations_url": "https://api.github.com/users/msridhar/orgs",
+      "repos_url": "https://api.github.com/users/msridhar/repos",
+      "events_url": "https://api.github.com/users/msridhar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msridhar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d1415f4c342ba66299a33d9206ec76987f32272c",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/d1415f4c342ba66299a33d9206ec76987f32272c",
+        "html_url": "https://github.com/uber/NullAway/commit/d1415f4c342ba66299a33d9206ec76987f32272c"
+      }
+    ]
+  },
+  {
+    "sha": "d1415f4c342ba66299a33d9206ec76987f32272c",
+    "node_id": "C_kwDOBhZ_PdoAKGQxNDE1ZjRjMzQyYmE2NjI5OWEzM2Q5MjA2ZWM3Njk4N2YzMjI3MmM",
+    "commit": {
+      "author": {
+        "name": "Lázaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-11-02T04:44:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-02T04:44:05Z"
+      },
+      "message": "Fix LibraryModels recording of dataflow nullness for Map APs  (#685)\n\nWe had a long-standing bug in our recording of the nullness of access paths inside `LibraryModelsHandler`.\r\n\r\nNamely, as part of `accessPathsAtIndexes`, we were calling `getAccessPathForNodeNoMapGet`, rather\r\nthan `getAccessPathForNodeWithMapGet`. Among other things, `accessPathsAtIndexes` is used to calculate\r\nwhich arguments for a method like `Preconditions.checkNotNull([expr])` are marked as being non-null after\r\nthe method's execution (this extends to all methods in `failIfNullParameters` and similar logic applies to other\r\ntypes of library models). Due to our use of `getAccessPathForNodeNoMapGet`, code like the following:\r\n\r\n```\r\nprivate void foo(Map<String,Object> m) {\r\n    Preconditions.checkNotNull(m.get(\\\"foo\\\"));\r\n    m.get(\\\"foo\\\").toString(); // FP!\r\n  }\r\n}\r\n```\r\n\r\nWould result in a false positive, where `m.get(\\\"foo\\\").toString()` shows up as a null-dereference, despite the\r\npreceding `Preconditions.checkNotNull` call.\r\n\r\nThis despite the following working without issue:\r\n\r\n```\r\nprivate void foo(@Nullable Object o) {\r\n    Preconditions.checkNotNull(o);\r\n    o.toString(); // Worked before and still works!\r\n  }\r\n}\r\n```\r\n\r\nThis PR fixes this bug.\r\n\r\nThe core fix is simply replacing the `getAccessPathForNodeNoMapGet` with `getAccessPathForNodeWithMapGet`.\r\n\r\nHowever, to achieve this, we must thread `VisitorState` all the way to the \r\n`LibraryModelsHandler.accessPathsAtIndexes(...)` method, which requires changing the signature of the\r\n`onDataflowVisitMethodInvocation(...)` handler extension point. This makes the bulk of the code changes\r\nin this PR.\r\n\r\nFinally, we include a few test cases for unboxing, which are an artifact of how we discovered and then triagged\r\nthis bug.\r\n\r\n(Edit for posterity: thanks @msridhar for finding the root cause here)",
+      "tree": {
+        "sha": "d09fb1681b7485bad2d8583fb0a82ddbdd9f64a2",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/d09fb1681b7485bad2d8583fb0a82ddbdd9f64a2"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/d1415f4c342ba66299a33d9206ec76987f32272c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjYfWVCRBK7hj4Ov3rIwAA/tsIAHBrsfeQba4QhguOUawJFOiU\nVxya4KCTnPdiv1GNkxT10SFrhprTavwszXAwiD1TIzpkUxAO1cWb1QwA8YsPZnfO\naN91CVBVpl7D8hNV54/ljhHlR4XLWNnRHnVmnM1t9Q74VfPOk/60aMKtk/EhhQtB\nz3J6JjExO+EHYJu6aba0B1CSydsxZJPtdidNegFoF9Va6kMVHJpfWUpLhCMx2086\nfUqMBgu3u0yg1dDIiNbCrQgvboGRAVsxRB91X+JMYymNOEyNJF4QH326ZClwb0nJ\n3Z3PilxbluIv5g2HL1LZqZfWJabkBd6jF9kPfHJvDDrl9y/FIGa+/hauitawZmA=\n=pZjE\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d09fb1681b7485bad2d8583fb0a82ddbdd9f64a2\nparent f27e72b166754704b55b05085e73407e2eb46408\nauthor Lázaro Clapp <lazaro@uber.com> 1667364245 -0400\ncommitter GitHub <noreply@github.com> 1667364245 -0400\n\nFix LibraryModels recording of dataflow nullness for Map APs  (#685)\n\nWe had a long-standing bug in our recording of the nullness of access paths inside `LibraryModelsHandler`.\r\n\r\nNamely, as part of `accessPathsAtIndexes`, we were calling `getAccessPathForNodeNoMapGet`, rather\r\nthan `getAccessPathForNodeWithMapGet`. Among other things, `accessPathsAtIndexes` is used to calculate\r\nwhich arguments for a method like `Preconditions.checkNotNull([expr])` are marked as being non-null after\r\nthe method's execution (this extends to all methods in `failIfNullParameters` and similar logic applies to other\r\ntypes of library models). Due to our use of `getAccessPathForNodeNoMapGet`, code like the following:\r\n\r\n```\r\nprivate void foo(Map<String,Object> m) {\r\n    Preconditions.checkNotNull(m.get(\\\"foo\\\"));\r\n    m.get(\\\"foo\\\").toString(); // FP!\r\n  }\r\n}\r\n```\r\n\r\nWould result in a false positive, where `m.get(\\\"foo\\\").toString()` shows up as a null-dereference, despite the\r\npreceding `Preconditions.checkNotNull` call.\r\n\r\nThis despite the following working without issue:\r\n\r\n```\r\nprivate void foo(@Nullable Object o) {\r\n    Preconditions.checkNotNull(o);\r\n    o.toString(); // Worked before and still works!\r\n  }\r\n}\r\n```\r\n\r\nThis PR fixes this bug.\r\n\r\nThe core fix is simply replacing the `getAccessPathForNodeNoMapGet` with `getAccessPathForNodeWithMapGet`.\r\n\r\nHowever, to achieve this, we must thread `VisitorState` all the way to the \r\n`LibraryModelsHandler.accessPathsAtIndexes(...)` method, which requires changing the signature of the\r\n`onDataflowVisitMethodInvocation(...)` handler extension point. This makes the bulk of the code changes\r\nin this PR.\r\n\r\nFinally, we include a few test cases for unboxing, which are an artifact of how we discovered and then triagged\r\nthis bug.\r\n\r\n(Edit for posterity: thanks @msridhar for finding the root cause here)"
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/d1415f4c342ba66299a33d9206ec76987f32272c",
+    "html_url": "https://github.com/uber/NullAway/commit/d1415f4c342ba66299a33d9206ec76987f32272c",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/d1415f4c342ba66299a33d9206ec76987f32272c/comments",
+    "author": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f27e72b166754704b55b05085e73407e2eb46408",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/f27e72b166754704b55b05085e73407e2eb46408",
+        "html_url": "https://github.com/uber/NullAway/commit/f27e72b166754704b55b05085e73407e2eb46408"
+      }
+    ]
+  },
+  {
+    "sha": "f27e72b166754704b55b05085e73407e2eb46408",
+    "node_id": "C_kwDOBhZ_PdoAKGYyN2U3MmIxNjY3NTQ3MDRiNTViMDUwODVlNzM0MDdlMmViNDY0MDg",
+    "commit": {
+      "author": {
+        "name": "Manu Sridharan",
+        "email": "msridhar@gmail.com",
+        "date": "2022-10-31T19:35:29Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-10-31T19:35:29Z"
+      },
+      "message": "Bump dependency versions in GitHub Actions config (#683)\n\nWe get various warnings about use of deprecated features when running CI jobs; these version bumps seem to fix them.",
+      "tree": {
+        "sha": "a4cf9da5ad6e31ef0fe8478eff6e43353a1eae09",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/a4cf9da5ad6e31ef0fe8478eff6e43353a1eae09"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/f27e72b166754704b55b05085e73407e2eb46408",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjYCOBCRBK7hj4Ov3rIwAAl3IIAJZWs7SMhvv6IaMXdtM8ahFc\ntLJkBJCwO8xr33IhjSHM1QxWf9EW8hUY1rRkt2JcSvBetMiNafCn3ZxMH396zgog\nKP0cA3DN0QuHx4s4HHzhcHFF5y9PEEjIpFF69vsBEX2qGlo3W5QZTObPMxKue3U8\nLBrmQhif6LAujcUXTj5JoYu7n8Pf8uASWre2LDZASyCdWl5nzukPERU3XcjQBzlk\nntREvDf59DlkdQtQf4LykMeJN5gKnp45XxDlqkEfCXt62rLoJ3C39uzKYwAcZBKB\nafmU0oKKoDo37pkTqwAQze3gpcFtoKV5qmnd+z94t8WlHDIWzggIYAibrRNi9yA=\n=jDi0\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a4cf9da5ad6e31ef0fe8478eff6e43353a1eae09\nparent b696757aebf22c74a8082c6141a969c419cca671\nauthor Manu Sridharan <msridhar@gmail.com> 1667244929 -0700\ncommitter GitHub <noreply@github.com> 1667244929 -0700\n\nBump dependency versions in GitHub Actions config (#683)\n\nWe get various warnings about use of deprecated features when running CI jobs; these version bumps seem to fix them."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/f27e72b166754704b55b05085e73407e2eb46408",
+    "html_url": "https://github.com/uber/NullAway/commit/f27e72b166754704b55b05085e73407e2eb46408",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/f27e72b166754704b55b05085e73407e2eb46408/comments",
+    "author": {
+      "login": "msridhar",
+      "id": 193105,
+      "node_id": "MDQ6VXNlcjE5MzEwNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193105?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msridhar",
+      "html_url": "https://github.com/msridhar",
+      "followers_url": "https://api.github.com/users/msridhar/followers",
+      "following_url": "https://api.github.com/users/msridhar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msridhar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msridhar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msridhar/subscriptions",
+      "organizations_url": "https://api.github.com/users/msridhar/orgs",
+      "repos_url": "https://api.github.com/users/msridhar/repos",
+      "events_url": "https://api.github.com/users/msridhar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msridhar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b696757aebf22c74a8082c6141a969c419cca671",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/b696757aebf22c74a8082c6141a969c419cca671",
+        "html_url": "https://github.com/uber/NullAway/commit/b696757aebf22c74a8082c6141a969c419cca671"
+      }
+    ]
+  },
+  {
+    "sha": "b696757aebf22c74a8082c6141a969c419cca671",
+    "node_id": "C_kwDOBhZ_PdoAKGI2OTY3NTdhZWJmMjJjNzRhODA4MmM2MTQxYTk2OWM0MTljY2E2NzE",
+    "commit": {
+      "author": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-10-28T21:51:52Z"
+      },
+      "committer": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-10-28T21:51:52Z"
+      },
+      "message": "Prepare next development version.",
+      "tree": {
+        "sha": "df12448b469575e4cf45fa2f726d28338fcdd4c9",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/df12448b469575e4cf45fa2f726d28338fcdd4c9"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/b696757aebf22c74a8082c6141a969c419cca671",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/b696757aebf22c74a8082c6141a969c419cca671",
+    "html_url": "https://github.com/uber/NullAway/commit/b696757aebf22c74a8082c6141a969c419cca671",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/b696757aebf22c74a8082c6141a969c419cca671/comments",
+    "author": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a2c8d18a3803d63292fe3a9e5a133c5b5c6a92ac",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/a2c8d18a3803d63292fe3a9e5a133c5b5c6a92ac",
+        "html_url": "https://github.com/uber/NullAway/commit/a2c8d18a3803d63292fe3a9e5a133c5b5c6a92ac"
+      }
+    ]
+  },
+  {
+    "sha": "a2c8d18a3803d63292fe3a9e5a133c5b5c6a92ac",
+    "node_id": "C_kwDOBhZ_PdoAKGEyYzhkMThhMzgwM2Q2MzI5MmZlM2E5ZTVhMTMzYzViNWM2YTkyYWM",
+    "commit": {
+      "author": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-10-28T21:42:21Z"
+      },
+      "committer": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-10-28T21:42:21Z"
+      },
+      "message": "Prepare for release 0.10.3.",
+      "tree": {
+        "sha": "2e32669912dbb080c8d38f31a5e6b78789784c4d",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/2e32669912dbb080c8d38f31a5e6b78789784c4d"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/a2c8d18a3803d63292fe3a9e5a133c5b5c6a92ac",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/a2c8d18a3803d63292fe3a9e5a133c5b5c6a92ac",
+    "html_url": "https://github.com/uber/NullAway/commit/a2c8d18a3803d63292fe3a9e5a133c5b5c6a92ac",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/a2c8d18a3803d63292fe3a9e5a133c5b5c6a92ac/comments",
+    "author": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "94afe5abd52e9b695f97effd0b1a00813be3ed45",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/94afe5abd52e9b695f97effd0b1a00813be3ed45",
+        "html_url": "https://github.com/uber/NullAway/commit/94afe5abd52e9b695f97effd0b1a00813be3ed45"
+      }
+    ]
+  },
+  {
+    "sha": "94afe5abd52e9b695f97effd0b1a00813be3ed45",
+    "node_id": "C_kwDOBhZ_PdoAKDk0YWZlNWFiZDUyZTliNjk1Zjk3ZWZmZDBiMWEwMDgxM2JlM2VkNDU",
+    "commit": {
+      "author": {
+        "name": "Manu Sridharan",
+        "email": "msridhar@gmail.com",
+        "date": "2022-10-27T21:37:02Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-10-27T21:37:02Z"
+      },
+      "message": "Handle Guava `Verify` functions (#682)\n\nAdds handling of the `verifyNotNull` and `verify` functions in an analogous manner to how we currently handle `checkNotNull`, `checkArgument`, and `checkState`.\r\n\r\nFixes #666",
+      "tree": {
+        "sha": "fd1af5096b714f20300c9322457345a7ad5897ef",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/fd1af5096b714f20300c9322457345a7ad5897ef"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/94afe5abd52e9b695f97effd0b1a00813be3ed45",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWvn+CRBK7hj4Ov3rIwAAWDwIAE78/lXGLH+q2W3i0/249hEy\nx+Iz03aVNWIXGzx56cpDDKtFr8qBSdYHjYh5VIYg8sZRhRF3k6rc8Fh7Awe4nAR+\nZv4nFHYu4WxcyrSO0uFdqw0jI/jxVpPwUormnV2kGm+0hLy41w+TBa9tVKBqv7Xl\nWl6Y4WTXHzAIDXJIf2lUXdANI6hUEG3YNDhkoCEXw4Bk3nzBXAmbnJTEPsMccXPN\nZo9hilCsjlF1YsPsjQZTZhnLqq2kCrGwCQO2ZQHU7ZHgFhkTDqaXmoQL3fQv4Ngv\nEmG+BFFJ9KXvfw8dxi3EQoBRxTNBvHRQmhXREBNw0Ojx/VTmtDekiOoc1jM++9c=\n=Yt3a\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fd1af5096b714f20300c9322457345a7ad5897ef\nparent e004e43d1efcc8460daf40360ce66aae95c83318\nauthor Manu Sridharan <msridhar@gmail.com> 1666906622 -0700\ncommitter GitHub <noreply@github.com> 1666906622 +0000\n\nHandle Guava `Verify` functions (#682)\n\nAdds handling of the `verifyNotNull` and `verify` functions in an analogous manner to how we currently handle `checkNotNull`, `checkArgument`, and `checkState`.\r\n\r\nFixes #666"
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/94afe5abd52e9b695f97effd0b1a00813be3ed45",
+    "html_url": "https://github.com/uber/NullAway/commit/94afe5abd52e9b695f97effd0b1a00813be3ed45",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/94afe5abd52e9b695f97effd0b1a00813be3ed45/comments",
+    "author": {
+      "login": "msridhar",
+      "id": 193105,
+      "node_id": "MDQ6VXNlcjE5MzEwNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193105?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msridhar",
+      "html_url": "https://github.com/msridhar",
+      "followers_url": "https://api.github.com/users/msridhar/followers",
+      "following_url": "https://api.github.com/users/msridhar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msridhar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msridhar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msridhar/subscriptions",
+      "organizations_url": "https://api.github.com/users/msridhar/orgs",
+      "repos_url": "https://api.github.com/users/msridhar/repos",
+      "events_url": "https://api.github.com/users/msridhar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msridhar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e004e43d1efcc8460daf40360ce66aae95c83318",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/e004e43d1efcc8460daf40360ce66aae95c83318",
+        "html_url": "https://github.com/uber/NullAway/commit/e004e43d1efcc8460daf40360ce66aae95c83318"
+      }
+    ]
+  },
+  {
+    "sha": "e004e43d1efcc8460daf40360ce66aae95c83318",
+    "node_id": "C_kwDOBhZ_PdoAKGUwMDRlNDNkMWVmY2M4NDYwZGFmNDAzNjBjZTY2YWFlOTVjODMzMTg",
+    "commit": {
+      "author": {
+        "name": "Carter Kozak",
+        "email": "ckozak@ckozak.net",
+        "date": "2022-10-26T22:34:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-10-26T22:34:09Z"
+      },
+      "message": "Add support for boolean constraints (about nullness) in Contract annotations (#669)\n\nFor example, the following method will behave equivalently to guava `Preconditions.checkState` with regards to null checks:\r\n```java\r\n@Contract(\"false -> fail\")\r\nstatic void check(boolean pass) {\r\n  if (!pass) throw new RuntimeException();\r\n}\r\n```\r\n\r\nThis implementation works in a couple of layers:\r\n- Firstly, contracts with a single boolean resultin in failure are handled by inserting a conditional throw node inline following the annotated method. This provides support for complex boolean logic input validateion.\r\n- Secondly, simple null equal-to and not-equal-to checks are handled by the existing ContractHandler. These don't support such complex inputs, however they are able to work correctly with boolean outputs rather than exclusively `fail` cases.\r\n\r\nI've updated the ContractHandler to use more precise language around antecedent nullness, previously null antecedents were described as nullable where cases required null. Please let me know if I've misunderstood the logic, but re-framing the values helped me to understand the logic.",
+      "tree": {
+        "sha": "447917b8b781cbed50ed9bf4399eab9f12c486f1",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/447917b8b781cbed50ed9bf4399eab9f12c486f1"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/e004e43d1efcc8460daf40360ce66aae95c83318",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWbXhCRBK7hj4Ov3rIwAAm70IAHRbivCv4Fu6SubShi/gnjvS\neQWGmxwE7zw5BIVYgqlkSl7XcL9nl6C1aPg4ySBQBD3ZzlAo4V1YOZvF1XbSYQVo\nnm+MrIxLZFYmKgLWARi2MQToQmtP98DDrESMFcUkqtHUbCoOzPi/Jd0eqiizSzVG\nR6NcB7o48l0y+VnlLI7ty6H5N6w2HNnpMJkCRV4Fkk0UO/RAefczPwOdKHlbqW7/\nM50HWNIVrnuG9yH+a26Etwjmi1kihkDcc66ypNjDE8XWgTWedIvk033t1934YU54\n+6ObqYZm3Knwd8rJnRp//MOdh6rbxRu+A8nElTkM1Zr5gJzXr/Lh5YJZcm/mhFQ=\n=Tznv\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 447917b8b781cbed50ed9bf4399eab9f12c486f1\nparent 89c74f340b5a3a6cde64eadbd1ae795fec96520c\nauthor Carter Kozak <ckozak@ckozak.net> 1666823649 -0400\ncommitter GitHub <noreply@github.com> 1666823649 -0700\n\nAdd support for boolean constraints (about nullness) in Contract annotations (#669)\n\nFor example, the following method will behave equivalently to guava `Preconditions.checkState` with regards to null checks:\r\n```java\r\n@Contract(\"false -> fail\")\r\nstatic void check(boolean pass) {\r\n  if (!pass) throw new RuntimeException();\r\n}\r\n```\r\n\r\nThis implementation works in a couple of layers:\r\n- Firstly, contracts with a single boolean resultin in failure are handled by inserting a conditional throw node inline following the annotated method. This provides support for complex boolean logic input validateion.\r\n- Secondly, simple null equal-to and not-equal-to checks are handled by the existing ContractHandler. These don't support such complex inputs, however they are able to work correctly with boolean outputs rather than exclusively `fail` cases.\r\n\r\nI've updated the ContractHandler to use more precise language around antecedent nullness, previously null antecedents were described as nullable where cases required null. Please let me know if I've misunderstood the logic, but re-framing the values helped me to understand the logic."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/e004e43d1efcc8460daf40360ce66aae95c83318",
+    "html_url": "https://github.com/uber/NullAway/commit/e004e43d1efcc8460daf40360ce66aae95c83318",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/e004e43d1efcc8460daf40360ce66aae95c83318/comments",
+    "author": {
+      "login": "carterkozak",
+      "id": 3854321,
+      "node_id": "MDQ6VXNlcjM4NTQzMjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3854321?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carterkozak",
+      "html_url": "https://github.com/carterkozak",
+      "followers_url": "https://api.github.com/users/carterkozak/followers",
+      "following_url": "https://api.github.com/users/carterkozak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/carterkozak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/carterkozak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carterkozak/subscriptions",
+      "organizations_url": "https://api.github.com/users/carterkozak/orgs",
+      "repos_url": "https://api.github.com/users/carterkozak/repos",
+      "events_url": "https://api.github.com/users/carterkozak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/carterkozak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "89c74f340b5a3a6cde64eadbd1ae795fec96520c",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/89c74f340b5a3a6cde64eadbd1ae795fec96520c",
+        "html_url": "https://github.com/uber/NullAway/commit/89c74f340b5a3a6cde64eadbd1ae795fec96520c"
+      }
+    ]
+  },
+  {
+    "sha": "89c74f340b5a3a6cde64eadbd1ae795fec96520c",
+    "node_id": "C_kwDOBhZ_PdoAKDg5Yzc0ZjM0MGI1YTNhNmNkZTY0ZWFkYmQxYWU3OTVmZWM5NjUyMGM",
+    "commit": {
+      "author": {
+        "name": "Carter Kozak",
+        "email": "ckozak@ckozak.net",
+        "date": "2022-10-12T20:53:29Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-10-12T20:53:29Z"
+      },
+      "message": "Fix an NPE in the optional emptiness handler (#678)\n\nFixed by fully implementing the OPTIONAL_CONTENT pseudo-element.\r\n\r\nFixes #676",
+      "tree": {
+        "sha": "0ac61de085126844ab6c4080113baa320368733b",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/0ac61de085126844ab6c4080113baa320368733b"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/89c74f340b5a3a6cde64eadbd1ae795fec96520c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjRylJCRBK7hj4Ov3rIwAADUwIABKui6BUfe4rRGT1z+su0HwY\ncJtszIlVEIM3O+k1OReg+hXSW74MoBk+hyAILNHNm0ylinFIKuGzlwXEYtXtEilP\nn1pnqkfh7YEj15c0+aPnsyMNR7iG1EhcsrUKOQdIz3DWtIGJegfwj5fxMjMZkSng\n7/UDGxZBLLBbRv+SmN5G2bWRyFEknF54a0FaQAPWz9PdiMyvdtQp7C51sVG3Ekzj\nuaqfh+gxJcrEC9FkEaBIqmYio6yb1+of2DXI4Cyui1phVU2jnFaM0/rSeWuW2W39\n4xrKHdfdsnuZ/ZUw1RDAG1adCAftXZDekfOSxfEmS1ZDfZhviWcNoCNYAVpWzRE=\n=BdL1\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0ac61de085126844ab6c4080113baa320368733b\nparent cc91371d8128b8f01a7b041e70bc9ad2d2f43457\nauthor Carter Kozak <ckozak@ckozak.net> 1665608009 -0400\ncommitter GitHub <noreply@github.com> 1665608009 -0700\n\nFix an NPE in the optional emptiness handler (#678)\n\nFixed by fully implementing the OPTIONAL_CONTENT pseudo-element.\r\n\r\nFixes #676 "
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/89c74f340b5a3a6cde64eadbd1ae795fec96520c",
+    "html_url": "https://github.com/uber/NullAway/commit/89c74f340b5a3a6cde64eadbd1ae795fec96520c",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/89c74f340b5a3a6cde64eadbd1ae795fec96520c/comments",
+    "author": {
+      "login": "carterkozak",
+      "id": 3854321,
+      "node_id": "MDQ6VXNlcjM4NTQzMjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3854321?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carterkozak",
+      "html_url": "https://github.com/carterkozak",
+      "followers_url": "https://api.github.com/users/carterkozak/followers",
+      "following_url": "https://api.github.com/users/carterkozak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/carterkozak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/carterkozak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carterkozak/subscriptions",
+      "organizations_url": "https://api.github.com/users/carterkozak/orgs",
+      "repos_url": "https://api.github.com/users/carterkozak/repos",
+      "events_url": "https://api.github.com/users/carterkozak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/carterkozak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cc91371d8128b8f01a7b041e70bc9ad2d2f43457",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/cc91371d8128b8f01a7b041e70bc9ad2d2f43457",
+        "html_url": "https://github.com/uber/NullAway/commit/cc91371d8128b8f01a7b041e70bc9ad2d2f43457"
+      }
+    ]
+  },
+  {
+    "sha": "cc91371d8128b8f01a7b041e70bc9ad2d2f43457",
+    "node_id": "C_kwDOBhZ_PdoAKGNjOTEzNzFkODEyOGI4ZjAxYTdiMDQxZTcwYmM5YWQyZDJmNDM0NTc",
+    "commit": {
+      "author": {
+        "name": "Manu Sridharan",
+        "email": "msridhar@gmail.com",
+        "date": "2022-10-12T17:43:34Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-10-12T17:43:34Z"
+      },
+      "message": "Bump Error Prone and EP plugin (#675)\n\nBump Error Prone to 2.16 and the EP Gradle plugin to 3.0.1.  Also fix some issues flagged by the new `ASTHelpersSuggestions` check.\r\n\r\nWe should also update our docs to use the latest EP Gradle plugin.  But I'd rather do that in a separate PR.",
+      "tree": {
+        "sha": "243cd54ff5089a650eff166b1e3e8039583d3882",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/243cd54ff5089a650eff166b1e3e8039583d3882"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/cc91371d8128b8f01a7b041e70bc9ad2d2f43457",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjRvzGCRBK7hj4Ov3rIwAAqQAIADj/PapXR5/3NtkezZY+uwwj\njxR+BuEg4kI544pUaZQE/Esm3KvEH4ZG2npcMX9uJMm0AWRG5/pJemoIE+ASY+bc\npAQHJmfDPyNoY7C4fovN0Y0/taU3Gv+Knx/bkrUHhve57QuJAY1sBfxEW07kjInk\nXuzsslzrYSeK+2SF+4v0IA9KfxRLz+NnjgykqwA11R1QQktYAa8V0Zw5KYWV/pOO\nvnglM7JTInwbKHRSoiF6KVMXtRpW5fLALPAGYeEVEtPi4EzNSRDzfYQHTd54arH9\nkEweNQa+uAY6q4vW+tdJQNZ7vCwkME+HX7x/3dpclm2hLGAb6nWveld//ZvQnik=\n=ED3b\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 243cd54ff5089a650eff166b1e3e8039583d3882\nparent 8b7c174afd336307c261f5d1dd3cdf5751dbe8ed\nauthor Manu Sridharan <msridhar@gmail.com> 1665596614 -0700\ncommitter GitHub <noreply@github.com> 1665596614 -0700\n\nBump Error Prone and EP plugin (#675)\n\nBump Error Prone to 2.16 and the EP Gradle plugin to 3.0.1.  Also fix some issues flagged by the new `ASTHelpersSuggestions` check.\r\n\r\nWe should also update our docs to use the latest EP Gradle plugin.  But I'd rather do that in a separate PR."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/cc91371d8128b8f01a7b041e70bc9ad2d2f43457",
+    "html_url": "https://github.com/uber/NullAway/commit/cc91371d8128b8f01a7b041e70bc9ad2d2f43457",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/cc91371d8128b8f01a7b041e70bc9ad2d2f43457/comments",
+    "author": {
+      "login": "msridhar",
+      "id": 193105,
+      "node_id": "MDQ6VXNlcjE5MzEwNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193105?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msridhar",
+      "html_url": "https://github.com/msridhar",
+      "followers_url": "https://api.github.com/users/msridhar/followers",
+      "following_url": "https://api.github.com/users/msridhar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msridhar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msridhar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msridhar/subscriptions",
+      "organizations_url": "https://api.github.com/users/msridhar/orgs",
+      "repos_url": "https://api.github.com/users/msridhar/repos",
+      "events_url": "https://api.github.com/users/msridhar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msridhar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8b7c174afd336307c261f5d1dd3cdf5751dbe8ed",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/8b7c174afd336307c261f5d1dd3cdf5751dbe8ed",
+        "html_url": "https://github.com/uber/NullAway/commit/8b7c174afd336307c261f5d1dd3cdf5751dbe8ed"
+      }
+    ]
+  },
+  {
+    "sha": "8b7c174afd336307c261f5d1dd3cdf5751dbe8ed",
+    "node_id": "C_kwDOBhZ_PdoAKDhiN2MxNzRhZmQzMzYzMDdjMjYxZjVkMWRkM2NkZjU3NTFkYmU4ZWQ",
+    "commit": {
+      "author": {
+        "name": "David Schlosnagle",
+        "email": "schlosna@gmail.com",
+        "date": "2022-10-07T17:02:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-10-07T17:02:32Z"
+      },
+      "message": "checkerframework 3.26.0 (#671)\n\nUpdates NullAway to use recently released [checkerframework 3.26.0](https://github.com/typetools/checker-framework/releases/tag/checker-framework-3.26.0) to resolve ABI breaks in checkerframework.\r\n\r\nCloses https://github.com/uber/NullAway/issues/670\r\n\r\nCo-authored-by: Manu Sridharan <msridhar@gmail.com>",
+      "tree": {
+        "sha": "7dbee132ad7461e5423fea22986a951da1e87562",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/7dbee132ad7461e5423fea22986a951da1e87562"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/8b7c174afd336307c261f5d1dd3cdf5751dbe8ed",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjQFuoCRBK7hj4Ov3rIwAAUzcIACgaqyNCoWmiO5exGbRfU4V4\n3BtmSqrOwfjyokrRS40j4DnOCrGYB/cuXC3Nb+799JIYmq5Qr9pr4rd2IXgZi0kh\n46hgwNNWlbrTZ4S9O2IW8yBBBlME4HQCu9XLrXhvJmUIHxgbWGOoTMW2I7/a9j/t\n9pgFZP4PvDgtDVMdsCE4uYKmZR/De2SIgGjR+TR8yyEGpGgvEdlxGzJ260wXz6AJ\nYJyb0jBUOomTbmCzRbmKCj6DKqboeWDsRIDIZ2qgLp/agt7QmPKFxBnGvfMsuUZJ\nSvdEKmEuZVGr42yChXCH0sYcfcdLsOkIbTsiKbgcSv2X1HVZO7uPGx+qfWZCx0U=\n=tZpe\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7dbee132ad7461e5423fea22986a951da1e87562\nparent 6cd33ba6eb94807a5cc984aa173a92fb252e77f6\nauthor David Schlosnagle <schlosna@gmail.com> 1665162152 -0400\ncommitter GitHub <noreply@github.com> 1665162152 -0700\n\ncheckerframework 3.26.0 (#671)\n\nUpdates NullAway to use recently released [checkerframework 3.26.0](https://github.com/typetools/checker-framework/releases/tag/checker-framework-3.26.0) to resolve ABI breaks in checkerframework.\r\n\r\nCloses https://github.com/uber/NullAway/issues/670\r\n\r\nCo-authored-by: Manu Sridharan <msridhar@gmail.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/8b7c174afd336307c261f5d1dd3cdf5751dbe8ed",
+    "html_url": "https://github.com/uber/NullAway/commit/8b7c174afd336307c261f5d1dd3cdf5751dbe8ed",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/8b7c174afd336307c261f5d1dd3cdf5751dbe8ed/comments",
+    "author": {
+      "login": "schlosna",
+      "id": 54594,
+      "node_id": "MDQ6VXNlcjU0NTk0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54594?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/schlosna",
+      "html_url": "https://github.com/schlosna",
+      "followers_url": "https://api.github.com/users/schlosna/followers",
+      "following_url": "https://api.github.com/users/schlosna/following{/other_user}",
+      "gists_url": "https://api.github.com/users/schlosna/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/schlosna/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/schlosna/subscriptions",
+      "organizations_url": "https://api.github.com/users/schlosna/orgs",
+      "repos_url": "https://api.github.com/users/schlosna/repos",
+      "events_url": "https://api.github.com/users/schlosna/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/schlosna/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6cd33ba6eb94807a5cc984aa173a92fb252e77f6",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/6cd33ba6eb94807a5cc984aa173a92fb252e77f6",
+        "html_url": "https://github.com/uber/NullAway/commit/6cd33ba6eb94807a5cc984aa173a92fb252e77f6"
+      }
+    ]
+  },
+  {
+    "sha": "6cd33ba6eb94807a5cc984aa173a92fb252e77f6",
+    "node_id": "C_kwDOBhZ_PdoAKDZjZDMzYmE2ZWI5NDgwN2E1Y2M5ODRhYTE3M2E5MmZiMjUyZTc3ZjY",
+    "commit": {
+      "author": {
+        "name": "Carter Kozak",
+        "email": "ckozak@ckozak.net",
+        "date": "2022-10-03T18:49:19Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-10-03T18:49:19Z"
+      },
+      "message": "PreconditionsHandler reflects Guava Preconditions exception types (#668)\n\nThis change does not impact CFG construction, since it already assumed that method calls (like the `Preconditions` calls) could throw any unchecked exception and built the CFG accordingly.  Still, it's good to more accurately model which exception type may be thrown by each `Preconditions` method.",
+      "tree": {
+        "sha": "3d02aca096b0285d201cac6ebceddfb0aa03247c",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/3d02aca096b0285d201cac6ebceddfb0aa03247c"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/6cd33ba6eb94807a5cc984aa173a92fb252e77f6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjOy6vCRBK7hj4Ov3rIwAAiLQIAJVBmX/rFYvD9kt8pGBOFE64\nrRCwH88jwL3SYVz5PAQipYB2IOr6uav1+OcYZO23QlsogckaowbAGoPd3kBkr+ln\n8kj29tqbr/uidju6zjgDc638EHANQIWW1qXzu5jbqz7cUaHRFaCqfRlvUSs97Uy7\nwWfwrExTMHI7rjaH1PbJJ5hMIAiqmBXARrJCjDtZPxrZIwgrRcqU+OFmROCiQIsN\nITklpF0OGZ/7W7oJWnWNyMAaD73b085WBD06KdgVluvefgx9so8nxifgzr2f2OxM\nsC/kgPv8W5iWqh/OOf5vFxayNMxb7/LTtkEzeSIrqTE9f1royZdOCsYKl8cNHqU=\n=ygKw\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 3d02aca096b0285d201cac6ebceddfb0aa03247c\nparent 92d94a7eabd2229a7be2be7ce5da2e3e56fa7df7\nauthor Carter Kozak <ckozak@ckozak.net> 1664822959 -0400\ncommitter GitHub <noreply@github.com> 1664822959 +0000\n\nPreconditionsHandler reflects Guava Preconditions exception types (#668)\n\nThis change does not impact CFG construction, since it already assumed that method calls (like the `Preconditions` calls) could throw any unchecked exception and built the CFG accordingly.  Still, it's good to more accurately model which exception type may be thrown by each `Preconditions` method."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/6cd33ba6eb94807a5cc984aa173a92fb252e77f6",
+    "html_url": "https://github.com/uber/NullAway/commit/6cd33ba6eb94807a5cc984aa173a92fb252e77f6",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/6cd33ba6eb94807a5cc984aa173a92fb252e77f6/comments",
+    "author": {
+      "login": "carterkozak",
+      "id": 3854321,
+      "node_id": "MDQ6VXNlcjM4NTQzMjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3854321?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carterkozak",
+      "html_url": "https://github.com/carterkozak",
+      "followers_url": "https://api.github.com/users/carterkozak/followers",
+      "following_url": "https://api.github.com/users/carterkozak/following{/other_user}",
+      "gists_url": "https://api.github.com/users/carterkozak/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/carterkozak/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carterkozak/subscriptions",
+      "organizations_url": "https://api.github.com/users/carterkozak/orgs",
+      "repos_url": "https://api.github.com/users/carterkozak/repos",
+      "events_url": "https://api.github.com/users/carterkozak/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/carterkozak/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "92d94a7eabd2229a7be2be7ce5da2e3e56fa7df7",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/92d94a7eabd2229a7be2be7ce5da2e3e56fa7df7",
+        "html_url": "https://github.com/uber/NullAway/commit/92d94a7eabd2229a7be2be7ce5da2e3e56fa7df7"
+      }
+    ]
+  },
+  {
+    "sha": "92d94a7eabd2229a7be2be7ce5da2e3e56fa7df7",
+    "node_id": "C_kwDOBhZ_PdoAKDkyZDk0YTdlYWJkMjIyOWE3YmUyYmU3Y2U1ZGEyZTNlNTZmYTdkZjc",
+    "commit": {
+      "author": {
+        "name": "Manu Sridharan",
+        "email": "msridhar@gmail.com",
+        "date": "2022-09-30T19:19:36Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-30T19:19:36Z"
+      },
+      "message": "Build and test against Error Prone 2.15.0 (#665)\n\nEP 2.15.0 has a check enabled by default that we want to disable (see https://github.com/google/error-prone/issues/3366).  We cannot just disable this check with the existing config, since it does not exist in version 2.10.0, the latest version that works with JDK 8.  Rather than adding conditional config around this one check, this PR disables compiling our code with Error Prone checks on JDK 8.  We still check all our code with Error Prone on JDK 11+, and we are still running our own tests on JDK 8 (for now; see #634).\r\n\r\nBeyond the config changes, no code changes were required.",
+      "tree": {
+        "sha": "ab1a87324a207d6f929a22fec0815601dc154386",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/ab1a87324a207d6f929a22fec0815601dc154386"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/92d94a7eabd2229a7be2be7ce5da2e3e56fa7df7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjN0FICRBK7hj4Ov3rIwAAsXUIAJKgDXwNmGIKzgCcc/HmWoVy\nlZAq+PpZFmUR8bjswunhW6sGLkXeGO6famU4i1a6xZKPzDq3LygcvRWIE1VT4yOi\nRsDcur0D4MMwSBpVMSe8JxRcHfKcW+ZE4gK1Nn7mDVVrAxuVD+tEwzHOyBCgzND+\naqVZE+luiM3CA9TDDheUyJ8doEaDBLCUhiUB225m2Dd2r75ca8MUiRkAkjHv2QSf\nvpmUj5JuBY0+hn8bcAc8j32V+rwpXqZqCI2yn4XXY1bfkNbrhoDBNGo1AQmyvODM\nQ6jrdz3OPSGkwNILbXaxeQi4EknNYfqS0QIgU5OrIawdhewWi6SacAemdYolJZ0=\n=/4vB\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ab1a87324a207d6f929a22fec0815601dc154386\nparent 75be904003b4f91764332a7ddab0193009ded2d6\nauthor Manu Sridharan <msridhar@gmail.com> 1664565576 -0700\ncommitter GitHub <noreply@github.com> 1664565576 -0700\n\nBuild and test against Error Prone 2.15.0 (#665)\n\nEP 2.15.0 has a check enabled by default that we want to disable (see https://github.com/google/error-prone/issues/3366).  We cannot just disable this check with the existing config, since it does not exist in version 2.10.0, the latest version that works with JDK 8.  Rather than adding conditional config around this one check, this PR disables compiling our code with Error Prone checks on JDK 8.  We still check all our code with Error Prone on JDK 11+, and we are still running our own tests on JDK 8 (for now; see #634).\r\n\r\nBeyond the config changes, no code changes were required."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/92d94a7eabd2229a7be2be7ce5da2e3e56fa7df7",
+    "html_url": "https://github.com/uber/NullAway/commit/92d94a7eabd2229a7be2be7ce5da2e3e56fa7df7",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/92d94a7eabd2229a7be2be7ce5da2e3e56fa7df7/comments",
+    "author": {
+      "login": "msridhar",
+      "id": 193105,
+      "node_id": "MDQ6VXNlcjE5MzEwNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193105?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msridhar",
+      "html_url": "https://github.com/msridhar",
+      "followers_url": "https://api.github.com/users/msridhar/followers",
+      "following_url": "https://api.github.com/users/msridhar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msridhar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msridhar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msridhar/subscriptions",
+      "organizations_url": "https://api.github.com/users/msridhar/orgs",
+      "repos_url": "https://api.github.com/users/msridhar/repos",
+      "events_url": "https://api.github.com/users/msridhar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msridhar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "75be904003b4f91764332a7ddab0193009ded2d6",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/75be904003b4f91764332a7ddab0193009ded2d6",
+        "html_url": "https://github.com/uber/NullAway/commit/75be904003b4f91764332a7ddab0193009ded2d6"
+      }
+    ]
+  },
+  {
+    "sha": "75be904003b4f91764332a7ddab0193009ded2d6",
+    "node_id": "C_kwDOBhZ_PdoAKDc1YmU5MDQwMDNiNGY5MTc2NDMzMmE3ZGRhYjAxOTMwMDlkZWQyZDY",
+    "commit": {
+      "author": {
+        "name": "Manu Sridharan",
+        "email": "msridhar@gmail.com",
+        "date": "2022-09-23T03:40:38Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-23T03:40:38Z"
+      },
+      "message": "Report an error when casting @Nullable expression to primitive type (#663)\n\nThis can cause an NPE due to unboxing.  Fixes #661",
+      "tree": {
+        "sha": "b677ab73e052d3eacaa839530ceb047e835e420a",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/b677ab73e052d3eacaa839530ceb047e835e420a"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/75be904003b4f91764332a7ddab0193009ded2d6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjLSq2CRBK7hj4Ov3rIwAAZKoIAB6UY1NqmCScXElaxObjeDU0\nNGRd93At0NJ6sQUaExmUoU5H8/U65vQmKF64b13MwEkiGGpp8z6X0XhEQ1924913\nx/lS4v+mHl0FwmpGTdodZ9ERKQetioADzn1QaL1d3CekWC78G3ubG4LjHnqMMWBQ\nL1Jm3sz9Qd4IayFwxNERjEl6hhiOWgi8a2yV/J1Nf77wqoEPUs9vcKqeQcRVptxd\nJz5Hdn6w4Y4oh4Gx5mM4pyohZspM4cF57aChzPuPjnhLLakMeqwNlGmsLjpjYt+L\nhTdR+iGRA8m03K4nZHEL/dpjL3JKxPOdGVyWuNXWzbzNkun7knLRv6/1w9iHTe0=\n=tCS8\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b677ab73e052d3eacaa839530ceb047e835e420a\nparent e3e93938517d9492cbf1b8ce403f2381311003ce\nauthor Manu Sridharan <msridhar@gmail.com> 1663904438 -0700\ncommitter GitHub <noreply@github.com> 1663904438 +0000\n\nReport an error when casting @Nullable expression to primitive type (#663)\n\nThis can cause an NPE due to unboxing.  Fixes #661 "
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/75be904003b4f91764332a7ddab0193009ded2d6",
+    "html_url": "https://github.com/uber/NullAway/commit/75be904003b4f91764332a7ddab0193009ded2d6",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/75be904003b4f91764332a7ddab0193009ded2d6/comments",
+    "author": {
+      "login": "msridhar",
+      "id": 193105,
+      "node_id": "MDQ6VXNlcjE5MzEwNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/193105?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msridhar",
+      "html_url": "https://github.com/msridhar",
+      "followers_url": "https://api.github.com/users/msridhar/followers",
+      "following_url": "https://api.github.com/users/msridhar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msridhar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msridhar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msridhar/subscriptions",
+      "organizations_url": "https://api.github.com/users/msridhar/orgs",
+      "repos_url": "https://api.github.com/users/msridhar/repos",
+      "events_url": "https://api.github.com/users/msridhar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msridhar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e3e93938517d9492cbf1b8ce403f2381311003ce",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/e3e93938517d9492cbf1b8ce403f2381311003ce",
+        "html_url": "https://github.com/uber/NullAway/commit/e3e93938517d9492cbf1b8ce403f2381311003ce"
+      }
+    ]
+  },
+  {
+    "sha": "e3e93938517d9492cbf1b8ce403f2381311003ce",
+    "node_id": "C_kwDOBhZ_PdoAKGUzZTkzOTM4NTE3ZDk0OTJjYmYxYjhjZTQwM2YyMzgxMzExMDAzY2U",
+    "commit": {
+      "author": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-09-21T00:57:34Z"
+      },
+      "committer": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-09-21T00:57:34Z"
+      },
+      "message": "Prepare next development version.",
+      "tree": {
+        "sha": "fe286037ca52532ce8515faf9abce111ec62102c",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/fe286037ca52532ce8515faf9abce111ec62102c"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/e3e93938517d9492cbf1b8ce403f2381311003ce",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/e3e93938517d9492cbf1b8ce403f2381311003ce",
+    "html_url": "https://github.com/uber/NullAway/commit/e3e93938517d9492cbf1b8ce403f2381311003ce",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/e3e93938517d9492cbf1b8ce403f2381311003ce/comments",
+    "author": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a05516263bd597fc29c29c7e72153bd4281382f6",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/a05516263bd597fc29c29c7e72153bd4281382f6",
+        "html_url": "https://github.com/uber/NullAway/commit/a05516263bd597fc29c29c7e72153bd4281382f6"
+      }
+    ]
+  },
+  {
+    "sha": "a05516263bd597fc29c29c7e72153bd4281382f6",
+    "node_id": "C_kwDOBhZ_PdoAKGEwNTUxNjI2M2JkNTk3ZmMyOWMyOWM3ZTcyMTUzYmQ0MjgxMzgyZjY",
+    "commit": {
+      "author": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-09-21T00:36:31Z"
+      },
+      "committer": {
+        "name": "Lazaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-09-21T00:36:31Z"
+      },
+      "message": "Prepare for release 0.10.2.",
+      "tree": {
+        "sha": "2e36d8b7c0df1fb37805ef530b1514e1f85dbecb",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/2e36d8b7c0df1fb37805ef530b1514e1f85dbecb"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/a05516263bd597fc29c29c7e72153bd4281382f6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/a05516263bd597fc29c29c7e72153bd4281382f6",
+    "html_url": "https://github.com/uber/NullAway/commit/a05516263bd597fc29c29c7e72153bd4281382f6",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/a05516263bd597fc29c29c7e72153bd4281382f6/comments",
+    "author": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1cd2d2803d72bd91038a3d91540cdabf2de8a8ce",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/1cd2d2803d72bd91038a3d91540cdabf2de8a8ce",
+        "html_url": "https://github.com/uber/NullAway/commit/1cd2d2803d72bd91038a3d91540cdabf2de8a8ce"
+      }
+    ]
+  },
+  {
+    "sha": "1cd2d2803d72bd91038a3d91540cdabf2de8a8ce",
+    "node_id": "C_kwDOBhZ_PdoAKDFjZDJkMjgwM2Q3MmJkOTEwMzhhM2Q5MTU0MGNkYWJmMmRlOGE4Y2U",
+    "commit": {
+      "author": {
+        "name": "Lázaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-09-14T00:00:36Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-14T00:00:36Z"
+      },
+      "message": "Prevent crash in fixserialization when ClassSymbol.sourcefile is null. (#656)\n\nIn general, neither `ClassSymbol.sourcefile` nor `ClassSymbol.classfile` are guaranteed to be non-null. This can lead to crashes when performing fixserialization, in particular when the symbol comes from a jar file.\r\n\r\nThis PR changes our logic to provide best effort file locations for code, checking first for `sourcefile`, then `classfile`, then defaulting to the string `\"null\"`. \r\n\r\nWe also add a test case to simulate the behavior of other build systems (namely buck) where `sourcefile` might be `null`. This requires adding significant new mockito magic to our tests, including `mockito-inline`.",
+      "tree": {
+        "sha": "c87c935df0ac3bb76b9b4f9df61f8f1696fa01ee",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/c87c935df0ac3bb76b9b4f9df61f8f1696fa01ee"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/1cd2d2803d72bd91038a3d91540cdabf2de8a8ce",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjIRmkCRBK7hj4Ov3rIwAAOOcIADwD0UL89zyYaezChZElt+ju\nOC/YAXIXvm4ZNay23RNdfSFzUusbz8Fwy6cHL0h8VOQV659W67huPs9OrxwtTU6W\nA6QmwnoFbhH2vZjZPJCrlkD8FoTNCHR6gDYy8FycCM08oRGAfpui9RGtP+znVkjT\n4mUaiJvmbmz2QHTVMlh+mKKfFNNmedmWegtVR/Dawn9usB1oPWV0fKEgGyP/Xsa1\n8kmsA8lD9uRkymX370HHsIrLX4VojukUTawmMYjd9Q7QkCSmvnIerDtP9crYjFu0\nzq+nvYUAamtXKQKfaGKhjGn/B07S+UFoCtBmMVLcmp7vaHCHSVHffrYo309OEKs=\n=zFUP\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c87c935df0ac3bb76b9b4f9df61f8f1696fa01ee\nparent a7ba27e1d2606bd007bea02b06eb733e284c3ecd\nauthor Lázaro Clapp <lazaro@uber.com> 1663113636 -0400\ncommitter GitHub <noreply@github.com> 1663113636 -0400\n\nPrevent crash in fixserialization when ClassSymbol.sourcefile is null. (#656)\n\nIn general, neither `ClassSymbol.sourcefile` nor `ClassSymbol.classfile` are guaranteed to be non-null. This can lead to crashes when performing fixserialization, in particular when the symbol comes from a jar file.\r\n\r\nThis PR changes our logic to provide best effort file locations for code, checking first for `sourcefile`, then `classfile`, then defaulting to the string `\"null\"`. \r\n\r\nWe also add a test case to simulate the behavior of other build systems (namely buck) where `sourcefile` might be `null`. This requires adding significant new mockito magic to our tests, including `mockito-inline`."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/1cd2d2803d72bd91038a3d91540cdabf2de8a8ce",
+    "html_url": "https://github.com/uber/NullAway/commit/1cd2d2803d72bd91038a3d91540cdabf2de8a8ce",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/1cd2d2803d72bd91038a3d91540cdabf2de8a8ce/comments",
+    "author": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a7ba27e1d2606bd007bea02b06eb733e284c3ecd",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/a7ba27e1d2606bd007bea02b06eb733e284c3ecd",
+        "html_url": "https://github.com/uber/NullAway/commit/a7ba27e1d2606bd007bea02b06eb733e284c3ecd"
+      }
+    ]
+  },
+  {
+    "sha": "a7ba27e1d2606bd007bea02b06eb733e284c3ecd",
+    "node_id": "C_kwDOBhZ_PdoAKGE3YmEyN2UxZDI2MDZiZDAwN2JlYTAyYjA2ZWI3MzNlMjg0YzNlY2Q",
+    "commit": {
+      "author": {
+        "name": "Lázaro Clapp",
+        "email": "lazaro@uber.com",
+        "date": "2022-09-13T18:30:39Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-13T18:30:39Z"
+      },
+      "message": "Make AbstractConfig collection fields explicity Immutable (#601)\n\nFollow up to #600. These values are already `ImmutableSet` at runtime \r\n(except one which was still used strictly as read-only). This change just\r\nmakes it explicit.",
+      "tree": {
+        "sha": "a26fe4f0c6bc8c9d16896d20c3c92b01770ec228",
+        "url": "https://api.github.com/repos/uber/NullAway/git/trees/a26fe4f0c6bc8c9d16896d20c3c92b01770ec228"
+      },
+      "url": "https://api.github.com/repos/uber/NullAway/git/commits/a7ba27e1d2606bd007bea02b06eb733e284c3ecd",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjIMxPCRBK7hj4Ov3rIwAASXYIAJ1/wTkwCWL5035Sm0kj5Ivq\nHzZFkNfePooeo66Rkx+uOlWvnDB70T9otqFxBcMdSyI8kEs0MfZjWmHsPZU08Tc5\nxqoM5tZmvqpAUWbHEsRSXFpzG9V58NK3DUlXm5dEXxf7MBzZ6mwu+Xd55R6HD4yg\nUBLg4qzspq0lwjYQa+HdrGSyBGaAmY+8ITn4pGF75FDC4xg8hhRgAsw6Wg5JFpIj\n5riF4ThkmHAvcje/tpWE7/VSWzFXGRXTCpAhcN2SXPtEHWsaE3EhiM4Fp1EvW3e0\nIcKm2f+VcJLekuN+2K9qOz49zcprLZPQDc6r/s3KJE2QR5TYqtZ6VOqU6f0WYXc=\n=AQpC\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a26fe4f0c6bc8c9d16896d20c3c92b01770ec228\nparent 4d854cb8ab6f467f7964fb45a9371e4820d09f02\nauthor Lázaro Clapp <lazaro@uber.com> 1663093839 -0400\ncommitter GitHub <noreply@github.com> 1663093839 -0400\n\nMake AbstractConfig collection fields explicity Immutable (#601)\n\nFollow up to #600. These values are already `ImmutableSet` at runtime \r\n(except one which was still used strictly as read-only). This change just\r\nmakes it explicit."
+      }
+    },
+    "url": "https://api.github.com/repos/uber/NullAway/commits/a7ba27e1d2606bd007bea02b06eb733e284c3ecd",
+    "html_url": "https://github.com/uber/NullAway/commit/a7ba27e1d2606bd007bea02b06eb733e284c3ecd",
+    "comments_url": "https://api.github.com/repos/uber/NullAway/commits/a7ba27e1d2606bd007bea02b06eb733e284c3ecd/comments",
+    "author": {
+      "login": "lazaroclapp",
+      "id": 999768,
+      "node_id": "MDQ6VXNlcjk5OTc2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/999768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lazaroclapp",
+      "html_url": "https://github.com/lazaroclapp",
+      "followers_url": "https://api.github.com/users/lazaroclapp/followers",
+      "following_url": "https://api.github.com/users/lazaroclapp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lazaroclapp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lazaroclapp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lazaroclapp/subscriptions",
+      "organizations_url": "https://api.github.com/users/lazaroclapp/orgs",
+      "repos_url": "https://api.github.com/users/lazaroclapp/repos",
+      "events_url": "https://api.github.com/users/lazaroclapp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lazaroclapp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4d854cb8ab6f467f7964fb45a9371e4820d09f02",
+        "url": "https://api.github.com/repos/uber/NullAway/commits/4d854cb8ab6f467f7964fb45a9371e4820d09f02",
+        "html_url": "https://github.com/uber/NullAway/commit/4d854cb8ab6f467f7964fb45a9371e4820d09f02"
+      }
+    ]
+  }
+]

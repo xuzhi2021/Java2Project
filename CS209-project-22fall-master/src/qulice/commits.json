@@ -1,0 +1,2417 @@
+[
+  {
+    "sha": "30283992e042384d0cda8267dc34687b768c7e08",
+    "node_id": "C_kwDOAJIuiNoAKDMwMjgzOTkyZTA0MjM4NGQwY2RhODI2N2RjMzQ2ODdiNzY4YzdlMDg",
+    "commit": {
+      "author": {
+        "name": "renovate[bot]",
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "date": "2022-11-20T21:20:34Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-11-20T21:20:34Z"
+      },
+      "message": "Update dependency org.slf4j:slf4j-log4j12 to v2.0.4",
+      "tree": {
+        "sha": "7755a8f88a5459c1990e6e8813e41031fce82e59",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/7755a8f88a5459c1990e6e8813e41031fce82e59"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/30283992e042384d0cda8267dc34687b768c7e08",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjepoiCRBK7hj4Ov3rIwAAjdYIACszDUmIScqBn/DpPVThQe6L\nfsL8/B9yzSiKx0s9y9KpuOpoExkGRGMfOUUt/0ia1eREmNQYYXkzIaSTwQ1b9qC6\nUTWHD22muvOUx6P3VfXyKrdQnm0xMsWx+EPEK30RMI1kF/+EEKmIcyoGQFhZktn/\nNGWF4ff3yeor7AXcd1ETZVNjkN38yFw/AP0RhyEeYeLLMPml0kVRmnvi4suUnaTa\nOeybHqDfRtrQ//NHTZ3U38GfrYTamiptLGvfPklNBcebsz1O+GV9s2zOXmwNXqS/\nsmI4seBFkGUzJBM/UJGhVdA+xkBdufNThqXdWpHhPFAMKcNhVqQiauW1tpHCbOM=\n=yxGX\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7755a8f88a5459c1990e6e8813e41031fce82e59\nparent f6cf34faabd7b0e24eb1947887b7b970ffa87ac5\nauthor renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 1668979234 +0000\ncommitter GitHub <noreply@github.com> 1668979234 +0000\n\nUpdate dependency org.slf4j:slf4j-log4j12 to v2.0.4"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/30283992e042384d0cda8267dc34687b768c7e08",
+    "html_url": "https://github.com/yegor256/qulice/commit/30283992e042384d0cda8267dc34687b768c7e08",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/30283992e042384d0cda8267dc34687b768c7e08/comments",
+    "author": {
+      "login": "renovate[bot]",
+      "id": 29139614,
+      "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renovate%5Bbot%5D",
+      "html_url": "https://github.com/apps/renovate",
+      "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f6cf34faabd7b0e24eb1947887b7b970ffa87ac5",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/f6cf34faabd7b0e24eb1947887b7b970ffa87ac5",
+        "html_url": "https://github.com/yegor256/qulice/commit/f6cf34faabd7b0e24eb1947887b7b970ffa87ac5"
+      }
+    ]
+  },
+  {
+    "sha": "f6cf34faabd7b0e24eb1947887b7b970ffa87ac5",
+    "node_id": "C_kwDOAJIuiNoAKGY2Y2YzNGZhYWJkN2IwZTI0ZWIxOTQ3ODg3YjdiOTcwZmZhODdhYzU",
+    "commit": {
+      "author": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-11-08T09:34:47Z"
+      },
+      "committer": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-11-08T09:34:47Z"
+      },
+      "message": "#1158 - reports on JUnit test classes declared non-final.",
+      "tree": {
+        "sha": "3e89d9bdb43f48c5f2f2ce88e5feeaff2f3ad813",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/3e89d9bdb43f48c5f2f2ce88e5feeaff2f3ad813"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/f6cf34faabd7b0e24eb1947887b7b970ffa87ac5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/f6cf34faabd7b0e24eb1947887b7b970ffa87ac5",
+    "html_url": "https://github.com/yegor256/qulice/commit/f6cf34faabd7b0e24eb1947887b7b970ffa87ac5",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/f6cf34faabd7b0e24eb1947887b7b970ffa87ac5/comments",
+    "author": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0f9e11a4afc81091540a9f0ecc2af7473d434a40",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/0f9e11a4afc81091540a9f0ecc2af7473d434a40",
+        "html_url": "https://github.com/yegor256/qulice/commit/0f9e11a4afc81091540a9f0ecc2af7473d434a40"
+      }
+    ]
+  },
+  {
+    "sha": "0f9e11a4afc81091540a9f0ecc2af7473d434a40",
+    "node_id": "C_kwDOAJIuiNoAKDBmOWUxMWE0YWZjODEwOTE1NDBhOWYwZWNjMmFmNzQ3M2Q0MzRhNDA",
+    "commit": {
+      "author": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-26T15:06:28Z"
+      },
+      "committer": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-26T15:06:28Z"
+      },
+      "message": "Merge branch '__rultor'",
+      "tree": {
+        "sha": "8ce6bc92db65e913032e14b63eb4edfc5d76d93b",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/8ce6bc92db65e913032e14b63eb4edfc5d76d93b"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/0f9e11a4afc81091540a9f0ecc2af7473d434a40",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/0f9e11a4afc81091540a9f0ecc2af7473d434a40",
+    "html_url": "https://github.com/yegor256/qulice/commit/0f9e11a4afc81091540a9f0ecc2af7473d434a40",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/0f9e11a4afc81091540a9f0ecc2af7473d434a40/comments",
+    "author": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "791b0496653adabc30aec01188e0bafc00e02763",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/791b0496653adabc30aec01188e0bafc00e02763",
+        "html_url": "https://github.com/yegor256/qulice/commit/791b0496653adabc30aec01188e0bafc00e02763"
+      },
+      {
+        "sha": "e4f6e098cf63053b637a3d6bac62d95e30aaa315",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/e4f6e098cf63053b637a3d6bac62d95e30aaa315",
+        "html_url": "https://github.com/yegor256/qulice/commit/e4f6e098cf63053b637a3d6bac62d95e30aaa315"
+      }
+    ]
+  },
+  {
+    "sha": "791b0496653adabc30aec01188e0bafc00e02763",
+    "node_id": "C_kwDOAJIuiNoAKDc5MWIwNDk2NjUzYWRhYmMzMGFlYzAxMTg4ZTBiYWZjMDBlMDI3NjM",
+    "commit": {
+      "author": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-26T14:29:47Z"
+      },
+      "committer": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-26T14:29:47Z"
+      },
+      "message": "Merge branch '__rultor'",
+      "tree": {
+        "sha": "55da685d1b10379ca0904f67fc3b4bcf8cf55451",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/55da685d1b10379ca0904f67fc3b4bcf8cf55451"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/791b0496653adabc30aec01188e0bafc00e02763",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/791b0496653adabc30aec01188e0bafc00e02763",
+    "html_url": "https://github.com/yegor256/qulice/commit/791b0496653adabc30aec01188e0bafc00e02763",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/791b0496653adabc30aec01188e0bafc00e02763/comments",
+    "author": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "361415a4895a76aabb29c015e6400ad554131c49",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/361415a4895a76aabb29c015e6400ad554131c49",
+        "html_url": "https://github.com/yegor256/qulice/commit/361415a4895a76aabb29c015e6400ad554131c49"
+      },
+      {
+        "sha": "e35df9cf22184b7900c23db95f644681e0d3fc90",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/e35df9cf22184b7900c23db95f644681e0d3fc90",
+        "html_url": "https://github.com/yegor256/qulice/commit/e35df9cf22184b7900c23db95f644681e0d3fc90"
+      }
+    ]
+  },
+  {
+    "sha": "361415a4895a76aabb29c015e6400ad554131c49",
+    "node_id": "C_kwDOAJIuiNoAKDM2MTQxNWE0ODk1YTc2YWFiYjI5YzAxNWU2NDAwYWQ1NTQxMzFjNDk",
+    "commit": {
+      "author": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:59:14Z"
+      },
+      "committer": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:59:14Z"
+      },
+      "message": "Merge branch '__rultor'",
+      "tree": {
+        "sha": "ab7d4fef5c36f20cc48577309034ee9af757afcb",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/ab7d4fef5c36f20cc48577309034ee9af757afcb"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/361415a4895a76aabb29c015e6400ad554131c49",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/361415a4895a76aabb29c015e6400ad554131c49",
+    "html_url": "https://github.com/yegor256/qulice/commit/361415a4895a76aabb29c015e6400ad554131c49",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/361415a4895a76aabb29c015e6400ad554131c49/comments",
+    "author": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "39106a7d51ee5cdf1898dfbf58d6c84866bc8ee9",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/39106a7d51ee5cdf1898dfbf58d6c84866bc8ee9",
+        "html_url": "https://github.com/yegor256/qulice/commit/39106a7d51ee5cdf1898dfbf58d6c84866bc8ee9"
+      },
+      {
+        "sha": "0f9af2e4a583bafe0868c8695b8ea7b64481768c",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/0f9af2e4a583bafe0868c8695b8ea7b64481768c",
+        "html_url": "https://github.com/yegor256/qulice/commit/0f9af2e4a583bafe0868c8695b8ea7b64481768c"
+      }
+    ]
+  },
+  {
+    "sha": "39106a7d51ee5cdf1898dfbf58d6c84866bc8ee9",
+    "node_id": "C_kwDOAJIuiNoAKDM5MTA2YTdkNTFlZTVjZGYxODk4ZGZiZjU4ZDZjODQ4NjZiYzhlZTk",
+    "commit": {
+      "author": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:47:39Z"
+      },
+      "committer": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:47:39Z"
+      },
+      "message": "Merge branch '__rultor'",
+      "tree": {
+        "sha": "c1e97dde4d944aa7778d0791bdbe873c9f6e30f4",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/c1e97dde4d944aa7778d0791bdbe873c9f6e30f4"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/39106a7d51ee5cdf1898dfbf58d6c84866bc8ee9",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/39106a7d51ee5cdf1898dfbf58d6c84866bc8ee9",
+    "html_url": "https://github.com/yegor256/qulice/commit/39106a7d51ee5cdf1898dfbf58d6c84866bc8ee9",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/39106a7d51ee5cdf1898dfbf58d6c84866bc8ee9/comments",
+    "author": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a590e1e70a9c8bcb7f2d5bc8105c1496d71be1a2",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/a590e1e70a9c8bcb7f2d5bc8105c1496d71be1a2",
+        "html_url": "https://github.com/yegor256/qulice/commit/a590e1e70a9c8bcb7f2d5bc8105c1496d71be1a2"
+      },
+      {
+        "sha": "afb700cd66603c2c9869311f57260138340500fb",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/afb700cd66603c2c9869311f57260138340500fb",
+        "html_url": "https://github.com/yegor256/qulice/commit/afb700cd66603c2c9869311f57260138340500fb"
+      }
+    ]
+  },
+  {
+    "sha": "a590e1e70a9c8bcb7f2d5bc8105c1496d71be1a2",
+    "node_id": "C_kwDOAJIuiNoAKGE1OTBlMWU3MGE5YzhiY2I3ZjJkNWJjODEwNWMxNDk2ZDcxYmUxYTI",
+    "commit": {
+      "author": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:36:38Z"
+      },
+      "committer": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:36:38Z"
+      },
+      "message": "Merge branch '__rultor'",
+      "tree": {
+        "sha": "af108a48a05ced230d2ada4457faa1274e2572ec",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/af108a48a05ced230d2ada4457faa1274e2572ec"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/a590e1e70a9c8bcb7f2d5bc8105c1496d71be1a2",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/a590e1e70a9c8bcb7f2d5bc8105c1496d71be1a2",
+    "html_url": "https://github.com/yegor256/qulice/commit/a590e1e70a9c8bcb7f2d5bc8105c1496d71be1a2",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/a590e1e70a9c8bcb7f2d5bc8105c1496d71be1a2/comments",
+    "author": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "751e20e4d3bda85a2a9f704b57f4422da26964e8",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/751e20e4d3bda85a2a9f704b57f4422da26964e8",
+        "html_url": "https://github.com/yegor256/qulice/commit/751e20e4d3bda85a2a9f704b57f4422da26964e8"
+      },
+      {
+        "sha": "ccb4993357d4f247de8eaf0dc7016edf6566e071",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/ccb4993357d4f247de8eaf0dc7016edf6566e071",
+        "html_url": "https://github.com/yegor256/qulice/commit/ccb4993357d4f247de8eaf0dc7016edf6566e071"
+      }
+    ]
+  },
+  {
+    "sha": "751e20e4d3bda85a2a9f704b57f4422da26964e8",
+    "node_id": "C_kwDOAJIuiNoAKDc1MWUyMGU0ZDNiZGE4NWEyYTlmNzA0YjU3ZjQ0MjJkYTI2OTY0ZTg",
+    "commit": {
+      "author": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:25:00Z"
+      },
+      "committer": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:25:00Z"
+      },
+      "message": "Merge branch '__rultor'",
+      "tree": {
+        "sha": "999440239d1ea8f9621f500f7c984276a9f17985",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/999440239d1ea8f9621f500f7c984276a9f17985"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/751e20e4d3bda85a2a9f704b57f4422da26964e8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/751e20e4d3bda85a2a9f704b57f4422da26964e8",
+    "html_url": "https://github.com/yegor256/qulice/commit/751e20e4d3bda85a2a9f704b57f4422da26964e8",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/751e20e4d3bda85a2a9f704b57f4422da26964e8/comments",
+    "author": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dfa093473f4bbb76d8bdf37e75c92dc263afa42f",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/dfa093473f4bbb76d8bdf37e75c92dc263afa42f",
+        "html_url": "https://github.com/yegor256/qulice/commit/dfa093473f4bbb76d8bdf37e75c92dc263afa42f"
+      },
+      {
+        "sha": "f9b50ab5abc72cbd3279cd7f2e407b648f92e1e6",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/f9b50ab5abc72cbd3279cd7f2e407b648f92e1e6",
+        "html_url": "https://github.com/yegor256/qulice/commit/f9b50ab5abc72cbd3279cd7f2e407b648f92e1e6"
+      }
+    ]
+  },
+  {
+    "sha": "dfa093473f4bbb76d8bdf37e75c92dc263afa42f",
+    "node_id": "C_kwDOAJIuiNoAKGRmYTA5MzQ3M2Y0YmJiNzZkOGJkZjM3ZTc1YzkyZGMyNjNhZmE0MmY",
+    "commit": {
+      "author": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:12:51Z"
+      },
+      "committer": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:12:51Z"
+      },
+      "message": "Merge branch '__rultor'",
+      "tree": {
+        "sha": "aa7b5912052718802083f99c374c6b4e0091d4a6",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/aa7b5912052718802083f99c374c6b4e0091d4a6"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/dfa093473f4bbb76d8bdf37e75c92dc263afa42f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/dfa093473f4bbb76d8bdf37e75c92dc263afa42f",
+    "html_url": "https://github.com/yegor256/qulice/commit/dfa093473f4bbb76d8bdf37e75c92dc263afa42f",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/dfa093473f4bbb76d8bdf37e75c92dc263afa42f/comments",
+    "author": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8feecfae3f128fe558753bbda8b370b02c0c4da8",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/8feecfae3f128fe558753bbda8b370b02c0c4da8",
+        "html_url": "https://github.com/yegor256/qulice/commit/8feecfae3f128fe558753bbda8b370b02c0c4da8"
+      },
+      {
+        "sha": "4b066c6da2b7c0f9b15114280c873ca60139741d",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/4b066c6da2b7c0f9b15114280c873ca60139741d",
+        "html_url": "https://github.com/yegor256/qulice/commit/4b066c6da2b7c0f9b15114280c873ca60139741d"
+      }
+    ]
+  },
+  {
+    "sha": "ccb4993357d4f247de8eaf0dc7016edf6566e071",
+    "node_id": "C_kwDOAJIuiNoAKGNjYjQ5OTMzNTdkNGYyNDdkZThlYWYwZGM3MDE2ZWRmNjU2NmUwNzE",
+    "commit": {
+      "author": {
+        "name": "renovate[bot]",
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "date": "2022-10-25T18:09:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-10-25T18:09:44Z"
+      },
+      "message": "Update dependency org.apache.maven.plugins:maven-plugin-plugin to v3.6.4",
+      "tree": {
+        "sha": "fccba16ce2defb7929f43446edda745def347b1e",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/fccba16ce2defb7929f43446edda745def347b1e"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/ccb4993357d4f247de8eaf0dc7016edf6566e071",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWCZoCRBK7hj4Ov3rIwAA9G4IAHDwyDo6ayAzcpsc2n3t+0xE\ndc6DktYa5FjHenD7ANxcA+UcoxJ9HxtR5QGqEomxv6GoOe/CzOckRqbSwFm0zzyy\n668zeue+W2x2U0SqBz7mnGX0MbYhV7Sdg310JCDawO3YEUJleQsJW07IhJuSHCEt\n2VscDhOJpShFF1FhETfZKvXzUvsu4Qm60Cy+PQqT40ZvJRDhO3ZBDXHrhwQthDcT\n50c8ZFe5zbIVVnAQjYXyj//zlr6lULpOUjd7deXS/RaS65tD/0R4D8XSa/h+wupD\narLvZ0hEZWJJpkAZhNfRpx/E5hrCXvVEYOlpSNxZB2MiOAC4w8wlXTHAqK5Svzw=\n=zQ/b\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fccba16ce2defb7929f43446edda745def347b1e\nparent 8feecfae3f128fe558753bbda8b370b02c0c4da8\nauthor renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 1666721384 +0000\ncommitter GitHub <noreply@github.com> 1666721384 +0000\n\nUpdate dependency org.apache.maven.plugins:maven-plugin-plugin to v3.6.4"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/ccb4993357d4f247de8eaf0dc7016edf6566e071",
+    "html_url": "https://github.com/yegor256/qulice/commit/ccb4993357d4f247de8eaf0dc7016edf6566e071",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/ccb4993357d4f247de8eaf0dc7016edf6566e071/comments",
+    "author": {
+      "login": "renovate[bot]",
+      "id": 29139614,
+      "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renovate%5Bbot%5D",
+      "html_url": "https://github.com/apps/renovate",
+      "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8feecfae3f128fe558753bbda8b370b02c0c4da8",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/8feecfae3f128fe558753bbda8b370b02c0c4da8",
+        "html_url": "https://github.com/yegor256/qulice/commit/8feecfae3f128fe558753bbda8b370b02c0c4da8"
+      }
+    ]
+  },
+  {
+    "sha": "8feecfae3f128fe558753bbda8b370b02c0c4da8",
+    "node_id": "C_kwDOAJIuiNoAKDhmZWVjZmFlM2YxMjhmZTU1ODc1M2JiZGE4YjM3MGIwMmMwYzRkYTg",
+    "commit": {
+      "author": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:01:39Z"
+      },
+      "committer": {
+        "name": "rultor",
+        "email": "me@rultor.com",
+        "date": "2022-10-25T18:01:39Z"
+      },
+      "message": "Merge branch '__rultor'",
+      "tree": {
+        "sha": "100202e8583acfce3ccc82c74beca9c854700921",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/100202e8583acfce3ccc82c74beca9c854700921"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/8feecfae3f128fe558753bbda8b370b02c0c4da8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/8feecfae3f128fe558753bbda8b370b02c0c4da8",
+    "html_url": "https://github.com/yegor256/qulice/commit/8feecfae3f128fe558753bbda8b370b02c0c4da8",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/8feecfae3f128fe558753bbda8b370b02c0c4da8/comments",
+    "author": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rultor",
+      "id": 8086956,
+      "node_id": "MDQ6VXNlcjgwODY5NTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8086956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rultor",
+      "html_url": "https://github.com/rultor",
+      "followers_url": "https://api.github.com/users/rultor/followers",
+      "following_url": "https://api.github.com/users/rultor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rultor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rultor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rultor/subscriptions",
+      "organizations_url": "https://api.github.com/users/rultor/orgs",
+      "repos_url": "https://api.github.com/users/rultor/repos",
+      "events_url": "https://api.github.com/users/rultor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rultor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "13de76a073283507cddd39fe7d2f8b3560470adc",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/13de76a073283507cddd39fe7d2f8b3560470adc",
+        "html_url": "https://github.com/yegor256/qulice/commit/13de76a073283507cddd39fe7d2f8b3560470adc"
+      },
+      {
+        "sha": "f7b84e90782b70d5c95c4b146f2a7b56e48e1c48",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/f7b84e90782b70d5c95c4b146f2a7b56e48e1c48",
+        "html_url": "https://github.com/yegor256/qulice/commit/f7b84e90782b70d5c95c4b146f2a7b56e48e1c48"
+      }
+    ]
+  },
+  {
+    "sha": "e35df9cf22184b7900c23db95f644681e0d3fc90",
+    "node_id": "C_kwDOAJIuiNoAKGUzNWRmOWNmMjIxODRiNzkwMGMyM2RiOTVmNjQ0NjgxZTBkM2ZjOTA",
+    "commit": {
+      "author": {
+        "name": "dependabot[bot]",
+        "email": "49699333+dependabot[bot]@users.noreply.github.com",
+        "date": "2022-10-25T17:57:39Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-10-25T17:57:39Z"
+      },
+      "message": "Bump hibernate-validator in /qulice-maven-plugin\n\nBumps hibernate-validator from 5.0.0.Final to 6.0.23.Final.\n\n---\nupdated-dependencies:\n- dependency-name: org.hibernate:hibernate-validator\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+      "tree": {
+        "sha": "8997e4768470e73c67ee11e31176e48eaad872ef",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/8997e4768470e73c67ee11e31176e48eaad872ef"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/e35df9cf22184b7900c23db95f644681e0d3fc90",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjWCOTCRBK7hj4Ov3rIwAAFFUIAHOeHed2T99jejgBpiWjsuBy\ngNyoBVJS+WpllZmjib8JeMyFUUC60RX0FQUYe12g1oXfJGteoR8jfwB0pU3UX7RR\nV/kXFFKSCSsSjZYvwEtH0viRvkpuR+NWU3VDaUiUJ//gxOOW1lC0tJV0lGHdzWBT\nnKl4xPqt3371kj3/vdoComye6XjiyjRlVzjvcDROy4YObirffwha1vg61A2fmwj6\nXFWdFKHdVfLvi1osuh1NaKkn6JRYR9FH4zYMxmEVUtK+zpqYi7DHF9H6tBXnH4qF\nqsqfEg75R7oKE0C4wbwU79v2R1HlKUhkZfSdGk59o29liTANWC1MKjC9H+D6cBA=\n=/dv8\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 8997e4768470e73c67ee11e31176e48eaad872ef\nparent 13de76a073283507cddd39fe7d2f8b3560470adc\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1666720659 +0000\ncommitter GitHub <noreply@github.com> 1666720659 +0000\n\nBump hibernate-validator in /qulice-maven-plugin\n\nBumps hibernate-validator from 5.0.0.Final to 6.0.23.Final.\n\n---\nupdated-dependencies:\n- dependency-name: org.hibernate:hibernate-validator\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/e35df9cf22184b7900c23db95f644681e0d3fc90",
+    "html_url": "https://github.com/yegor256/qulice/commit/e35df9cf22184b7900c23db95f644681e0d3fc90",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/e35df9cf22184b7900c23db95f644681e0d3fc90/comments",
+    "author": {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "13de76a073283507cddd39fe7d2f8b3560470adc",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/13de76a073283507cddd39fe7d2f8b3560470adc",
+        "html_url": "https://github.com/yegor256/qulice/commit/13de76a073283507cddd39fe7d2f8b3560470adc"
+      }
+    ]
+  },
+  {
+    "sha": "f7b84e90782b70d5c95c4b146f2a7b56e48e1c48",
+    "node_id": "C_kwDOAJIuiNoAKGY3Yjg0ZTkwNzgyYjcwZDVjOTVjNGIxNDZmMmE3YjU2ZTQ4ZTFjNDg",
+    "commit": {
+      "author": {
+        "name": "renovate[bot]",
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "date": "2022-09-29T12:57:15Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-29T12:57:15Z"
+      },
+      "message": "Update dependency com.jcabi:jcabi-maven-slf4j to v0.12.2",
+      "tree": {
+        "sha": "04aa79b65bc3f42fa21a3e0c175ae179e8547c2a",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/04aa79b65bc3f42fa21a3e0c175ae179e8547c2a"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/f7b84e90782b70d5c95c4b146f2a7b56e48e1c48",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjNZYrCRBK7hj4Ov3rIwAAZu8IAFFakm4fCTveAnIu/yUlVbVp\nFIs0cTr1LwPKpB18nQ6QJOOqu63uRudzDk3QyIhLKkCjnNtQSyVS32lFTLfBzqxn\njaaUB/GwRklgz9M6IlNGTOCuBXEN+Q41jZPW9nG+glQN7rWdVq+58cJsLsWWR7x2\nBFcZxXtGrDfcX+ac9lmYMaJNa28mig/lUYKvLeTeDyaxPLH6U+fOfgrmnpoKhUlP\n98k/5naFRPtJ+3ZZyPIZel9VXuAwJJBjW6OJKDPCaWsXfHluq3S5qRrKgjE2+NNe\nzhl/3N1qhYYTlvNeXas9sWyptMSBW3dQr6i7FvuRfYWL95mOiMPPa4IkTsoWjKs=\n=XMDq\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 04aa79b65bc3f42fa21a3e0c175ae179e8547c2a\nparent ef67bf26471ecbf0a35b68861eb803644adc49c6\nauthor renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 1664456235 +0000\ncommitter GitHub <noreply@github.com> 1664456235 +0000\n\nUpdate dependency com.jcabi:jcabi-maven-slf4j to v0.12.2"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/f7b84e90782b70d5c95c4b146f2a7b56e48e1c48",
+    "html_url": "https://github.com/yegor256/qulice/commit/f7b84e90782b70d5c95c4b146f2a7b56e48e1c48",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/f7b84e90782b70d5c95c4b146f2a7b56e48e1c48/comments",
+    "author": {
+      "login": "renovate[bot]",
+      "id": 29139614,
+      "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renovate%5Bbot%5D",
+      "html_url": "https://github.com/apps/renovate",
+      "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "html_url": "https://github.com/yegor256/qulice/commit/ef67bf26471ecbf0a35b68861eb803644adc49c6"
+      }
+    ]
+  },
+  {
+    "sha": "e4f6e098cf63053b637a3d6bac62d95e30aaa315",
+    "node_id": "C_kwDOAJIuiNoAKGU0ZjZlMDk4Y2Y2MzA1M2I2MzdhM2Q2YmFjNjJkOTVlMzBhYWEzMTU",
+    "commit": {
+      "author": {
+        "name": "renovate[bot]",
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "date": "2022-09-29T09:23:53Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-29T09:23:53Z"
+      },
+      "message": "Update dependency com.jcabi:jcabi-matchers to v1.6.0",
+      "tree": {
+        "sha": "82487715b8ffbfb4475b38d467cbd2309fbc85f7",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/82487715b8ffbfb4475b38d467cbd2309fbc85f7"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/e4f6e098cf63053b637a3d6bac62d95e30aaa315",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjNWQpCRBK7hj4Ov3rIwAAKhQIADt9ouPH5ghrk0n3xIb2Czzp\naNRaWUYkIUEj/fjU6IA+MlEVNzV4qhLzId42O6D+ynJdwfhdhcjaHQBFhdeGjQYh\nnvxHJubCXNEA7yxBcDDRf6sFBzcGt51jBvOZaRnXELPljjbfXCQYnOXQ3j+ZFEc6\nKuTGx/BAbHEVVhBvCcmUtZ0f1pt0q/oZHdOUsSxAOPjWnWWLzUgheXpiafvKB3j4\nnClrGpmW5U+LwOCDpRxe3hreLF8DIyOht4Zv4i4D7qx0c9B8XDAbspM0X/dIAm8g\nLrj9kZUlGpiv4+5L+/qROGTLOPGtFGYxavDTa7TRrWouOGTrpqBhTr1MJqklawk=\n=VVyY\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 82487715b8ffbfb4475b38d467cbd2309fbc85f7\nparent ef67bf26471ecbf0a35b68861eb803644adc49c6\nauthor renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 1664443433 +0000\ncommitter GitHub <noreply@github.com> 1664443433 +0000\n\nUpdate dependency com.jcabi:jcabi-matchers to v1.6.0"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/e4f6e098cf63053b637a3d6bac62d95e30aaa315",
+    "html_url": "https://github.com/yegor256/qulice/commit/e4f6e098cf63053b637a3d6bac62d95e30aaa315",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/e4f6e098cf63053b637a3d6bac62d95e30aaa315/comments",
+    "author": {
+      "login": "renovate[bot]",
+      "id": 29139614,
+      "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renovate%5Bbot%5D",
+      "html_url": "https://github.com/apps/renovate",
+      "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "html_url": "https://github.com/yegor256/qulice/commit/ef67bf26471ecbf0a35b68861eb803644adc49c6"
+      }
+    ]
+  },
+  {
+    "sha": "0f9af2e4a583bafe0868c8695b8ea7b64481768c",
+    "node_id": "C_kwDOAJIuiNoAKDBmOWFmMmU0YTU4M2JhZmUwODY4Yzg2OTViOGVhN2I2NDQ4MTc2OGM",
+    "commit": {
+      "author": {
+        "name": "renovate[bot]",
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "date": "2022-09-29T09:23:48Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-29T09:23:48Z"
+      },
+      "message": "Update dependency com.jcabi:jcabi-log to v0.22.0",
+      "tree": {
+        "sha": "47b9ba3597820b5e9b96b1e1c1467756d38075bd",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/47b9ba3597820b5e9b96b1e1c1467756d38075bd"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/0f9af2e4a583bafe0868c8695b8ea7b64481768c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjNWQkCRBK7hj4Ov3rIwAAsS4IAK/I5SG3gadflJvIN2i2anuk\nB/ouQ5XBlzUwQaV194xvQ7NuO8k7/edDEH9Nb+g1jVp+/ozENRp6x8dGZI6uGeWP\nxYFfyV3CuPHAzo6wuZfsHmMsAI/xNqsy9M6704BvlZozCyag++MpJ9rdcmFIghwT\n8RcViYoBapUXk4oMrmPtxautuF95hcQZamxyed2pCZy1BL+pJpG9IMDmOD8/J0pm\nQWwXbcHpYv9T5lFtGpFdymZgdqy2Xc1IK2QIMArxNP6dgcq8Oo5VljJoWMlkG4kM\nnqSbm2aOxs6yGU1JVOHLYJBsHj3NotBGIsE2q+L0OonsLYV5NYr4eOIvKlYMyMM=\n=xMX5\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 47b9ba3597820b5e9b96b1e1c1467756d38075bd\nparent ef67bf26471ecbf0a35b68861eb803644adc49c6\nauthor renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 1664443428 +0000\ncommitter GitHub <noreply@github.com> 1664443428 +0000\n\nUpdate dependency com.jcabi:jcabi-log to v0.22.0"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/0f9af2e4a583bafe0868c8695b8ea7b64481768c",
+    "html_url": "https://github.com/yegor256/qulice/commit/0f9af2e4a583bafe0868c8695b8ea7b64481768c",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/0f9af2e4a583bafe0868c8695b8ea7b64481768c/comments",
+    "author": {
+      "login": "renovate[bot]",
+      "id": 29139614,
+      "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renovate%5Bbot%5D",
+      "html_url": "https://github.com/apps/renovate",
+      "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "html_url": "https://github.com/yegor256/qulice/commit/ef67bf26471ecbf0a35b68861eb803644adc49c6"
+      }
+    ]
+  },
+  {
+    "sha": "afb700cd66603c2c9869311f57260138340500fb",
+    "node_id": "C_kwDOAJIuiNoAKGFmYjcwMGNkNjY2MDNjMmM5ODY5MzExZjU3MjYwMTM4MzQwNTAwZmI",
+    "commit": {
+      "author": {
+        "name": "renovate[bot]",
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "date": "2022-09-29T06:13:50Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-29T06:13:50Z"
+      },
+      "message": "Update dependency org.hibernate.javax.persistence:hibernate-jpa-2.1-api to v1.0.2.Final",
+      "tree": {
+        "sha": "648488acaba8e81dff94208873fe05bf4d7a4c29",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/648488acaba8e81dff94208873fe05bf4d7a4c29"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/afb700cd66603c2c9869311f57260138340500fb",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjNTeeCRBK7hj4Ov3rIwAAO0YIAG0sn45e9IMIiLLFF7pBYM5A\nO/NE+ig8t/D7RmWa+bcLTX93G/cCUXK8lv/869fPdqpPflWkXFNwoseNcBxMBxxK\n8DYFc8SicRiuJtZ6P1AWFvMHyy6okZoEspe4wRqnw1RjWNWptHnAu+nNKWINO407\n5YSP4+brDaqtSmnQveEQX89YR7coLzsrbLfvPpDdSBAn0BH7bSMaUmBuwDzgrOxw\nyCv9XtoIXj/EFVOSA4PFMm42xtaZW8MXL6rX/bcr2FT40ajhzlp3+NHkuXlKnRHt\nA9P8oNPLXav2OZrJw9eRiRyxXp99DeNBQp9wcEmvtO3EwEYc0zDLe37emEym8tM=\n=j5l/\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 648488acaba8e81dff94208873fe05bf4d7a4c29\nparent ef67bf26471ecbf0a35b68861eb803644adc49c6\nauthor renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 1664432030 +0000\ncommitter GitHub <noreply@github.com> 1664432030 +0000\n\nUpdate dependency org.hibernate.javax.persistence:hibernate-jpa-2.1-api to v1.0.2.Final"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/afb700cd66603c2c9869311f57260138340500fb",
+    "html_url": "https://github.com/yegor256/qulice/commit/afb700cd66603c2c9869311f57260138340500fb",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/afb700cd66603c2c9869311f57260138340500fb/comments",
+    "author": {
+      "login": "renovate[bot]",
+      "id": 29139614,
+      "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renovate%5Bbot%5D",
+      "html_url": "https://github.com/apps/renovate",
+      "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "html_url": "https://github.com/yegor256/qulice/commit/ef67bf26471ecbf0a35b68861eb803644adc49c6"
+      }
+    ]
+  },
+  {
+    "sha": "f9b50ab5abc72cbd3279cd7f2e407b648f92e1e6",
+    "node_id": "C_kwDOAJIuiNoAKGY5YjUwYWI1YWJjNzJjYmQzMjc5Y2Q3ZjJlNDA3YjY0OGY5MmUxZTY",
+    "commit": {
+      "author": {
+        "name": "renovate[bot]",
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "date": "2022-09-29T04:00:24Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-29T04:00:24Z"
+      },
+      "message": "Update dependency org.apache.ant:ant to v1.10.12",
+      "tree": {
+        "sha": "5dd2cd35c25cf59512fa3fd8f8a908fd420ceb40",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/5dd2cd35c25cf59512fa3fd8f8a908fd420ceb40"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/f9b50ab5abc72cbd3279cd7f2e407b648f92e1e6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjNRhYCRBK7hj4Ov3rIwAAlUwIAClAZ7niZEx0BTgSrzPc4AIP\nngiPFp5raDG8xV4sMtSLBmBzQxxEFsfWs9R7lPttbBNvS3i6pZlC+07d0lLoZXth\nAyc5TSFYESPv/Dnw3xreiYW3wpbCH0yyry1DwtwYIuaUS6D9KA2kIlLTMDaaX9Dg\nNlyE/njcrBvL2aHUS6aCMw0vYN2C1MJzRBc9AcQPVMdISA8NMrOgCOIxhkfs9iFB\nu7NDxDBKk1kGOiSmbgaWOJ+uvsiBMccmuwlEfno+f9Rr723fpL+CB1OESVdZfR7B\ndLibcCJrmeTr2khjXvgtl34iEKDp5yXsm6PVHLptXsjUqc2r3Xo5kHy9j+TpBP8=\n=chlt\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 5dd2cd35c25cf59512fa3fd8f8a908fd420ceb40\nparent ef67bf26471ecbf0a35b68861eb803644adc49c6\nauthor renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 1664424024 +0000\ncommitter GitHub <noreply@github.com> 1664424024 +0000\n\nUpdate dependency org.apache.ant:ant to v1.10.12"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/f9b50ab5abc72cbd3279cd7f2e407b648f92e1e6",
+    "html_url": "https://github.com/yegor256/qulice/commit/f9b50ab5abc72cbd3279cd7f2e407b648f92e1e6",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/f9b50ab5abc72cbd3279cd7f2e407b648f92e1e6/comments",
+    "author": {
+      "login": "renovate[bot]",
+      "id": 29139614,
+      "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renovate%5Bbot%5D",
+      "html_url": "https://github.com/apps/renovate",
+      "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "html_url": "https://github.com/yegor256/qulice/commit/ef67bf26471ecbf0a35b68861eb803644adc49c6"
+      }
+    ]
+  },
+  {
+    "sha": "13de76a073283507cddd39fe7d2f8b3560470adc",
+    "node_id": "C_kwDOAJIuiNoAKDEzZGU3NmEwNzMyODM1MDdjZGRkMzlmZTdkMmY4YjM1NjA0NzBhZGM",
+    "commit": {
+      "author": {
+        "name": "renovate[bot]",
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "date": "2022-09-29T03:59:45Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-29T03:59:45Z"
+      },
+      "message": "Update dependency junit:junit to v4.13.2",
+      "tree": {
+        "sha": "edc2c0e08c49185390d82399cd11431a3d26ac89",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/edc2c0e08c49185390d82399cd11431a3d26ac89"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/13de76a073283507cddd39fe7d2f8b3560470adc",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjNRgxCRBK7hj4Ov3rIwAAwxEIAJ/UzSltkdI6ama2v0f9tU9p\nC5AD5eJUqcxhJZrWKiQvUy27elXp7WJL52N45BdtX8xnhgjVVxska+a0t3wcH4Ia\ngZB6iRKb+hEJIJfB+HK3ptalqRH7Hg1+4gD7O/Tgh6+e+UqM9UTUAjbri3HTpzxF\nI9ruDKD40G+BxiH/82Ap3GIGZ8k/ZydO6a15doWIt2s7/jeEgznqWwzNEOys39M8\n8oBEjv4HxJTO73eTtAn0fncgYduTLg6yGmXSYscWnEdip1dbklTpf/PUMpI1oTmq\nsnNr4hvuyE6d47i1TnVQsL2A2mEaks5T2QVsXIp8+KlBbsPiTVR5n3eZ4qIdlZI=\n=CMXa\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree edc2c0e08c49185390d82399cd11431a3d26ac89\nparent ef67bf26471ecbf0a35b68861eb803644adc49c6\nauthor renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 1664423985 +0000\ncommitter GitHub <noreply@github.com> 1664423985 +0000\n\nUpdate dependency junit:junit to v4.13.2"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/13de76a073283507cddd39fe7d2f8b3560470adc",
+    "html_url": "https://github.com/yegor256/qulice/commit/13de76a073283507cddd39fe7d2f8b3560470adc",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/13de76a073283507cddd39fe7d2f8b3560470adc/comments",
+    "author": {
+      "login": "renovate[bot]",
+      "id": 29139614,
+      "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renovate%5Bbot%5D",
+      "html_url": "https://github.com/apps/renovate",
+      "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "html_url": "https://github.com/yegor256/qulice/commit/ef67bf26471ecbf0a35b68861eb803644adc49c6"
+      }
+    ]
+  },
+  {
+    "sha": "4b066c6da2b7c0f9b15114280c873ca60139741d",
+    "node_id": "C_kwDOAJIuiNoAKDRiMDY2YzZkYTJiN2MwZjliMTUxMTQyODBjODczY2E2MDEzOTc0MWQ",
+    "commit": {
+      "author": {
+        "name": "renovate[bot]",
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "date": "2022-09-29T03:59:40Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-29T03:59:40Z"
+      },
+      "message": "Update dependency javax.xml:jaxb-api to v2.0EA3",
+      "tree": {
+        "sha": "78b4a16dae1c0413a05a225bca771ea693f0b851",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/78b4a16dae1c0413a05a225bca771ea693f0b851"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/4b066c6da2b7c0f9b15114280c873ca60139741d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjNRgsCRBK7hj4Ov3rIwAAoogIAKuWLG/g3nsYTybdCKm7fEII\nfHUQSroy2WRRn76f+xL+4ilXJuAUs0nIOg8m/A4xzHOxj8RmqWKc0vdonSse8CHG\npmMPbYG+IxzhSoCZ59cDM11xhcq+jlXHd7lGbD83E3yVI0Lye26g7Uf5RhBGKfIM\nxDleZOWzPJwz+esua84bofI3toficLA7vJOZW5gP8A280jGlAUFKoLJBh01ngQZD\noQu7aTRGiE2isgQ0UIQi6Ez7ly/W/kwLjCjsOClV+nwuiLwD2WSUMfwHtZi5sIR+\nYkv081MgIR+KFs1u9dJAZWpFjJAmpQBZ9xWE31xUyz3YrEw2ETPwoBXZx/T2cLI=\n=PcPe\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 78b4a16dae1c0413a05a225bca771ea693f0b851\nparent ef67bf26471ecbf0a35b68861eb803644adc49c6\nauthor renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 1664423980 +0000\ncommitter GitHub <noreply@github.com> 1664423980 +0000\n\nUpdate dependency javax.xml:jaxb-api to v2.0EA3"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/4b066c6da2b7c0f9b15114280c873ca60139741d",
+    "html_url": "https://github.com/yegor256/qulice/commit/4b066c6da2b7c0f9b15114280c873ca60139741d",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/4b066c6da2b7c0f9b15114280c873ca60139741d/comments",
+    "author": {
+      "login": "renovate[bot]",
+      "id": 29139614,
+      "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renovate%5Bbot%5D",
+      "html_url": "https://github.com/apps/renovate",
+      "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/ef67bf26471ecbf0a35b68861eb803644adc49c6",
+        "html_url": "https://github.com/yegor256/qulice/commit/ef67bf26471ecbf0a35b68861eb803644adc49c6"
+      }
+    ]
+  },
+  {
+    "sha": "ef67bf26471ecbf0a35b68861eb803644adc49c6",
+    "node_id": "C_kwDOAJIuiNoAKGVmNjdiZjI2NDcxZWNiZjBhMzViNjg4NjFlYjgwMzY0NGFkYzQ5YzY",
+    "commit": {
+      "author": {
+        "name": "Yegor Bugayenko",
+        "email": "yegor256@gmail.com",
+        "date": "2022-09-29T03:59:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-29T03:59:04Z"
+      },
+      "message": "Merge pull request #1133 from yegor256/renovate/configure\n\nConfigure Renovate",
+      "tree": {
+        "sha": "7dd2b973176dbde0e833b3186fc99e5c0df1a71c",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/7dd2b973176dbde0e833b3186fc99e5c0df1a71c"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/ef67bf26471ecbf0a35b68861eb803644adc49c6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjNRgICRBK7hj4Ov3rIwAAG0YIAD5gecWmX3knYZlJO+vMPKSN\nK876h+vn8PWczDauFzSh7rw/2R20r/LIKVjs7UXulAQWcrAw7M41wt6+deSMYdMm\nTrPeJHn+n/kddSLNExHAzlDUmEFQGLqOfbc0TyqJYwMA3Av/8KaQIAAROZNDyGXt\nMLg08mYEHjSXwvqGmnsUTuR4IxN/dCbFzPw37vTrMfqZNxyPultAFZ9U91R7mXY+\n7KlMPSXjtn7uvwl0bc2cXTmrce7MN3hQsD0Rcp3lFvyaMZ3b409sIXKjFpTkHK1O\nTpgBBPU3++LwjOPPY87nrzvuuq9KpnWflumrJBBTGccL8V0d2jbGv+8xJdZlgYo=\n=cuvB\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7dd2b973176dbde0e833b3186fc99e5c0df1a71c\nparent cf28838bbd46d71ecbe7d2db2454542f94fe6aa8\nparent c1242834d4c07d24a441fc3331e191812e22715b\nauthor Yegor Bugayenko <yegor256@gmail.com> 1664423944 +0300\ncommitter GitHub <noreply@github.com> 1664423944 +0300\n\nMerge pull request #1133 from yegor256/renovate/configure\n\nConfigure Renovate"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/ef67bf26471ecbf0a35b68861eb803644adc49c6",
+    "html_url": "https://github.com/yegor256/qulice/commit/ef67bf26471ecbf0a35b68861eb803644adc49c6",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/ef67bf26471ecbf0a35b68861eb803644adc49c6/comments",
+    "author": {
+      "login": "yegor256",
+      "id": 526301,
+      "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yegor256",
+      "html_url": "https://github.com/yegor256",
+      "followers_url": "https://api.github.com/users/yegor256/followers",
+      "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+      "organizations_url": "https://api.github.com/users/yegor256/orgs",
+      "repos_url": "https://api.github.com/users/yegor256/repos",
+      "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yegor256/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cf28838bbd46d71ecbe7d2db2454542f94fe6aa8",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/cf28838bbd46d71ecbe7d2db2454542f94fe6aa8",
+        "html_url": "https://github.com/yegor256/qulice/commit/cf28838bbd46d71ecbe7d2db2454542f94fe6aa8"
+      },
+      {
+        "sha": "c1242834d4c07d24a441fc3331e191812e22715b",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/c1242834d4c07d24a441fc3331e191812e22715b",
+        "html_url": "https://github.com/yegor256/qulice/commit/c1242834d4c07d24a441fc3331e191812e22715b"
+      }
+    ]
+  },
+  {
+    "sha": "cf28838bbd46d71ecbe7d2db2454542f94fe6aa8",
+    "node_id": "C_kwDOAJIuiNoAKGNmMjg4MzhiYmQ0NmQ3MWVjYmU3ZDJkYjI0NTQ1NDJmOTRmZTZhYTg",
+    "commit": {
+      "author": {
+        "name": "Yegor Bugayenko",
+        "email": "yegor256@gmail.com",
+        "date": "2022-09-24T05:17:41Z"
+      },
+      "committer": {
+        "name": "Yegor Bugayenko",
+        "email": "yegor256@gmail.com",
+        "date": "2022-09-24T05:17:41Z"
+      },
+      "message": "appveyor config removed",
+      "tree": {
+        "sha": "2cd41f3570286e9b991e540f3258bc0ebbc1681f",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/2cd41f3570286e9b991e540f3258bc0ebbc1681f"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/cf28838bbd46d71ecbe7d2db2454542f94fe6aa8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEgqGp0DoJuDNGUJQPuCg4AQJuZfMFAmMukvUACgkQuCg4AQJu\nZfNlEw/6Ak220muXZigGG1nGf5Xwr5OUAGm2y/Z3TXky5+sO80IlS9sca5NP5lQR\n27gbcCQBfUUlQJwZRiWD8KKwN0nxOKiH2ees3UU6SYekB1uZUJ2x/qsOG1ztw5NQ\nzX6GWGNPYeToy9izPOYLD2EvD9XuNE9jsg/Qb9g6UoD1IQJ/gY9fAB9y2kQ1jL5Z\neb1LJ45bPL8zzB1RxJax/AGNRrN5fTSbsF1Elq7uShRmufA38ccNlEs4tJ5ZgNu3\nl0l+eeabkTUVwkdbqYyMP5AfcsJAzOdtYU5PZl1n7B1u/FyC2rmfwi56D9QxJ4Iq\nuuCMKOv+1pYCgTZFi/S0CgfwvCdaGagPjpQcRnsmAnHDGF9p/a+ClfwSq4jT+DUs\nEl/nvnxc9g+cAAy3RLBdt/X/L1tQ0pNoM2r8YexA3p4mWt002jSj9Va9Yj+xlFJo\n5K0pnBYOn+ryeKIM+1wGAtpBIvL3KukTMZU1hDYtcZTBfh1pb4O/KRXzvgk8ME1H\nJ4J6RWmHmXTtlWURHFc/vuMdyXHtyMTqL2gIASYLIPXh6wDiOBOz8gVQlDVcaGie\n9kwbrwqv7j5He952uSZ19Hju3N9KdsOemEk7+axulSAp5ZnF0m+Jqlx0rFZiLiBK\nnief93VUbY8aYkRBJ9fbpUSonytFmV0EyNQqYGkP40DLA4MJ07k=\n=cMb7\n-----END PGP SIGNATURE-----",
+        "payload": "tree 2cd41f3570286e9b991e540f3258bc0ebbc1681f\nparent 5047a3c73a6358ff599cd3fe6ec3bdf9983fbc01\nauthor Yegor Bugayenko <yegor256@gmail.com> 1663996661 +0300\ncommitter Yegor Bugayenko <yegor256@gmail.com> 1663996661 +0300\n\nappveyor config removed\n"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/cf28838bbd46d71ecbe7d2db2454542f94fe6aa8",
+    "html_url": "https://github.com/yegor256/qulice/commit/cf28838bbd46d71ecbe7d2db2454542f94fe6aa8",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/cf28838bbd46d71ecbe7d2db2454542f94fe6aa8/comments",
+    "author": {
+      "login": "yegor256",
+      "id": 526301,
+      "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yegor256",
+      "html_url": "https://github.com/yegor256",
+      "followers_url": "https://api.github.com/users/yegor256/followers",
+      "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+      "organizations_url": "https://api.github.com/users/yegor256/orgs",
+      "repos_url": "https://api.github.com/users/yegor256/repos",
+      "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yegor256/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "yegor256",
+      "id": 526301,
+      "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yegor256",
+      "html_url": "https://github.com/yegor256",
+      "followers_url": "https://api.github.com/users/yegor256/followers",
+      "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+      "organizations_url": "https://api.github.com/users/yegor256/orgs",
+      "repos_url": "https://api.github.com/users/yegor256/repos",
+      "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yegor256/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5047a3c73a6358ff599cd3fe6ec3bdf9983fbc01",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/5047a3c73a6358ff599cd3fe6ec3bdf9983fbc01",
+        "html_url": "https://github.com/yegor256/qulice/commit/5047a3c73a6358ff599cd3fe6ec3bdf9983fbc01"
+      }
+    ]
+  },
+  {
+    "sha": "5047a3c73a6358ff599cd3fe6ec3bdf9983fbc01",
+    "node_id": "C_kwDOAJIuiNoAKDUwNDdhM2M3M2E2MzU4ZmY1OTljZDNmZTZlYzNiZGY5OTgzZmJjMDE",
+    "commit": {
+      "author": {
+        "name": "Yegor Bugayenko",
+        "email": "yegor256@gmail.com",
+        "date": "2022-09-24T05:16:21Z"
+      },
+      "committer": {
+        "name": "Yegor Bugayenko",
+        "email": "yegor256@gmail.com",
+        "date": "2022-09-24T05:16:21Z"
+      },
+      "message": "travis config removed",
+      "tree": {
+        "sha": "7e489de715c62dae8709779bcb886d3cf8224f31",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/7e489de715c62dae8709779bcb886d3cf8224f31"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/5047a3c73a6358ff599cd3fe6ec3bdf9983fbc01",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEgqGp0DoJuDNGUJQPuCg4AQJuZfMFAmMukqUACgkQuCg4AQJu\nZfMPahAAoQm66es5Jqc2L5+oEt1fsIm1wUQJA2TYDwC/V54I0JVgmkCh8Vj87fk0\nbQnGTl9DmG69VQc91xQcllhYKF+0k8JPXJuFXTTdRXTEETu92NT6A8hDJVC08ZRY\nC9bLdqhBynmedUyooEc5hZQWHYBZBLNwl/5lWvXIa+uoILvfG8chmo+8XOy3VJqL\n5cCd7jrf5z8zDA+0dml+/VeGIHmBDvSCWIfsQ5NMCTKKMIhz/hOtmChiYDa78Q7o\n1Ahhy4BuDWhX+oaTDAADtjzYUjUo1jYb7xCR06r0Iuk1sWkmvjOmgGdlelxJx63u\nhIZA0GW5WueBR1i6/cxHn5OP7jcRubzl34PzTmhP1UVgBA9e7kAYSyNIK4+2bJyB\na260rCxPmNzTVCV94UqhYZCqxg+xUOCMAvx3eqBiQmDZhLtLPFNMGZrZheKQA74J\nB/MF2eHbcYhoBM8U41dKY6ci9NQsCRcEdl+6s1kwGf54KUa21IWby0Ro099xiL9z\nGH25P/DRYmR4Mx/MSz2m8hclIztZSWATxWfTY2uOvnXod6NP2ltUnM4Ewe6L6wrc\nAwIAnwW5YV+sqDhOLNBMkc8PbzWaZXd7w2HfrW3dc6dz1poHtZXC5N04n91gvned\nS8y24Y2faU+5uAX0FKbYuO+Y8Hj39ZY+ouic97Xc3SJntTVQ7JU=\n=4DzU\n-----END PGP SIGNATURE-----",
+        "payload": "tree 7e489de715c62dae8709779bcb886d3cf8224f31\nparent 445b9557de8b245678fcbfc1cf6c25f15d2f306d\nauthor Yegor Bugayenko <yegor256@gmail.com> 1663996581 +0300\ncommitter Yegor Bugayenko <yegor256@gmail.com> 1663996581 +0300\n\ntravis config removed\n"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/5047a3c73a6358ff599cd3fe6ec3bdf9983fbc01",
+    "html_url": "https://github.com/yegor256/qulice/commit/5047a3c73a6358ff599cd3fe6ec3bdf9983fbc01",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/5047a3c73a6358ff599cd3fe6ec3bdf9983fbc01/comments",
+    "author": {
+      "login": "yegor256",
+      "id": 526301,
+      "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yegor256",
+      "html_url": "https://github.com/yegor256",
+      "followers_url": "https://api.github.com/users/yegor256/followers",
+      "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+      "organizations_url": "https://api.github.com/users/yegor256/orgs",
+      "repos_url": "https://api.github.com/users/yegor256/repos",
+      "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yegor256/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "yegor256",
+      "id": 526301,
+      "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yegor256",
+      "html_url": "https://github.com/yegor256",
+      "followers_url": "https://api.github.com/users/yegor256/followers",
+      "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+      "organizations_url": "https://api.github.com/users/yegor256/orgs",
+      "repos_url": "https://api.github.com/users/yegor256/repos",
+      "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yegor256/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "445b9557de8b245678fcbfc1cf6c25f15d2f306d",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/445b9557de8b245678fcbfc1cf6c25f15d2f306d",
+        "html_url": "https://github.com/yegor256/qulice/commit/445b9557de8b245678fcbfc1cf6c25f15d2f306d"
+      }
+    ]
+  },
+  {
+    "sha": "c1242834d4c07d24a441fc3331e191812e22715b",
+    "node_id": "C_kwDOAJIuiNoAKGMxMjQyODM0ZDRjMDdkMjRhNDQxZmMzMzMxZTE5MTgxMmUyMjcxNWI",
+    "commit": {
+      "author": {
+        "name": "renovate[bot]",
+        "email": "29139614+renovate[bot]@users.noreply.github.com",
+        "date": "2022-09-22T10:01:24Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2022-09-22T10:01:24Z"
+      },
+      "message": "Add renovate.json",
+      "tree": {
+        "sha": "d431631461e1d205513e964caeb691b69fbc4d9a",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/d431631461e1d205513e964caeb691b69fbc4d9a"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/c1242834d4c07d24a441fc3331e191812e22715b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjLDJ1CRBK7hj4Ov3rIwAAUkcIACdS6q/xUeFbr7fxrZHfyhI/\nEzT4TZOnO2jcjNdMLa+6H8jppivwKXRuI5s1JYKCXB0IGKyZr4tbhbyUh2ftNTqp\nFZ4sTukwzKt5A0Yo6eNzEuTnIQgGBkKL1CwskPXde4w0r/Zg8mzOT2onUuVtevwd\nSNR48Mv4Yt9PV/9s1fviq4svPIjs9MuWu+Du50Qz2TbfIRxTScfPphnyUBGLDCar\nowXeo/m9OEwOKNlWyxJWe7tq8yeUiAp4Zrp33/7TzNJwT2ciDlNR8arT+HygOMjC\nFuRrowezM9TQxmocfkUaegOeXmJQkE0dpYr6HNtHjc2zq8FwjuDppaMaQqHVSQs=\n=Fw9O\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d431631461e1d205513e964caeb691b69fbc4d9a\nparent 445b9557de8b245678fcbfc1cf6c25f15d2f306d\nauthor renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 1663840884 +0000\ncommitter GitHub <noreply@github.com> 1663840884 +0000\n\nAdd renovate.json"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/c1242834d4c07d24a441fc3331e191812e22715b",
+    "html_url": "https://github.com/yegor256/qulice/commit/c1242834d4c07d24a441fc3331e191812e22715b",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/c1242834d4c07d24a441fc3331e191812e22715b/comments",
+    "author": {
+      "login": "renovate[bot]",
+      "id": 29139614,
+      "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/renovate%5Bbot%5D",
+      "html_url": "https://github.com/apps/renovate",
+      "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "445b9557de8b245678fcbfc1cf6c25f15d2f306d",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/445b9557de8b245678fcbfc1cf6c25f15d2f306d",
+        "html_url": "https://github.com/yegor256/qulice/commit/445b9557de8b245678fcbfc1cf6c25f15d2f306d"
+      }
+    ]
+  },
+  {
+    "sha": "445b9557de8b245678fcbfc1cf6c25f15d2f306d",
+    "node_id": "C_kwDOAJIuiNoAKDQ0NWI5NTU3ZGU4YjI0NTY3OGZjYmZjMWNmNmMyNWYxNWQyZjMwNmQ",
+    "commit": {
+      "author": {
+        "name": "Yegor Bugayenko",
+        "email": "yegor256@gmail.com",
+        "date": "2022-08-23T04:14:59Z"
+      },
+      "committer": {
+        "name": "Yegor Bugayenko",
+        "email": "yegor256@gmail.com",
+        "date": "2022-08-23T04:14:59Z"
+      },
+      "message": "actions",
+      "tree": {
+        "sha": "1d6836277ef67e426aebb82a58101a3e525abb91",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/1d6836277ef67e426aebb82a58101a3e525abb91"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/445b9557de8b245678fcbfc1cf6c25f15d2f306d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEgqGp0DoJuDNGUJQPuCg4AQJuZfMFAmMEVEMACgkQuCg4AQJu\nZfO+uxAAl38+CxoWVsSxlXT65TJeQTvw+IG59KFUrlnolKHO+Epzfw39OuxiBxqm\nq0euO0Wfx3sbmKSN4XwbiUjRQjzVz8csWFcncE8F1pQITh6FRZ4OdKcDFmkck1f6\n4Tpf/n26EiyXzIqnbzcNg9m2nzrRn74R3Rkl9pBve30ZD+2/LoKvANZzlvjLN/o7\neNw92YRbgKGx+nY2SD5yAQOIbAvxVogGI+VlvSQUdrSWeNs0j5/Ia/iA1RYCQNyv\ni1Cou1rk/J8R5TsLIeM7Ca1ySbPzfbS9garPwYfVN20sB9op5cpwKh/rxY7P2dXe\nCkMnGzsTrQcxAf808JHFyCFsQcb6x5N2HMvlI93wsYX5G9E+a/jwtXa1EkAIQ3NL\njDjFZ4enRfWntjKOIQ41tYCr27YTh+HMrmhzARDO+SyxJDcFUEDy0HFm4nZUXW7+\nvJ51L1Ks146FwlfT6Hieb/QqWycWwB254dYrOXJ2M/fcgRokJQJiykkqkvMc+Ivy\nJwcWX3mic0cWA45e8wckRd25ilrFGELtjUm2zcLee1D/OqYEw0J1gbNyoVULeR0/\n77WuhujZICnz6so7pjncKPR2hbsdK+VPjahh0VDR4Z7Pk1ULpKvjgYNstE9mY5Ag\nArEcba97xA7l2vPPQdnvPDHBf4GYybYWAONjSJTPpIt8vHZ80t8=\n=PLV6\n-----END PGP SIGNATURE-----",
+        "payload": "tree 1d6836277ef67e426aebb82a58101a3e525abb91\nparent ca7280edb33c538c0f1c230d75259149581b9424\nauthor Yegor Bugayenko <yegor256@gmail.com> 1661228099 +0300\ncommitter Yegor Bugayenko <yegor256@gmail.com> 1661228099 +0300\n\nactions\n"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/445b9557de8b245678fcbfc1cf6c25f15d2f306d",
+    "html_url": "https://github.com/yegor256/qulice/commit/445b9557de8b245678fcbfc1cf6c25f15d2f306d",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/445b9557de8b245678fcbfc1cf6c25f15d2f306d/comments",
+    "author": {
+      "login": "yegor256",
+      "id": 526301,
+      "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yegor256",
+      "html_url": "https://github.com/yegor256",
+      "followers_url": "https://api.github.com/users/yegor256/followers",
+      "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+      "organizations_url": "https://api.github.com/users/yegor256/orgs",
+      "repos_url": "https://api.github.com/users/yegor256/repos",
+      "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yegor256/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "yegor256",
+      "id": 526301,
+      "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yegor256",
+      "html_url": "https://github.com/yegor256",
+      "followers_url": "https://api.github.com/users/yegor256/followers",
+      "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+      "organizations_url": "https://api.github.com/users/yegor256/orgs",
+      "repos_url": "https://api.github.com/users/yegor256/repos",
+      "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yegor256/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ca7280edb33c538c0f1c230d75259149581b9424",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/ca7280edb33c538c0f1c230d75259149581b9424",
+        "html_url": "https://github.com/yegor256/qulice/commit/ca7280edb33c538c0f1c230d75259149581b9424"
+      }
+    ]
+  },
+  {
+    "sha": "ca7280edb33c538c0f1c230d75259149581b9424",
+    "node_id": "C_kwDOAJIuiNoAKGNhNzI4MGVkYjMzYzUzOGMwZjFjMjMwZDc1MjU5MTQ5NTgxYjk0MjQ",
+    "commit": {
+      "author": {
+        "name": "Yegor Bugayenko",
+        "email": "yegor256@gmail.com",
+        "date": "2022-08-23T04:13:22Z"
+      },
+      "committer": {
+        "name": "Yegor Bugayenko",
+        "email": "yegor256@gmail.com",
+        "date": "2022-08-23T04:13:22Z"
+      },
+      "message": "badges",
+      "tree": {
+        "sha": "5679cfa186321366fed7fc82061e91b24dfb5ad4",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/5679cfa186321366fed7fc82061e91b24dfb5ad4"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/ca7280edb33c538c0f1c230d75259149581b9424",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEEgqGp0DoJuDNGUJQPuCg4AQJuZfMFAmMEU+IACgkQuCg4AQJu\nZfPpjQ/9FkOc77Dp/ZwGv+6eYnKDnisCDZUfulDc28QRz+HPHBvifBX/K+S/ff8l\nI937hbUUmoXVMxYziDDSW2bYa+XR2QaRCuz4XkCd6kfJbK1HFptXP6kjOAQpXemD\nsqh6nccalljokESQELU0VfrnfwNEIkcw0THQi2B5sQg39W8KtsuQBmGQ9X7kfewa\n91lUqRB/7C5zf4awlAW7wr7d0kPON1aRxVT4krjUOBtSJ/xMMw1KdJuoMRayUl+T\n9v0svkSEy9E1TBfdm3wAVjybmCUujemSrdzPOQZxZOpMYhLCN+q60+kCxlSu1HVb\nWCEPsc9nSs22R1IaTxhe/FSlEHqc2JKBFKgZltcrOOWlqqU3Gx9n4Tju3kTTbxU0\nFaSVMrKjJXVyLC1KMKwfuiUo7JE33hiav9TV3siEj8ytysgBUs+myUnAAPXc/8m7\nM3SZxw6IRPcq5OXbt51GqVc5jc9Epjwd2393gk9xwtCFIQM9HNkeXUaGMKHYTcjo\nuVhDAla8xZA03lIUqBMSl8wNT1P8Iyx0ehUDvfTdy404KNm3kEQxt9EAVj94fYWS\nSGmarqBYYKrohWLt2l3GH54zwkTTt8kXP9GpYbP/CjsIXH6bdapyj0PAdtg/EBhO\nJPfFjKlemrqPcdolstLDj5m6GfsxCI6fbPi8WEh69E1GDAt/pZE=\n=IHsf\n-----END PGP SIGNATURE-----",
+        "payload": "tree 5679cfa186321366fed7fc82061e91b24dfb5ad4\nparent 6c5c4d153f8256465bdd276a70047189fd940963\nauthor Yegor Bugayenko <yegor256@gmail.com> 1661228002 +0300\ncommitter Yegor Bugayenko <yegor256@gmail.com> 1661228002 +0300\n\nbadges\n"
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/ca7280edb33c538c0f1c230d75259149581b9424",
+    "html_url": "https://github.com/yegor256/qulice/commit/ca7280edb33c538c0f1c230d75259149581b9424",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/ca7280edb33c538c0f1c230d75259149581b9424/comments",
+    "author": {
+      "login": "yegor256",
+      "id": 526301,
+      "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yegor256",
+      "html_url": "https://github.com/yegor256",
+      "followers_url": "https://api.github.com/users/yegor256/followers",
+      "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+      "organizations_url": "https://api.github.com/users/yegor256/orgs",
+      "repos_url": "https://api.github.com/users/yegor256/repos",
+      "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yegor256/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "yegor256",
+      "id": 526301,
+      "node_id": "MDQ6VXNlcjUyNjMwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/526301?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yegor256",
+      "html_url": "https://github.com/yegor256",
+      "followers_url": "https://api.github.com/users/yegor256/followers",
+      "following_url": "https://api.github.com/users/yegor256/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yegor256/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yegor256/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yegor256/subscriptions",
+      "organizations_url": "https://api.github.com/users/yegor256/orgs",
+      "repos_url": "https://api.github.com/users/yegor256/repos",
+      "events_url": "https://api.github.com/users/yegor256/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yegor256/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6c5c4d153f8256465bdd276a70047189fd940963",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/6c5c4d153f8256465bdd276a70047189fd940963",
+        "html_url": "https://github.com/yegor256/qulice/commit/6c5c4d153f8256465bdd276a70047189fd940963"
+      }
+    ]
+  },
+  {
+    "sha": "6c5c4d153f8256465bdd276a70047189fd940963",
+    "node_id": "C_kwDOAJIuiNoAKDZjNWM0ZDE1M2Y4MjU2NDY1YmRkMjc2YTcwMDQ3MTg5ZmQ5NDA5NjM",
+    "commit": {
+      "author": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-08-22T14:37:33Z"
+      },
+      "committer": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-08-22T14:37:33Z"
+      },
+      "message": "#1130 - fixed xcop",
+      "tree": {
+        "sha": "e6541e1620e675dc9b9e74e7cba1464a21b0608b",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/e6541e1620e675dc9b9e74e7cba1464a21b0608b"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/6c5c4d153f8256465bdd276a70047189fd940963",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/6c5c4d153f8256465bdd276a70047189fd940963",
+    "html_url": "https://github.com/yegor256/qulice/commit/6c5c4d153f8256465bdd276a70047189fd940963",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/6c5c4d153f8256465bdd276a70047189fd940963/comments",
+    "author": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d03fa3d3fa0d676c1f84dd88b4a2fb97289c0fff",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/d03fa3d3fa0d676c1f84dd88b4a2fb97289c0fff",
+        "html_url": "https://github.com/yegor256/qulice/commit/d03fa3d3fa0d676c1f84dd88b4a2fb97289c0fff"
+      }
+    ]
+  },
+  {
+    "sha": "d03fa3d3fa0d676c1f84dd88b4a2fb97289c0fff",
+    "node_id": "C_kwDOAJIuiNoAKGQwM2ZhM2QzZmEwZDY3NmMxZjg0ZGQ4OGI0YTJmYjk3Mjg5YzBmZmY",
+    "commit": {
+      "author": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-08-22T14:32:24Z"
+      },
+      "committer": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-08-22T14:32:24Z"
+      },
+      "message": "#1130 - fixed description",
+      "tree": {
+        "sha": "33ce080786264a6305132e291ed510e3c760fd83",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/33ce080786264a6305132e291ed510e3c760fd83"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/d03fa3d3fa0d676c1f84dd88b4a2fb97289c0fff",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/d03fa3d3fa0d676c1f84dd88b4a2fb97289c0fff",
+    "html_url": "https://github.com/yegor256/qulice/commit/d03fa3d3fa0d676c1f84dd88b4a2fb97289c0fff",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/d03fa3d3fa0d676c1f84dd88b4a2fb97289c0fff/comments",
+    "author": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3f69fe7ad27c03d61eac1318c218973ea2dce56b",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/3f69fe7ad27c03d61eac1318c218973ea2dce56b",
+        "html_url": "https://github.com/yegor256/qulice/commit/3f69fe7ad27c03d61eac1318c218973ea2dce56b"
+      }
+    ]
+  },
+  {
+    "sha": "3f69fe7ad27c03d61eac1318c218973ea2dce56b",
+    "node_id": "C_kwDOAJIuiNoAKDNmNjlmZTdhZDI3YzAzZDYxZWFjMTMxOGMyMTg5NzNlYTJkY2U1NmI",
+    "commit": {
+      "author": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-08-22T14:17:14Z"
+      },
+      "committer": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-08-22T14:17:14Z"
+      },
+      "message": "#1130 - added JUnit5TestShouldBePackagePrivate to qulice pmd ruleset",
+      "tree": {
+        "sha": "9534681627e8c9ed7fe5fbe108b547bb20276af2",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/9534681627e8c9ed7fe5fbe108b547bb20276af2"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/3f69fe7ad27c03d61eac1318c218973ea2dce56b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/3f69fe7ad27c03d61eac1318c218973ea2dce56b",
+    "html_url": "https://github.com/yegor256/qulice/commit/3f69fe7ad27c03d61eac1318c218973ea2dce56b",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/3f69fe7ad27c03d61eac1318c218973ea2dce56b/comments",
+    "author": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a27fc2885d8b9da2862e941ef57086a4213a1471",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/a27fc2885d8b9da2862e941ef57086a4213a1471",
+        "html_url": "https://github.com/yegor256/qulice/commit/a27fc2885d8b9da2862e941ef57086a4213a1471"
+      }
+    ]
+  },
+  {
+    "sha": "a27fc2885d8b9da2862e941ef57086a4213a1471",
+    "node_id": "C_kwDOAJIuiNoAKGEyN2ZjMjg4NWQ4YjlkYTI4NjJlOTQxZWY1NzA4NmE0MjEzYTE0NzE",
+    "commit": {
+      "author": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-08-03T14:32:17Z"
+      },
+      "committer": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-08-03T14:32:17Z"
+      },
+      "message": "added unicode property to checks.xml",
+      "tree": {
+        "sha": "67a6379abac47957dfffa513e5415f0be1209177",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/67a6379abac47957dfffa513e5415f0be1209177"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/a27fc2885d8b9da2862e941ef57086a4213a1471",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/a27fc2885d8b9da2862e941ef57086a4213a1471",
+    "html_url": "https://github.com/yegor256/qulice/commit/a27fc2885d8b9da2862e941ef57086a4213a1471",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/a27fc2885d8b9da2862e941ef57086a4213a1471/comments",
+    "author": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3a8330ca3f1079c028673347c24176dfc0027f3d",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/3a8330ca3f1079c028673347c24176dfc0027f3d",
+        "html_url": "https://github.com/yegor256/qulice/commit/3a8330ca3f1079c028673347c24176dfc0027f3d"
+      }
+    ]
+  },
+  {
+    "sha": "3a8330ca3f1079c028673347c24176dfc0027f3d",
+    "node_id": "C_kwDOAJIuiNoAKDNhODMzMGNhM2YxMDc5YzAyODY3MzM0N2MyNDE3NmRmYzAwMjdmM2Q",
+    "commit": {
+      "author": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-08-03T14:12:41Z"
+      },
+      "committer": {
+        "name": "graur",
+        "email": "ancongr@yandex.ru",
+        "date": "2022-08-03T14:12:41Z"
+      },
+      "message": "added integration test with unicode characters",
+      "tree": {
+        "sha": "bdb5a844c77b849b0552c3baf3ddb41a84e58395",
+        "url": "https://api.github.com/repos/yegor256/qulice/git/trees/bdb5a844c77b849b0552c3baf3ddb41a84e58395"
+      },
+      "url": "https://api.github.com/repos/yegor256/qulice/git/commits/3a8330ca3f1079c028673347c24176dfc0027f3d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/yegor256/qulice/commits/3a8330ca3f1079c028673347c24176dfc0027f3d",
+    "html_url": "https://github.com/yegor256/qulice/commit/3a8330ca3f1079c028673347c24176dfc0027f3d",
+    "comments_url": "https://api.github.com/repos/yegor256/qulice/commits/3a8330ca3f1079c028673347c24176dfc0027f3d/comments",
+    "author": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Graur",
+      "id": 33455325,
+      "node_id": "MDQ6VXNlcjMzNDU1MzI1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33455325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Graur",
+      "html_url": "https://github.com/Graur",
+      "followers_url": "https://api.github.com/users/Graur/followers",
+      "following_url": "https://api.github.com/users/Graur/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Graur/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Graur/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Graur/subscriptions",
+      "organizations_url": "https://api.github.com/users/Graur/orgs",
+      "repos_url": "https://api.github.com/users/Graur/repos",
+      "events_url": "https://api.github.com/users/Graur/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Graur/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8a106930687a20e1fd5c6d95e48e6d516300cb50",
+        "url": "https://api.github.com/repos/yegor256/qulice/commits/8a106930687a20e1fd5c6d95e48e6d516300cb50",
+        "html_url": "https://github.com/yegor256/qulice/commit/8a106930687a20e1fd5c6d95e48e6d516300cb50"
+      }
+    ]
+  }
+]
