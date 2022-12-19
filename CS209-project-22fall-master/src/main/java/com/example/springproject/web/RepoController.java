@@ -107,10 +107,20 @@ public class RepoController {
 
     //commit 数量前几位的 developers 信息
     @GetMapping("/developersTop")
-    public ArrayList<String> getInfo4() throws Exception {
+    public ArrayList<Developer> getInfo4() throws Exception {
         if(!quilce_store)
             StoreDatas();
-        return null;
+        ArrayList<Developer> tops=new ArrayList<>();
+        int k=0;
+        for (Developer d:developers
+             ) {
+
+            if(k==5)
+                break;
+            k++;
+            tops.add(d);
+        }
+        return tops;
     }
 
     //open 的 issue 数量
@@ -130,19 +140,132 @@ public class RepoController {
     }
 
     //了对 issue 解决时间的典型处理，如平均值、极值差、方差等
-    @GetMapping("/issue/solveTime")
-    public ArrayList<String> getInfo7() throws Exception {
+    @GetMapping("/issue/solveTime/avg")
+    public double getInfo7() throws Exception {
+        TimeAnalysis t=calculate();
+        return t.avg/60/60/24;
+    }
+
+    @GetMapping("/issue/solveTime/max")
+    public double getInfo7_1() throws Exception {
+        TimeAnalysis t=calculate();
+        return t.max/60/60/24;
+    }
+    @GetMapping("/issue/solveTime/min")
+    public double getInfo7_2() throws Exception {
+        TimeAnalysis t=calculate();
+        return t.min/60/60/24;
+    }
+
+    @GetMapping("/issue/solveTime/E")
+    public double getInfo7_3() throws Exception {
+        TimeAnalysis t=calculate();
+        return t.Extrem_value/60/60/24;
+    }
+
+    public TimeAnalysis calculate() throws Exception {
         if(!quilce_store)
             StoreDatas();
-        return null;
+        ArrayList<Long> times=new ArrayList<>();
+        for (Issue i:ClosedIssues
+        ) {
+            String diff=i.diff.replace("PT","");
+            System.out.println("before split: "+diff);
+            int hour=-1;
+            int mins=-1;
+            int ss=-1;
+            String rest1=null;
+
+            if(diff.contains("H")){
+                String h=diff.split("H")[0];
+                hour=Integer.parseInt(h);
+                rest1=diff.split("H")[1];
+            }
+            else{
+                hour=0;
+                rest1=diff;
+            }
+            if(rest1.contains("M")){
+                String min=rest1.split("M")[0];
+                mins=Integer.parseInt(min);
+                if(rest1.contains("S")) {
+                    String s = rest1.split("M")[1];
+                    ss = Integer.parseInt(s.substring(0,s.length()-1));
+                }else{
+                    ss=0;
+                }
+            }else{
+                mins=0;
+                if(rest1.contains("S")) {
+                    String s = rest1;
+                    ss = Integer.parseInt(s.substring(0,s.length()-1));
+                }else{
+                    ss=0;
+                }
+            }
+//            String min=diff.split("H")[1].split("M")[0];
+//            String s=diff.split("H")[1].split("M")[1].split("S")[0];
+            System.out.println(hour+" hours "+mins+" minutes "+ss+" s ");
+            times.add((long)(hour*60*60+mins*60+ss));
+        }
+        long max=Long.MIN_VALUE;
+        long min=Long.MAX_VALUE;
+        for (long num:times
+        ) {
+            if(max<num)
+                max=num;
+            if(min>num)
+                min=num;
+        }
+        double mean = 0;
+        for (long num : times) {
+            mean += num;
+        }
+        mean /= times.size();
+
+        double variance = 0;
+        for (long num : times) {
+            variance += (num - mean) * (num - mean);
+        }
+        variance /= times.size();
+        TimeAnalysis timeAnalysis=new TimeAnalysis(mean,max,min,variance);
+
+        return timeAnalysis;
+//        ArrayList<String> re=new ArrayList<String>();
+//        re.add((String)mean);
     }
+    class TimeAnalysis{
+        double avg;
+        long max;
+        long min;
+        double Extrem_value;
+
+        public TimeAnalysis(double avg, long max, long min, double extrem_value) {
+            this.avg = avg;
+            this.max = max;
+            this.min = min;
+            Extrem_value = extrem_value;
+        }
+
+        @Override
+        public String toString() {
+            return "TimeAnalysis{" +
+                    "avg=" + avg +
+                    ", max=" + max +
+                    ", min=" + min +
+                    ", Extrem_value=" + Extrem_value +
+                    '}';
+        }
+    }
+
+
 
     //release的总数
     @GetMapping("/releaseNum")
     public int getInfo8() throws Exception {
         if(!quilce_store)
             StoreDatas();
-        return 0;
+        return releases.size();
     }
 
     // release 间的 commit 数量
@@ -173,6 +296,11 @@ public class RepoController {
         System.out.println(developers);
         System.out.println(developers.size());
 
+        StoreRelease();
+        System.out.println("---------------");
+        System.out.println(releases);
+        System.out.println(releases.size());
+
         StoreIssue();
         System.out.println("---------------");
         System.out.println(OpenIssues);
@@ -199,11 +327,16 @@ public class RepoController {
                 if (s[0].contains("date")) {
                     count++;
                     if(count%2==0) {
-                        s[1]=s[1].trim();
-                        time = s[1].replace("\"", "");
-
-                        Commit commit = new Commit(time);
-                        commits.add(commit);
+                        if(s[0].contains("published_at")){
+                            s[1]=line.substring(16,line.length()-1);
+                            //System.out.println("origin: "+s[1]);
+                            s[1] = s[1].trim();
+                            s[1]=s[1].replace("\"","");
+                            time=s[1].substring(3,s[1].length()-1);
+                            Commit commit=new Commit(time);
+                            commits.add(commit);
+                            time=null;
+                        }
                     }
                 }
             }
@@ -221,6 +354,7 @@ public class RepoController {
         line=br.readLine();//跳过第一行
         int count=0;
         String name=null;
+        String head=null;
         int con=0;
         while((line=br.readLine())!=null){//42行为一个单位
             String[] s=line.split(":");
@@ -233,9 +367,16 @@ public class RepoController {
                 if(s[0].contains("contributions")){
                     s[1]=s[1].trim();
                     con=Integer.parseInt(s[1].replace("\"",""));
-                    Developer developer=new Developer(name,con);
+
+                }
+                if(s[0].contains("avatar_url")){
+                    s[1]=s[1].trim();
+                    s[1]=s[1].substring(0,s[1].length()-2);
+                    head=s[1].replace("\"","");
+                    Developer developer=new Developer(name,con,head);
                     name=null;
                     con=0;
+                    head=null;
                     developers.add(developer);
                 }
             }
@@ -276,7 +417,7 @@ public class RepoController {
                     }
                     else {
                         s[1]=line.substring(16,line.length()-1);
-                        System.out.println("origin: "+s[1]);
+                        //System.out.println("origin: "+s[1]);
                         s[1] = s[1].trim();
                         s[1]=s[1].replace("\"","");
                         close=s[1].substring(0,s[1].length()-1);
@@ -302,13 +443,64 @@ public class RepoController {
         }
     }
 
+    public void StoreRelease() throws Exception{
+        String prefix="yegor256_qulice_";
+        String path=System.getProperty("user.dir")+"\\datas\\"+prefix+"releases.json";
+        FileInputStream fileInputStream=new FileInputStream(path);
+        InputStreamReader reader=new InputStreamReader(fileInputStream,"UTF-8");
+        BufferedReader br=new BufferedReader(reader);
+        String line="";
+        String time=null;
+        String tag=null;
+        line=br.readLine();//跳过第一行
+        int count=0;
+        while((line=br.readLine())!=null){//42行为一个单位
+            String[] s=line.split(":");
+            if(s.length>1) {
+                if (s[0].contains("tag_name")) {
+
+                    s[1]=s[1].trim();
+                    s[1] = s[1].replace("\"", "");
+                    tag=s[1].substring(0,s[1].length()-1);
+
+                }
+                else if(s[0].contains("published_at")){
+                    s[1]=line.substring(16,line.length()-1);
+                    //System.out.println("origin: "+s[1]);
+                    s[1] = s[1].trim();
+                    s[1]=s[1].replace("\"","");
+                    time=s[1].substring(3,s[1].length()-1);
+                    Release release=new Release(tag,time);
+                    releases.add(release);
+                }
+            }
+        }
+        Release last=null;
+        for (Release r:releases
+             ) {
+            if(last==null){
+                last=r;
+                continue;
+            }
+            else{
+                last.end_time=r.publish_time;//如果publish time=null说明是最新的发布
+            }
+        }
+    }
+
     class Developer{
         String name;
         int contribution;
+        String head_url;
 
         public Developer(String name, int contribution) {
             this.name = name;
             this.contribution = contribution;
+        }
+        public Developer(String name, int contribution, String head) {
+            this.name = name;
+            this.contribution = contribution;
+            head_url=head;
         }
 
         @Override
@@ -316,6 +508,7 @@ public class RepoController {
             return "Developer{" +
                     "name='" + name + '\'' +
                     ", contribution=" + contribution +
+                    ", head url=" + head_url +
                     '}';
         }
     }
@@ -342,10 +535,20 @@ public class RepoController {
     class Release{
         String tag_name;
         String publish_time;
+        String end_time;
 
         public Release(String tag_name, String publish_time) {
             this.tag_name = tag_name;
             this.publish_time = publish_time;
+        }
+
+        @Override
+        public String toString() {
+            return "Release{" +
+                    "tag_name='" + tag_name + '\'' +
+                    ", publish_time='" + publish_time + '\'' +
+                    ", end_time='" + end_time + '\'' +
+                    '}';
         }
     }
     class Issue{
