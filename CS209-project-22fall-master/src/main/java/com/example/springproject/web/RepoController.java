@@ -141,26 +141,26 @@ public class RepoController {
 
     //了对 issue 解决时间的典型处理，如平均值、极值差、方差等
     @GetMapping("/issue/solveTime/avg")
-    public double getInfo7() throws Exception {
+    public long getInfo7() throws Exception {
         TimeAnalysis t=calculate();
-        return t.avg/60/60/24;
+        return (long)(t.avg/60/60/24);
     }
 
     @GetMapping("/issue/solveTime/max")
-    public double getInfo7_1() throws Exception {
+    public long getInfo7_1() throws Exception {
         TimeAnalysis t=calculate();
-        return t.max/60/60/24;
+        return (long)(t.max/60/60/24);
     }
     @GetMapping("/issue/solveTime/min")
-    public double getInfo7_2() throws Exception {
+    public long getInfo7_2() throws Exception {
         TimeAnalysis t=calculate();
-        return t.min/60/60/24;
+        return (long)(t.min/60/60/24);
     }
 
     @GetMapping("/issue/solveTime/E")
-    public double getInfo7_3() throws Exception {
+    public long getInfo7_3() throws Exception {
         TimeAnalysis t=calculate();
-        return t.Extrem_value/60/60/24;
+        return (long)(t.Extrem_value/60/60/24);
     }
 
     public TimeAnalysis calculate() throws Exception {
