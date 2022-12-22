@@ -122,8 +122,7 @@ public class RepoController {
         }
         return tops;
     }
-    
-    
+
     //commit 数量前4位的 developers 的头像
     @GetMapping("/developersTop/head")
     public ArrayList<String> getInfo4_1() throws Exception {
@@ -276,6 +275,74 @@ public class RepoController {
                     '}';
         }
     }
+    //issue解决时间在七天以内，七天到一个月，一个月到一年，一年以上
+    @GetMapping("/issue/solveTime/interval")
+    public ArrayList<String> calculate2() throws Exception {
+        if(!quilce_store)
+            StoreDatas();
+        ArrayList<Long> times=new ArrayList<>();
+        int week=0;
+        int month=0;
+        int year=0;
+        int years=0;
+        for (Issue i:ClosedIssues
+        ) {
+            String diff=i.diff.replace("PT","");
+            System.out.println("before split: "+diff);
+            int hour=-1;
+            int mins=-1;
+            int ss=-1;
+            String rest1=null;
+
+            if(diff.contains("H")){
+                String h=diff.split("H")[0];
+                hour=Integer.parseInt(h);
+                rest1=diff.split("H")[1];
+            }
+            else{
+                hour=0;
+                rest1=diff;
+            }
+            if(rest1.contains("M")){
+                String min=rest1.split("M")[0];
+                mins=Integer.parseInt(min);
+                if(rest1.contains("S")) {
+                    String s = rest1.split("M")[1];
+                    ss = Integer.parseInt(s.substring(0,s.length()-1));
+                }else{
+                    ss=0;
+                }
+            }else{
+                mins=0;
+                if(rest1.contains("S")) {
+                    String s = rest1;
+                    ss = Integer.parseInt(s.substring(0,s.length()-1));
+                }else{
+                    ss=0;
+                }
+            }
+//            String min=diff.split("H")[1].split("M")[0];
+//            String s=diff.split("H")[1].split("M")[1].split("S")[0];
+            System.out.println(hour+" hours "+mins+" minutes "+ss+" s ");
+            times.add((long)(hour*60*60+mins*60+ss));
+            int time=(hour*60*60+mins*60+ss)/60/60/24;
+            if(time<=7)
+                week++;
+            else if(time<=30)
+                month++;
+            else if(time<=365)
+                year++;
+            else
+                years++;
+        }
+        ArrayList<String> list=new ArrayList<>();
+        list.add(String.valueOf(week));
+        list.add(String.valueOf(month));
+        list.add(String.valueOf(year));
+        list.add(String.valueOf(years));
+
+        return list;
+    }
 
 
 
@@ -389,9 +456,12 @@ public class RepoController {
 
                 }
                 if(s[0].contains("avatar_url")){
-                    s[1]=s[1].trim();
-                    s[1]=s[1].substring(0,s[1].length()-2);
-                    head=s[1].replace("\"","");
+                    int index=line.indexOf(":");
+                    String url=line.substring(index+3,line.length()-1);
+                    //System.out.println(url);
+                    url=url.trim();
+                    //s[1]=s[1].substring(0,s[1].length()-2);
+                    head=url.replace("\"","");
                     Developer developer=new Developer(name,con,head);
                     name=null;
                     con=0;
