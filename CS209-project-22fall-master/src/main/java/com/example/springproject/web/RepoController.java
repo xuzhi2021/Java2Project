@@ -122,6 +122,25 @@ public class RepoController {
         }
         return tops;
     }
+    
+    
+    //commit 数量前4位的 developers 的头像
+    @GetMapping("/developersTop/head")
+    public ArrayList<String> getInfo4_1() throws Exception {
+        if(!quilce_store)
+            StoreDatas();
+        ArrayList<String> tops=new ArrayList<>();
+        int k=0;
+        for (Developer d:developers
+        ) {
+
+            if(k==4)
+                break;
+            k++;
+            tops.add(d.head_url);
+        }
+        return tops;
+    }
 
     //open 的 issue 数量
     @GetMapping("/issue/open")
