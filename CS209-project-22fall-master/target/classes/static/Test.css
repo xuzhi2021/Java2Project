@@ -9,7 +9,7 @@ body{
     height:80%;
     margin:5%;
     border-radius: 2px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .avatar_container{
@@ -20,7 +20,7 @@ body{
     padding-top: 10px;
     box-sizing: border-box;
     background-clip: content-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 .header{
     height:50px;
@@ -56,7 +56,7 @@ body{
 
 .developer{
     height: 100%;
-    width: 40%;
+    width: 30%;
 }
 
 .developer_text{
@@ -71,12 +71,12 @@ body{
 
 .issue_text{
     height:80%;
-    width:40%;
+    width:20%;
 }
 
 .bar_chart{
     height:100%;
-    width:60%;
+    width:80%;
     /*margin-right: 20px;*/
     background: #D5B8B0;
     border-radius: 7px;
@@ -86,8 +86,8 @@ body{
 
 }
 .bar_chart2{
-    height:50px;
-    width:50px;
+    height:100%;
+    width:50%;
     /*border: 2px solid red;*/
 }
 
@@ -167,7 +167,7 @@ body{
 
 .issue{
     height: 100%;
-    width: 60%;
+    width: 70%;
     /*border: 1px solid black;*/
 }
 
