@@ -29,6 +29,8 @@ public class RepoController {
     private static ArrayList<Developer> developers=new ArrayList<>();
     private static ArrayList<Release> releases=new ArrayList<>();
 
+    private static ArrayList<Integer> issue_solved_time=new ArrayList<>();
+
     private static boolean quilce_store=false;
     /**
      * 读取json文件，返回json串
@@ -220,6 +222,7 @@ public class RepoController {
 //            String s=diff.split("H")[1].split("M")[1].split("S")[0];
             System.out.println(hour+" hours "+mins+" minutes "+ss+" s ");
             times.add((long)(hour*60*60+mins*60+ss));
+            issue_solved_time.add((int)((hour*60*60+mins*60+ss)/60/60/24));
         }
         long max=Long.MIN_VALUE;
         long min=Long.MAX_VALUE;
@@ -321,6 +324,7 @@ public class RepoController {
             System.out.println(hour+" hours "+mins+" minutes "+ss+" s ");
             times.add((long)(hour*60*60+mins*60+ss));
             int time=(hour*60*60+mins*60+ss)/60/60/24;
+            //issue_solved_time.add(time);
             if(time<=7)
                 week++;
             else if(time<=30)
@@ -337,6 +341,26 @@ public class RepoController {
         list.add(years);
 
         return list;
+    }
+
+    @GetMapping("/issueSolvedTime/every")
+    public ArrayList<Integer> getInfo7_4() throws Exception {
+        if(!quilce_store)
+            StoreDatas();
+        return issue_solved_time;
+    }
+
+    @GetMapping("/issueStartTime/every")
+    public ArrayList<String> getInfo7_5() throws Exception {
+        if(!quilce_store)
+            StoreDatas();
+        ArrayList<String> re=new ArrayList<>();
+        for (Issue i:ClosedIssues
+             ) {
+            String time=i.start_time.split("T")[0];
+            re.add(time);
+        }
+        return re;
     }
 
 
@@ -461,6 +485,8 @@ public class RepoController {
         System.out.println("---------------");
         System.out.println(ClosedIssues);
         System.out.println(ClosedIssues.size());
+
+        calculate();
     }
 
     public void StoreCommit() throws Exception{
