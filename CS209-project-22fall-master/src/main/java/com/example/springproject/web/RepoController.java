@@ -143,19 +143,15 @@ public class RepoController {
 
     //open 的 issue 数量
     @GetMapping("/issue/open")
-    public int getInfo5() throws Exception {
+    public ArrayList<Integer> getInfo5() throws Exception {
         if(!quilce_store)
             StoreDatas();
-        return OpenIssues.size();
+        ArrayList<Integer> integers=new ArrayList<>();
+        integers.add(OpenIssues.size());
+        integers.add(ClosedIssues.size());
+        return integers;
     }
-
-    //close 的 issue 数量
-    @GetMapping("/issue/close")
-    public int getInfo6() throws Exception {
-        if(!quilce_store)
-            StoreDatas();
-        return ClosedIssues.size();
-    }
+   
 
     //了对 issue 解决时间的典型处理，如平均值、极值差、方差等
     @GetMapping("/issue/solveTime/avg")

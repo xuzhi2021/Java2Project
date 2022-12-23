@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ECharts</title>
+  <!-- 引入 echarts.js -->
+  <script src="echarts.min.js"></script>
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="width: 600px;height:400px;"></div>
+<script>
+  // 基于准备好的dom，初始化echarts实例
+  var myChart = echarts.init(document.getElementById('main'));
+  var data=[[1,2],[2,3]];
+  // 指定图表的配置项和数据
+  var option = {
+    title: {
+      text: 'Solve time of issues'
+    },
+    tooltip: {},
+    xAxis: {
+      name:'open-time',
+      splitLine: {
+        lineStyle: {
+          type: 'dashed'
+        }
+      }
+    },
+    yAxis: {
+      name:'time',
+      splitLine: {
+        lineStyle: {
+          type: 'dashed'
+        }
+      }},
+    visualMap: {
+      show: false,
+      pieces: [
+        {
+          gt: 0,
+          lte: 2.5,          //这儿设置基线上下颜色区分 基线下面为绿色
+          color: '#03d6d6'
+        }, {
+
+          gt: 2.5,          //这儿设置基线上下颜色区分 基线上面为红色
+          color: '#e91642'
+        }]
+    },
+
+    series: [{
+
+      type: 'scatter',
+      data: data,
+      markLine: {
+        silent: true,
+        lineStyle: {
+          normal: {
+            color: '#01fef9'                   // 这儿设置安全基线颜色
+          }
+        },
+        data: [{
+          yAxis: 2.5
+        }],
+        label: {
+          normal: {
+            formatter: '标准\n基线'           // 这儿设置安全基线
+          }
+        },
+      },
+    }],
+
+  };
+
+  // 使用刚指定的配置项和数据显示图表。
+  myChart.setOption(option);
+</script>
+</body>
+</html>
