@@ -33,17 +33,62 @@
             </div>
             <div class="detail_all">
                 <div class="avatar_container">
-                    <div class="avatar"></div>
+                    <img class="avatar" id="1"/>
                 </div>
                 <div class="avatar_container">
-                    <div class="avatar"></div>
+                    <img class="avatar" id="2"/>
                 </div>
                 <div class="avatar_container">
-                    <div class="avatar"></div>
+                    <img class="avatar" id="3"/>
                 </div>
                 <div class="avatar_container">
-                    <div class="avatar"></div>
+                    <img class="avatar" id="4"/>
                 </div>
+
+                <script>
+                    window.onload=function() {
+                        var obj;
+                        var first = document.getElementById("1");
+                        var second = document.getElementById("2");
+                        var third = document.getElementById("3");
+                        var forth = document.getElementById("4");
+                        $.ajax({
+                            url: '/repo/developersTop/head',	//这是后端接口的url
+                            method: 'get',
+                            async: false,
+                            success: function (res) {
+                                obj = res;
+
+                                first.setAttribute("src", obj[0]);
+                                second.setAttribute("src", obj[1]);
+                                third.setAttribute("src", obj[2]);
+                                forth.setAttribute("src", obj[3]);
+                            },
+                        })
+
+                        $.ajax({
+                            url: '/repo/developersTop/name',
+                            method: 'get',
+                            async: false,
+                            success: function (res) {
+                                obj = res;
+                                first.onclick = function () {
+                                    window.open('http://github.com/' + obj[0]);
+                                }
+                                second.onclick = function () {
+                                    window.open('http://github.com/' + obj[1]);
+                                }
+                                third.onclick = function () {
+                                    window.open('http://github.com/' + obj[2]);
+                                }
+                                forth.onclick = function () {
+                                    window.open('http://github.com/' + obj[3]);
+                                }
+                            },
+                        })
+                    }
+
+                </script>
             </div>
         </div>
         <div class="issue">
@@ -130,7 +175,7 @@
                 </script>
 
                 <!--                    <h4 class="font_text">x open x close</h4>-->
-                <div class="bar_chart" >
+                <div class="bar_chart">
                     <div class="bar_chart2" id="scatter"></div>
                     <script>
                         // 基于准备好的dom，初始化echarts实例
@@ -260,6 +305,48 @@
                             }],
 
                         };
+                        myChart.setOption(option);
+                    </script>
+                    <div class="bar_chart2" id="analysis"></div>
+                    <script>
+                        var myChart = echarts.init(document.getElementById('analysis'));
+                        var data;
+                        $.ajax({
+                            url: '/repo/issue/solveTime/interval',	//这是后端接口的url
+                            method: 'get',
+                            async:false,
+                            success: function (res) {
+                                data = res;
+                                //res便是的数据便是后端拿到的数据
+                                //这里需要注意：res为局部变量，
+                                //所以需要在方法外定义一个变量把res赋值给他，才能在方法之外使用。
+
+                            },
+                        })
+                        // 指定图表的配置项和数据
+                        var option = {
+                            title: {
+                                text: 'Solve interval'
+                            },
+                            tooltip: {
+                                trigger: 'axis'   // axis   item   none三个值
+                            },
+                            legend: {
+
+                                data:['number of issues']
+                            },
+                            xAxis: {
+                                data: ["< 7days","< 1month","< 1year","many years"]
+                            },
+                            yAxis: {},
+                            series: [{
+                                name: 'number of issues',
+                                type: 'bar',
+                                data: data
+                            }]
+                        };
+
+                        // 使用刚指定的配置项和数据显示图表。
                         myChart.setOption(option);
                     </script>
                 </div>

@@ -106,19 +106,19 @@ public class RepoController {
     }
 
     //commit 数量前几位的 developers 信息
-    @GetMapping("/developersTop")
-    public ArrayList<Developer> getInfo4() throws Exception {
+    @GetMapping("/developersTop/name")
+    public ArrayList<String> getInfo4() throws Exception {
         if(!quilce_store)
             StoreDatas();
-        ArrayList<Developer> tops=new ArrayList<>();
+        ArrayList<String> tops=new ArrayList<>();
         int k=0;
         for (Developer d:developers
              ) {
 
-            if(k==5)
+            if(k==4)
                 break;
             k++;
-            tops.add(d);
+            tops.add(d.name);
         }
         return tops;
     }
@@ -151,7 +151,7 @@ public class RepoController {
         integers.add(ClosedIssues.size());
         return integers;
     }
-   
+
 
     //了对 issue 解决时间的典型处理，如平均值、极值差、方差等
     @GetMapping("/issue/solveTime/avg")
@@ -273,7 +273,7 @@ public class RepoController {
     }
     //issue解决时间在七天以内，七天到一个月，一个月到一年，一年以上
     @GetMapping("/issue/solveTime/interval")
-    public ArrayList<String> calculate2() throws Exception {
+    public ArrayList<Integer> calculate2() throws Exception {
         if(!quilce_store)
             StoreDatas();
         ArrayList<Long> times=new ArrayList<>();
@@ -331,11 +331,11 @@ public class RepoController {
             else
                 years++;
         }
-        ArrayList<String> list=new ArrayList<>();
-        list.add(String.valueOf(week));
-        list.add(String.valueOf(month));
-        list.add(String.valueOf(year));
-        list.add(String.valueOf(years));
+        ArrayList<Integer> list=new ArrayList<>();
+        list.add(week);
+        list.add(month);
+        list.add(year);
+        list.add(years);
 
         return list;
     }
