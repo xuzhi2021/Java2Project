@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.*;
 import java.lang.reflect.Array;
-import java.time.Duration;
-import java.time.LocalDateTime;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
@@ -352,18 +351,90 @@ public class RepoController {
 
     // release 间的 commit 数量
     @GetMapping("/commitNum/duringRelease")
-    public ArrayList<Integer> getInfo9() throws Exception {
+    public ArrayList<String> getInfo9() throws Exception {
         if(!quilce_store)
             StoreDatas();
-        return null;
+        for (Release r: releases
+        ) {
+            for (Commit c:commits
+            ) {
+                LocalDateTime date1 = LocalDateTime.parse(r.publish_time);
+                LocalDateTime date2 = LocalDateTime.parse(c.time);
+                boolean isBetween =false;
+                if(r.end_time!=null) {
+                    LocalDateTime date3 = LocalDateTime.parse(r.end_time);
+
+                    // 判断日期是否在两个日期之间
+                    isBetween = date2.isAfter(date1) && date2.isBefore(date3);
+                }
+                else{
+                    isBetween = date2.isAfter(date1);
+                }
+                if(isBetween){
+                    r.commit_num++;
+                }
+            }
+        }
+        ArrayList<String> re=new ArrayList<>();
+        for (Release r:releases
+        ) {
+            re.add(String.valueOf(r.commit_num));
+        }
+        return re;
     }
 
     //  commit 的时间分布
     @GetMapping("/commitTime")
-    public int getInfo10() throws Exception {
+    public ArrayList<Integer> getInfo10() throws Exception {
         if(!quilce_store)
             StoreDatas();
-        return 0;
+        ArrayList<Integer> re=new ArrayList<>();
+        int d1=0;
+        int d2=0;
+        int d3=0;
+        int d4=0;
+        int d5=0;
+        int d6=0;
+        int d7=0;
+        for (Commit c:commits
+             ) {
+//            DateTimeFormatter formatter = DateTimeFormatter.ISO_DATE_TIME;
+//            String data=c.time.split("T")[0];
+
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss");
+
+            // 使用日期格式将字符串解析为 LocalDate 对象
+            LocalDate date = LocalDate.parse(c.time, formatter);
+
+            // 获取星期几
+            DayOfWeek dayOfWeek = date.getDayOfWeek();
+//            ZonedDateTime dateTime = ZonedDateTime.parse(data, formatter);
+//            DayOfWeek dayOfWeek = dateTime.getDayOfWeek();
+            if(dayOfWeek.toString().contains("MONDAY"))
+                d1++;
+            else if(dayOfWeek.toString().contains("TUESDAY"))
+                d2++;
+            else if(dayOfWeek.toString().contains("WEDNESDAY"))
+                d3++;
+            else if(dayOfWeek.toString().contains("THURSDAY"))
+                d4++;
+            else if(dayOfWeek.toString().contains("FRIDAY"))
+                d5++;
+            else if(dayOfWeek.toString().contains("SATURDAY"))
+                d6++;
+            else if(dayOfWeek.toString().contains("SUNDAY"))
+                d7++;
+            else
+                System.out.println("error，commit不属于星期几");
+        }
+        re.add(d1);
+        re.add(d2);
+        re.add(d3);
+        re.add(d4);
+        re.add(d5);
+        re.add(d6);
+        re.add(d7);
+        return re;
     }
 
     public void StoreDatas() throws Exception {
@@ -409,14 +480,15 @@ public class RepoController {
                 if (s[0].contains("date")) {
                     count++;
                     if(count%2==0) {
-                        if(s[0].contains("published_at")){
+                        if(s[0].contains("date")){
                             s[1]=line.substring(16,line.length()-1);
                             //System.out.println("origin: "+s[1]);
                             s[1] = s[1].trim();
                             s[1]=s[1].replace("\"","");
-                            time=s[1].substring(3,s[1].length()-1);
+                            time=s[1].substring(0,s[1].length()-1);
                             Commit commit=new Commit(time);
                             commits.add(commit);
+                            //System.out.println(commit);
                             time=null;
                         }
                     }
@@ -621,6 +693,7 @@ public class RepoController {
         String tag_name;
         String publish_time;
         String end_time;
+        int commit_num=0;
 
         public Release(String tag_name, String publish_time) {
             this.tag_name = tag_name;
