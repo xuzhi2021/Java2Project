@@ -7,12 +7,13 @@ public class GetGithubRESTAPI {
     public static String weight;
     public static String height;
     public static String ability;
+
     public static void main(String[] args) throws IOException {
 
-        crawl("yegor256/qulice","contributors",1);//43+32
-        crawl("yegor256/qulice","issues",8);//210+579
-        crawl("yegor256/qulice","releases",2);//68
-        crawl("yegor256/qulice","commits",19);//1808
+        crawl("yegor256/qulice", "contributors", 1);//43+32
+        crawl("yegor256/qulice", "issues", 8);//210+579
+        crawl("yegor256/qulice", "releases", 2);//68
+        crawl("yegor256/qulice", "commits", 19);//1808
 //
 //        crawl("uber/NullAway","contributors",1);//30+19
 //        crawl("uber/NullAway","issues",1);//75
@@ -20,11 +21,11 @@ public class GetGithubRESTAPI {
 //        crawl("uber/NullAway","commits",6);//571
     }
 
-    public static void crawl(String repository,String type,int page_num){
-        StringBuilder sb=new StringBuilder();
-        if(type.equals("issues")){
+    public static void crawl(String repository, String type, int page_num) {
+        StringBuilder sb = new StringBuilder();
+        if (type.equals("issues")) {
             for (int i = 1; i <= page_num; i++) {
-                String url = "https://api.github.com/repos/" + repository + "/" + type + "?per_page=100&page=" + i+"&state=all";
+                String url = "https://api.github.com/repos/" + repository + "/" + type + "?per_page=100&page=" + i + "&state=all";
                 String re = run(url);
                 sb.append(re + "\n");
 
@@ -38,10 +39,9 @@ public class GetGithubRESTAPI {
             }
             String s1 = repository.replaceAll("/", "_");
             String result1 = sb.toString();//reduceInfo(sb.toString());
-            saveJson("D:\\sustech\\Java2\\A3_pro\\withURL", s1 + "_" + type+"_all", result1);
+            saveJson("D:\\sustech\\Java2\\A3_pro\\withURL", s1 + "_" + type + "_all", result1);
             System.out.println("closed issue done");
-        }
-        else {
+        } else {
             for (int i = 1; i <= page_num; i++) {
                 String url = "https://api.github.com/repos/" + repository + "/" + type + "?per_page=100&page=" + i;
                 String re = run(url);
@@ -62,7 +62,7 @@ public class GetGithubRESTAPI {
         }
     }
 
-    public static String run(String theURL ) {
+    public static String run(String theURL) {
         boolean hasNext = true;
         int pageNum = 0;
         String data = "";
@@ -71,8 +71,8 @@ public class GetGithubRESTAPI {
             try {
 //                URL url = new URL("https://tmtbi.tcl.com/api/bi/v1/ewdetail?startDay="+datetime+"&endDay="+datetime+"&pageSize=1000&pageNum="+pageNum);
                 //URL url = new URL("https://tmtbi.tcl.com/api/bi/v1/ewdetail?startDay="+datetime+"&endDay="+datetime+"&pageSize=1000&pageNum="+pageNum);
-                URL url=new URL(theURL);
-                System.out.println("请求地址："+url);
+                URL url = new URL(theURL);
+                System.out.println("请求地址：" + url);
                 //开发访问此连接
                 HttpURLConnection urlConn = (HttpURLConnection) url.openConnection();
                 //设置连接时间为5秒
@@ -92,7 +92,7 @@ public class GetGithubRESTAPI {
                 urlConn.setRequestProperty("token", "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrdGJpIiwicm9sZSI6IlJPTEVfVVNFUiIsImlzcyI6InRjbGVyIiwiZXhwIjoxNTk5ODA3Mzc5LCJpYXQiOjE1OTkyMDI1Nzl9.IciVkGcsYfD9hDacV4-lKkGFft-Z-LnEkmYtcDlPjYeN2styo3IA6dbE0JP08bmy8uS8sy3TL_65_fTbEoilow");
                 urlConn.setRequestProperty("Content-type", "application/x-java-serialized-object");
                 int code = urlConn.getResponseCode();//获得相应码
-                System.out.println("请求响应码:"+ code);
+                System.out.println("请求响应码:" + code);
                 // 设置所有的http连接是否自动处理重定向；设置成true，系统自动处理重定向
                 urlConn.setInstanceFollowRedirects(true);
                 // 存储返回的字符串
@@ -107,7 +107,7 @@ public class GetGithubRESTAPI {
 
                     data += str;
                 }
-                System.out.println("请求页面："+pageNum);
+                System.out.println("请求页面：" + pageNum);
 
                 return data;
 
@@ -121,23 +121,23 @@ public class GetGithubRESTAPI {
     }
     ///////////////////////////////////////////////////////////
 
-    public static String reduceInfo(String data){
-        String []datas=data.split("\n");
-        StringBuilder sb=new StringBuilder();
-        for (String s:datas
-             ) {
-            String [] strs=s.split(":");
-            if(strs[0].contains("url"))
+    public static String reduceInfo(String data) {
+        String[] datas = data.split("\n");
+        StringBuilder sb = new StringBuilder();
+        for (String s : datas
+        ) {
+            String[] strs = s.split(":");
+            if (strs[0].contains("url"))
                 continue;
-            sb.append(s+"\n");
+            sb.append(s + "\n");
         }
         return sb.toString();
     }
 
-    public static void saveJson(String filePath,String fileName,String content){
-        BufferedWriter writer=null;
-        File file=new File(filePath+"\\"+fileName+".json");
-        if(!file.exists()){
+    public static void saveJson(String filePath, String fileName, String content) {
+        BufferedWriter writer = null;
+        File file = new File(filePath + "\\" + fileName + ".json");
+        if (!file.exists()) {
             try {
                 file.createNewFile();
             } catch (IOException e) {
@@ -146,13 +146,13 @@ public class GetGithubRESTAPI {
 
         }
         try {
-            writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file,false), "UTF-8"));
+            writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file, false), "UTF-8"));
             writer.write(content);
         } catch (IOException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             try {
-                if(writer != null){
+                if (writer != null) {
                     writer.close();
                 }
             } catch (IOException e) {
@@ -161,8 +161,6 @@ public class GetGithubRESTAPI {
         }
         System.out.println("文件写入成功！");
     }
-
-
 
 
     ///////////////////////////////////////////////////////////
