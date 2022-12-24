@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0}
 body{
     background: #EEDBCf;
-    margin:20px;
+    margin:10px;
 }
 
 .avatar{
@@ -30,8 +30,8 @@ body{
 
 .center{
     height:960px;
-    width:95%;
-    margin:20px;
+    width:98%;
+    margin:5px;
     /*border: 1px solid black;*/
 }
 .bottom{

@@ -146,6 +146,7 @@
                             {
                                 name: 'issues',
                                 type: 'pie',
+                                color:['#e07b6b','#e9a616'],
                                 radius: ['40%','70%'],
                                 center: ['50%', '50%'],
                                 data: [
@@ -178,9 +179,31 @@
                 <div class="bar_chart">
                     <div class="bar_chart2" id="scatter"></div>
                     <script>
+                        var solvetime;
+                        var starttime;
+                        $.ajax({
+                            url: "/repo/issueSolvedTime/every",
+                            method: 'get',
+                            async: false,
+                            success: function (res) {
+                                solvetime = res;
+                            },
+                        })
+                        $.ajax({
+                            url: "/repo/issueStartTime/every",
+                            method: 'get',
+                            async: false,
+                            success: function (res) {
+                                starttime = res;
+                            },
+                        })
+                        var data=[];
+                        for (var i = 0; i < starttime.length; i++) {
+                            data.push([starttime[i],solvetime[i]]);
+                        }
                         // 基于准备好的dom，初始化echarts实例
                         var myChart = echarts.init(document.getElementById('scatter'));
-                        var data=[['2012-1-1',133],['2013-2-2',100],['2012-9-1',22],['2013-1-1',4443],];
+                        // var data=[['2012-1-1',133],['2013-2-2',100],['2012-9-1',22],['2013-1-1',4443],];
                         var average;
                         var max;
                         var min;
@@ -250,11 +273,11 @@
                                 pieces: [
                                     {
                                         gt: 0,
-                                        lte: average,          //这儿设置基线上下颜色区分 基线下面为绿色
+                                        lte: average,
                                         color: '#e9a616'
                                     }, {
 
-                                        gt: average,          //这儿设置基线上下颜色区分 基线上面为红色
+                                        gt: average,
                                         color: '#e07b6b'
                                     }]
                             },
@@ -263,6 +286,7 @@
 
                                 type: 'scatter',
                                 data: data,
+                                symbolSize:5,
                                 markLine: {
                                     symbol:['none','none'],
                                     silent: true,
@@ -273,35 +297,40 @@
                                     },
                                     data: [{
                                         yAxis: average
-                                    }],
+                                    }, {
+                                            yAxis: min
+                                        }, {
+                                            yAxis: max
+                                        }],
 
                                 },
-                                markLine: {
-                                    symbol:['none','none'],
-                                    silent: true,
-                                    lineStyle: {
-                                        normal: {
-                                            color: '#e06437'                   // 这儿设置安全基线颜色
-                                        }
-                                    },
-                                    data: [{
-                                        yAxis: max
-                                    }],
 
-                                },
-                                markLine: {
-                                    symbol:['none','none'],
-                                    silent: true,
-                                    lineStyle: {
-                                        normal: {
-                                            color: '#e06437'                   // 这儿设置安全基线颜色
-                                        }
-                                    },
-                                    data: [{
-                                        yAxis: min
-                                    }],
-
-                                },
+                                // markLine: {
+                                //     symbol:['none','none'],
+                                //     silent: true,
+                                //     lineStyle: {
+                                //         normal: {
+                                //             color: '#e06437'                   // 这儿设置安全基线颜色
+                                //         }
+                                //     },
+                                //     data: [{
+                                //         yAxis: max
+                                //     }],
+                                //
+                                // },
+                                // markLine: {
+                                //     symbol:['none','none'],
+                                //     silent: true,
+                                //     lineStyle: {
+                                //         normal: {
+                                //             color: '#e06437'                   // 这儿设置安全基线颜色
+                                //         }
+                                //     },
+                                //     data: [{
+                                //         yAxis: min
+                                //     }],
+                                //
+                                // },
                             }],
 
                         };
@@ -342,7 +371,9 @@
                             series: [{
                                 name: 'number of issues',
                                 type: 'bar',
-                                data: data
+                                data: data,
+                                color: '#e07b6b'
+
                             }]
                         };
 
@@ -364,37 +395,38 @@
         <div class="release_total">
             <h4 class="font_text"  id="rt"></h4>
             <script>
-                var data;
-                $.ajax({
-                    url: '/repo/releaseNum',	//这是后端接口的url
-                    method: 'get',
-                    async:false,
-                    success: function (res) {
-                        data = res;
-                        document.getElementById("rt").innerHTML=data.toString()+' release in total';
-                    },
-                })
+
             </script>
         </div>
         <div class="release_container">
 
             <div id="line" class="graph"></div>
             <script>
+                var total;
+                $.ajax({
+                    url: '/repo/releaseNum',	//这是后端接口的url
+                    method: 'get',
+                    async:false,
+                    success: function (res) {
+                        total = res;
+                        document.getElementById("rt").innerHTML=total.toString()+' release in total';
+                    },
+                })
                 // 基于准备好的dom，初始化echarts实例
                 var myChart = echarts.init(document.getElementById('line'));
                 var data;
                 $.ajax({
-                    url: '/repo/issue/solveTime/max',	//这是后端接口的url
+                    url: '/repo/commitNum/duringRelease',	//这是后端接口的url
                     method: 'get',
                     async:false,
                     success: function (res) {
                         data = res;
-                        //res便是的数据便是后端拿到的数据
-                        //这里需要注意：res为局部变量，
-                        //所以需要在方法外定义一个变量把res赋值给他，才能在方法之外使用。
-
                     },
                 })
+                x=[];
+                for(var i=1;i<=total;i++){
+                    x.push(i);
+                }
                 // 指定图表的配置项和数据
                 var option = {
                     title: {
@@ -407,12 +439,14 @@
 
                         data:['Commits']
                     },
-                    xAxis: {},
+                    xAxis: {x},
                     yAxis: {},
                     series: [{
-                        name: '销量',
+                        name: 'Commits',
                         type: 'line',
-                        data: data
+                        data: data,
+                        color:'#e07b6b'
+
                     }]
                 };
 
@@ -425,7 +459,7 @@
                 var myChart = echarts.init(document.getElementById('br'));
                 var data;
                 $.ajax({
-                    url: '/repo/issue/solveTime/max',	//这是后端接口的url
+                    url: '/repo/commitTime',	//这是后端接口的url
                     method: 'get',
                     async:false,
                     success: function (res) {
@@ -449,13 +483,14 @@
                         data:['销量']
                     },
                     xAxis: {
-                        data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+                        data: ["Mon","Tue","Wed","Thur","Fri","Sat","Sun"]
                     },
                     yAxis: {},
                     series: [{
-                        name: '销量',
+                        name: 'commit',
                         type: 'bar',
-                        data: [5, 20, 36, 10, 10, 20]
+                        data: data,
+                        color:'#e07b6b'
                     }]
                 };
 

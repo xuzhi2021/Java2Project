@@ -375,7 +375,7 @@ public class RepoController {
 
     // release 间的 commit 数量
     @GetMapping("/commitNum/duringRelease")
-    public ArrayList<String> getInfo9() throws Exception {
+    public ArrayList<Integer> getInfo9() throws Exception {
         if(!quilce_store)
             StoreDatas();
         for (Release r: releases
@@ -399,10 +399,10 @@ public class RepoController {
                 }
             }
         }
-        ArrayList<String> re=new ArrayList<>();
+        ArrayList<Integer> re=new ArrayList<>();
         for (Release r:releases
         ) {
-            re.add(String.valueOf(r.commit_num));
+            re.add(r.commit_num);
         }
         return re;
     }
