@@ -23,7 +23,7 @@ body{
     /*border: 1px solid red;*/
 }
 .header{
-    height:50px;
+    height:70px;
     width:100%;
     /*border: 1px solid black;*/
 }
@@ -47,7 +47,7 @@ body{
 }
 
 .first_line{
-    height:320px;
+    height:400px;
     width:100%;
     /*border: 1px solid coral;*/
     display: flex;
@@ -71,13 +71,13 @@ body{
 
 .issue_text{
     height:80%;
-    width:20%;
+    width:15%;
 
 }
 
 .bar_chart{
     height:100%;
-    width:80%;
+    width:100%;
     /*margin-right: 20px;*/
     background: #D5B8B0;
     border-radius: 7px;
@@ -87,8 +87,9 @@ body{
 
 }
 .bar_chart2{
-    height:100%;
+    height:90%;
     width:50%;
+    /*margin-left: 10px;*/
     /*border: 2px solid red;*/
 }
 
@@ -123,8 +124,8 @@ body{
 
 
 .detail_all{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin: 10px;
     background: #D5B8B0;
     display: table;
@@ -159,7 +160,7 @@ body{
 }
 
 .issue_container{
-    height:215px;
+    height:300px;
     width:100%;
     display: flex;
     flex-display: row;

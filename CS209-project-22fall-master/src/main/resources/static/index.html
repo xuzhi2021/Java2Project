@@ -160,6 +160,12 @@
                                         shadowOffsetX: 0,
                                         shadowColor: 'rgba(0, 0, 0, 0.5)'
                                     }
+                                },
+                                label: {
+                                    normal: {
+                                        position: 'inner',
+                                        show : false
+                                    }
                                 }
                             }
                         ]
@@ -179,6 +185,7 @@
                 <div class="bar_chart">
                     <div class="bar_chart2" id="scatter"></div>
                     <script>
+
                         var solvetime;
                         var starttime;
                         $.ajax({
@@ -246,7 +253,10 @@
                         // 指定图表的配置项和数据
                         var option = {
                             title: {
-                                text: 'Solve time of issues'
+                                text: 'Solve time of issues',
+                                textStyle: {
+                                    fontSize: 15
+                                }
                             },
                             tooltip: {},
                             xAxis: {
@@ -335,6 +345,7 @@
 
                         };
                         myChart.setOption(option);
+
                     </script>
                     <div class="bar_chart2" id="analysis"></div>
                     <script>
@@ -355,7 +366,10 @@
                         // 指定图表的配置项和数据
                         var option = {
                             title: {
-                                text: 'Solve interval'
+                                text: 'Solve interval',
+                                textStyle: {
+                                    fontSize: 15
+                                }
                             },
                             tooltip: {
                                 trigger: 'axis'   // axis   item   none三个值
@@ -365,7 +379,7 @@
                                 data:['number of issues']
                             },
                             xAxis: {
-                                data: ["< 7days","< 1month","< 1year","many years"]
+                                data: ["<week","<month","<year","years"]
                             },
                             yAxis: {},
                             series: [{
@@ -387,9 +401,6 @@
 
         </div>
     </div>
-    <div class="detail_blank"></div>
-
-    <div class="detail_blank"></div>
     <div class="release">
         <h1 class="font_second_title">RELEASE</h1>
         <div class="developer_text">
@@ -500,11 +511,7 @@
         </div>
     </div>
 </div>
-<div class="bottom"></div>
-<img src="" class="avatar"><br>
-<h1>这是文本标题，下面是一张图片</h1><!--文本标题标签-->
-<input type="text" value="这是输入框，请输入内容！"><br><!--输入框标签-->
-<button type="submit" >按钮</button><!--按钮标签-->
+
 </body>
 
 
