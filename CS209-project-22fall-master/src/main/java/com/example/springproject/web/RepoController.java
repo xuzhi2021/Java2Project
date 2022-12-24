@@ -30,6 +30,7 @@ public class RepoController {
     private static ArrayList<Release> releases=new ArrayList<>();
 
     private static ArrayList<Integer> issue_solved_time=new ArrayList<>();
+    private static ArrayList<Commit> commitForRelease=new ArrayList<>();
 
     private static boolean quilce_store=false;
     /**
@@ -375,35 +376,72 @@ public class RepoController {
 
     // release 间的 commit 数量
     @GetMapping("/commitNum/duringRelease")
-    public ArrayList<Integer> getInfo9() throws Exception {
+    public ArrayList<String> getInfo9() throws Exception {
         if(!quilce_store)
             StoreDatas();
+
+        boolean isBetween =false;
+        int total=0;
         for (Release r: releases
         ) {
             for (Commit c:commits
             ) {
                 LocalDateTime date1 = LocalDateTime.parse(r.publish_time);
                 LocalDateTime date2 = LocalDateTime.parse(c.time);
-                boolean isBetween =false;
+                isBetween =false;
                 if(r.end_time!=null) {
                     LocalDateTime date3 = LocalDateTime.parse(r.end_time);
 
                     // 判断日期是否在两个日期之间
                     isBetween = date2.isAfter(date1) && date2.isBefore(date3);
+                    //System.out.println(date1 +" < "+ date2+" < "+date3);
                 }
                 else{
                     isBetween = date2.isAfter(date1);
+                    //System.out.println(date1 +" < "+ date2);
                 }
-                if(isBetween){
+                if((!c.used)&&isBetween){
                     r.commit_num++;
+                    c.used=true;
+                    total++;
                 }
             }
         }
-        ArrayList<Integer> re=new ArrayList<>();
+        Release first=releases.get(releases.size()-1);
+        int first_num=0;
+        for (Commit c:commits
+        ) {
+            LocalDateTime date1 = LocalDateTime.parse(first.publish_time);
+            LocalDateTime date2 = LocalDateTime.parse(c.time);
+            isBetween =false;
+//            if(r.end_time!=null) {
+//                LocalDateTime date3 = LocalDateTime.parse(r.end_time);
+//
+//                // 判断日期是否在两个日期之间
+//                isBetween = date2.isAfter(date1) && date2.isBefore(date3);
+//                //System.out.println(date1 +" < "+ date2+" < "+date3);
+//            }
+            //else{
+            isBetween = date2.isBefore(date1);
+            //System.out.println(date1 +" < "+ date2);
+            //}
+            if((!c.used)&&isBetween){
+                first_num++;
+                c.used=true;
+                total++;
+            }
+        }
+        ArrayList<String> re=new ArrayList<>();
         for (Release r:releases
         ) {
-            re.add(r.commit_num);
+            re.add(String.valueOf(r.commit_num));
         }
+        re.add(String.valueOf(first_num));
+        for (Commit c:commits
+        ) {
+            c.used=false;
+        }
+        System.out.println(total);
         return re;
     }
 
@@ -514,6 +552,7 @@ public class RepoController {
                             time=s[1].substring(0,s[1].length()-1);
                             Commit commit=new Commit(time);
                             commits.add(commit);
+                            commitForRelease.add(commit);
                             //System.out.println(commit);
                             time=null;
                         }
@@ -697,6 +736,7 @@ public class RepoController {
     }
     class Commit{
         String time;
+        boolean used=false;
         //String committer;//name
 
         public Commit(String time, String committer) {
